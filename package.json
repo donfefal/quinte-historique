@@ -1,0 +1,7 @@
+{
+  "name": "quinte-historique",
+  "private": true,
+  "type": "module",
+  "description": "Site statique sans dépendance. Ce fichier ne sert qu'aux tests Node (npm test).",
+  "scripts": { "test": "node tests/test_parite.mjs" }
+}

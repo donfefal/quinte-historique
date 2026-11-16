@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quinté+ Historique — combinaisons issues de l'historique</title>
+  <meta name="description" content="Combinaisons construites à partir de l'historique réel des arrivées Quinté+ et du parcours des chevaux, avec backtest et ROI affiché. Statistique descriptive, sans promesse de gain.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f4e79'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif'%3EQ%2B%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- Message réglementaire : affiché en permanence (sticky), sur toutes les pages -->
+  <div class="reglementaire" role="note" aria-label="Message réglementaire">
+    LES JEUX D'ARGENT ET DE HASARD PEUVENT ÊTRE DANGEREUX : PERTES D'ARGENT, CONFLITS FAMILIAUX, ADDICTION… NOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#/accueil" aria-label="Quinté+ Historique — accueil">Quinté+ <span>Historique</span></a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav">
+          <li><a href="#/accueil" data-route="accueil">Course du jour</a></li>
+          <li><a href="#/analyse" data-route="analyse">Analyse</a></li>
+          <li><a href="#/stats" data-route="stats">Statistiques</a></li>
+          <li><a href="#/backtest" data-route="backtest">Backtest</a></li>
+          <li><a href="#/methode" data-route="methode">Méthode</a></li>
+          <li><a href="#/legal" data-route="legal">Mentions légales</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="bandeau-exemple" class="wrap" hidden>
+    <p class="disclaimer warning" role="status"><strong>Données d'exemple (fictives).</strong> Les courses, chevaux, cotes et rapports affichés sont inventés pour tester le site. Lancez la collecte Python (voir le README) pour charger l'historique réel.</p>
+  </div>
+
+  <main id="contenu" class="wrap" tabindex="-1">
+    <p id="chargement" role="status">Chargement des données…</p>
+
+    <div id="erreur-chargement" class="card card-erreur" role="alert" hidden>
+      <h1>Données introuvables</h1>
+      <p data-detail></p>
+      <p>Le site charge des fichiers JSON : ouvrez-le via un serveur HTTP (<code>python -m http.server</code>) ou GitHub Pages, pas en double-cliquant sur <code>index.html</code>. Vérifiez aussi que le dossier <code>data/</code> contient les 4 fichiers JSON (voir le README).</p>
+    </div>
+
+    <div id="app" hidden>
+
+      <!-- ===================== PAGE 1 — Accueil / Course du jour ===================== -->
+      <section data-page="accueil" aria-labelledby="t-accueil" hidden>
+        <h1 id="t-accueil" tabindex="-1">Course du jour</h1>
+        <p class="lead">Des combinaisons construites à partir de l'historique réel des arrivées Quinté+ et du parcours des chevaux, avec backtest et ROI affiché. Statistique descriptive : aucune promesse de gain.</p>
+
+        <div class="card">
+          <h2>1. Choisir la course</h2>
+          <div class="grid-form">
+            <div class="champ"><label for="sel-course">Course</label><select id="sel-course"></select></div>
+            <div class="champ"><label for="import-json">Ou importer une course à venir (JSON)</label><input type="file" id="import-json" accept="application/json,.json"></div>
+            <div class="champ"><label for="sl-cote">Cote maximale retenue : <output id="out-cote" for="sl-cote">69</output>/1</label><input class="slider" type="range" id="sl-cote" min="20" max="99" value="69"></div>
+            <fieldset class="champ cases"><legend>Filtres d'exclusion</legend>
+              <label><input type="checkbox" id="chk-tocards"> Inclure les tocards (cote au-dessus du seuil)</label>
+              <label><input type="checkbox" id="chk-insuff"> Inclure les numéros à historique insuffisant (&lt; 3 sorties)</label>
+            </fieldset>
+          </div>
+          <p id="msg-import" class="muted" role="status"></p>
+        </div>
+
+        <div id="resume-course" class="card" aria-live="polite"></div>
+        <h2>2. Combinaisons candidates</h2>
+        <div id="combinaisons" class="grid-combos" aria-live="polite"></div>
+        <p class="actions"><a class="btn" id="btn-analyse" href="#/analyse">Voir l'analyse détaillée</a></p>
+        <p class="disclaimer" id="disclaimer-accueil"></p>
+      </section>
+
+      <!-- ===================== PAGE 2 — Analyse détaillée ===================== -->
+      <section data-page="analyse" aria-labelledby="t-analyse" hidden>
+        <h1 id="t-analyse" tabindex="-1">Analyse détaillée de la course</h1>
+        <p id="analyse-resume" class="lead"></p>
+
+        <div class="card">
+          <h2>Contexte statistique</h2>
+          <div class="grid-form">
+            <div class="champ"><label for="ctx-hippo">Hippodrome</label><select id="ctx-hippo"></select></div>
+            <div class="champ"><label for="ctx-disc">Discipline</label><select id="ctx-disc"></select></div>
+            <div class="champ"><button type="button" class="btn btn-secondaire" id="ctx-reset">Revenir au contexte réel</button></div>
+          </div>
+          <p class="muted" id="ctx-note" role="status"></p>
+        </div>
+
+        <div class="card">
+          <h2>Partants et scores</h2>
+          <p class="muted">Cliquez sur un en-tête pour trier ; sur un cheval pour voir son parcours. Scores sur 100 (neutre : 15 = historique insuffisant).</p>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Tableau des partants, défilement horizontal possible">
+            <table class="table" id="tbl-partants"><caption class="sr-only">Partants de la course avec leurs scores de fréquence, co-occurrence, parcours et composite</caption><thead></thead><tbody></tbody></table>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card"><h2>Co-occurrences entre les partants</h2><div id="heatmap-jour" class="graph"></div><div id="legende-heat"></div>
+            <p class="muted">Chaque case : combien de fois les deux numéros ont fini ensemble dans le top 5, rapporté au hasard (lissé).</p></div>
+          <div class="card"><h2>Positions historiques du n° <span id="dist-num"></span></h2><div id="dist-jour" class="graph"></div></div>
+        </div>
+
+        <div class="card" id="bloc-parcours" aria-live="polite"><h2>Parcours du cheval</h2><div id="parcours-contenu"><p class="muted">Cliquez sur un cheval dans le tableau.</p></div></div>
+        <p class="disclaimer">Résultats passés, sans garantie pour l'avenir. Au hasard, un partant a 5 chances sur N d'être dans le top 5 (31 % pour 16 partants).</p>
+      </section>
+
+      <!-- ===================== PAGE 3 — Statistiques globales ===================== -->
+      <section data-page="stats" aria-labelledby="t-stats" hidden>
+        <h1 id="t-stats" tabindex="-1">Statistiques globales</h1>
+        <div class="card">
+          <div class="grid-form">
+            <div class="champ"><label for="st-fenetre">Fenêtre temporelle</label>
+              <select id="st-fenetre"><option value="0">Tout l'historique</option><option value="6">6 derniers mois</option><option value="12">12 derniers mois</option><option value="24">24 derniers mois</option></select></div>
+            <div class="champ"><label for="st-scope">Périmètre</label>
+              <select id="st-scope"><option value="global">Global</option><option value="hippodrome">Par hippodrome</option><option value="discipline">Par discipline</option></select></div>
+            <div class="champ" hidden><label for="st-valeur">Valeur</label><select id="st-valeur"></select></div>
+          </div>
+          <p id="st-resume" role="status"></p>
+          <p class="muted" id="st-note"></p>
+        </div>
+
+        <div class="card">
+          <h2>Fréquences par numéro</h2>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Tableau des fréquences par numéro, défilement horizontal possible">
+            <table class="table" id="tbl-stats"><caption class="sr-only">Fréquences de top 5 par numéro de partant</caption>
+              <thead><tr><th scope="col">N°</th><th scope="col">Départs</th><th scope="col">Top 5</th><th scope="col">Taux top 5</th><th scope="col">Au hasard</th><th scope="col">Écart au hasard</th><th scope="col">Écart moyen (courses)</th><th scope="col">Écart actuel</th><th scope="col">Dernier top 5</th></tr></thead>
+              <tbody></tbody></table>
+          </div>
+          <p class="muted">« Écart moyen » : nombre moyen de courses (où le numéro courait) entre deux top 5. « Au hasard » : moyenne de 5/N sur les mêmes courses.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card"><h2>Taux de top 5 par numéro</h2><div id="g-taux" class="graph"></div></div>
+          <div class="card"><h2>Écarts moyens entre sorties</h2><div id="g-ecart" class="graph"></div></div>
+        </div>
+        <div class="card"><h2>Distribution des positions</h2><div id="g-dist" class="graph"></div><div id="leg-dist"></div></div>
+        <div class="card"><h2>Co-occurrences globales (20 premiers numéros)</h2><div id="g-heat" class="graph"></div><div id="leg-heat"></div></div>
+        <p class="disclaimer">Résultats passés, sans garantie pour l'avenir. Un numéro « en retard » n'a pas plus de chances de sortir : le hasard n'a pas de mémoire.</p>
+      </section>
+
+      <!-- ===================== PAGE 4 — Backtest ===================== -->
+      <section data-page="backtest" aria-labelledby="t-backtest" hidden>
+        <h1 id="t-backtest" tabindex="-1">Backtest</h1>
+        <p class="lead">La stratégie est rejouée course après course, en n'utilisant que ce qui était connu AVANT chaque course. Tout est comparé au hasard.</p>
+        <form class="card" id="form-backtest">
+          <h2>Paramètres</h2>
+          <div class="grid-form">
+            <div class="champ"><label for="bt-type">Combinaison jouée</label>
+              <select id="bt-type"><option value="base">Base solide (5 numéros)</option><option value="elargie">Élargie (7 numéros, 21 combinaisons)</option><option value="valeur">Valeur (3 favoris + 2 outsiders)</option><option value="poker">Coup de poker (5, cotes élevées)</option></select></div>
+            <div class="champ"><label for="bt-mise">Mise de base par combinaison (€)</label><input type="number" id="bt-mise" value="2" min="0.5" step="0.5"></div>
+            <div class="champ"><label for="bt-echauff">Courses d'échauffement</label><input type="number" id="bt-echauff" min="0" step="1" placeholder="auto"></div>
+            <fieldset class="champ cases"><legend>Options</legend><label><input type="checkbox" id="bt-tocards"> Inclure les tocards</label></fieldset>
+          </div>
+          <p class="muted">Les premières courses ne sont pas jouées : elles servent à constituer un historique minimal.</p>
+          <p><button type="submit" class="btn" id="btn-backtest">Lancer le backtest</button></p>
+        </form>
+        <div id="bt-resultats" class="card" aria-live="polite" tabindex="-1"><p class="muted">Cliquez sur « Lancer le backtest ».</p></div>
+        <div class="card" id="bt-graph" hidden><h2>Évolution du solde</h2><div id="bt-evolution" class="graph"></div><div id="bt-legende"></div></div>
+        <div class="card" id="bt-bloc-derniers" hidden><h2>20 dernières courses jouées</h2>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="20 dernières courses jouées, défilement horizontal possible">
+            <table class="table" id="bt-derniers"><caption class="sr-only">Détail des 20 dernières courses jouées</caption>
+              <thead><tr><th scope="col">Date</th><th scope="col">Hippodrome</th><th scope="col">Combinaison jouée</th><th scope="col">Arrivée réelle</th><th scope="col">Trouvés</th><th scope="col">Résultat</th><th scope="col">Rapport (2 €)</th><th scope="col">Solde</th></tr></thead><tbody></tbody></table>
+          </div></div>
+        <p class="disclaimer">Résultats passés, sans garantie pour l'avenir. Un backtest réussi n'est pas une preuve : sur peu de courses, un seul gros rapport suffit à faire un « bon ROI » par pur hasard.</p>
+      </section>
+
+      <!-- ===================== PAGE 5 — Méthode ===================== -->
+      <section data-page="methode" aria-labelledby="t-methode" hidden>
+        <h1 id="t-methode" tabindex="-1">Méthode</h1>
+        <p class="lead">Transparence totale : voici tout ce que fait le moteur, avec les formules exactes. C'est de la statistique descriptive sur le passé, pas un pronostic d'expert.</p>
+
+        <div class="card"><h2>Principe</h2>
+          <p>Le moteur ne regarde que l'<strong>historique</strong> : arrivées des courses Quinté+ passées et parcours des chevaux. Il n'utilise ni « forme du jour », ni avis d'expert, ni cotes comme critère de score (la cote sert uniquement à classer les numéros en favoris/outsiders et à écarter les tocards).</p>
+          <p>Chaque critère est donné <strong>comparé au hasard</strong> : au hasard, un partant a 5 chances sur N d'arriver dans les 5 premiers (31 % pour 16 partants).</p></div>
+
+        <div class="card"><h2>1. Fréquence historique</h2>
+          <p>Combien de fois ce numéro de partant a fini dans les 5 premiers, rapporté au nombre de fois où il a pris le départ — sur tout l'historique, sur l'hippodrome et dans la discipline.</p>
+          <pre class="formule">score_frequence = 0,3 × taux_top5_global + 0,4 × taux_top5_hippodrome + 0,3 × taux_top5_discipline</pre>
+          <p><strong>Lissage :</strong> chaque taux est tiré vers le hasard avec 10 « pseudo-courses » : <code>(top5 + 10 × hasard) / (départs + 10)</code>. Un numéro vu 3 fois à un hippodrome ne pèse donc pas comme un numéro vu 300 fois. Au hasard : 5/N (31 % pour 16 partants).</p></div>
+
+        <div class="card"><h2>2. Co-occurrences</h2>
+          <p>Certaines paires de numéros finissent-elles ensemble dans le top 5 plus souvent que le hasard ? Pour une paire donnée, le hasard attend (5/N) × (4/(N−1)) (8 % pour 16 partants). On calcule le rapport « observé / hasard » (le <em>lift</em>, lissé de la même façon), puis on en fait la moyenne avec les autres partants du jour.</p>
+          <pre class="formule">score_cooccurrence = moyenne(lift_lissé(numéro, autre partant)) / 2    (borné entre 0 et 1)
+lift = 1 (le hasard) → score 0,5     lift ≥ 2 → score 1</pre>
+          <p>Honnêtement : sur des centaines de courses, la plupart des « paires qui sortent ensemble » sont du bruit statistique.</p></div>
+
+        <div class="card"><h2>3. Parcours des chevaux</h2>
+          <p>Calculé sur les 20 dernières sorties <strong>antérieures à la course</strong>, par nom de cheval (pas par numéro).</p>
+          <ul>
+            <li><strong>Régularité top 3</strong> : part des 10 dernières sorties terminées dans les 3 premiers (lissée avec 4 pseudo-sorties à 20 %).</li>
+            <li><strong>Progression</strong> : place normalisée moyenne des 3 dernières sorties moins celle des 3 précédentes (place normalisée : 1 = vainqueur, 0 = dernier ou non classé), ramenée sur 0-1 ; 0,5 = stable.</li>
+            <li><strong>Performance à l'hippodrome</strong> : taux de top 3 sur cet hippodrome (lissé) ; neutre si jamais couru là.</li>
+          </ul>
+          <pre class="formule">score_parcours = 0,5 × regularite_top3 + 0,3 × progression_normalisee + 0,2 × performance_hippodrome</pre></div>
+
+        <div class="card"><h2>4. Score composite</h2>
+          <pre class="formule">score_composite = 100 × (0,4 × score_frequence + 0,3 × score_cooccurrence + 0,3 × score_parcours)</pre>
+          <p><strong>Données manquantes :</strong> moins de 3 sorties (numéro ou cheval) → score neutre de 0,15 et mention « historique insuffisant ». Ces numéros sont exclus des combinaisons (sauf option), de même que les cotes supérieures à 69/1 (tocards, sauf option).</p></div>
+
+        <div class="card"><h2>Les quatre combinaisons</h2>
+          <ul>
+            <li><strong>Base solide</strong> : les 5 numéros au meilleur score composite.</li>
+            <li><strong>Élargie</strong> : les 7 meilleurs (21 combinaisons de 5 numéros à jouer).</li>
+            <li><strong>Valeur</strong> : 3 favoris historiques (cote ≤ 10) + 2 outsiders (cote &gt; 10) au meilleur score.</li>
+            <li><strong>Coup de poker</strong> : 5 numéros à score élevé parmi les cotes ≥ 15.</li>
+          </ul></div>
+
+        <div class="card"><h2>Backtest</h2>
+          <p>Les courses sont rejouées dans l'ordre chronologique. Pour chaque course, le moteur n'utilise que les courses et sorties <strong>précédentes</strong> (aucune fuite d'information du futur). Le jeu est simplifié : un lot de k numéros coûte C(k,5) × 2 € ; il gagne le rapport « Quinté+ désordre » si les 5 premiers sont dedans, et le rapport « Bonus 4/5 » pour chaque combinaison de 5 numéros contenant exactement 4 des 5 premiers. Les autres rapports (ordre, Bonus 4, Bonus 3) ne sont pas pris en compte : le ROI affiché peut donc être inférieur à celui du jeu réel. Vérifiez toujours le règlement officiel.</p>
+          <p>La comparaison au hasard est un <strong>calcul exact</strong> (loi hypergéométrique) : probabilité de gagner, nombre de numéros trouvés et gain espéré d'un lot de même taille tiré au hasard sur les mêmes courses.</p></div>
+
+        <div class="card card-limites"><h2>Limites assumées</h2>
+          <ul>
+            <li><strong>Pas de prédiction fiable.</strong> Les courses sont très aléatoires : au hasard, trouver les 5 premiers d'un lot de 16 partants dans le désordre a 1 chance sur 4 368.</li>
+            <li><strong>Variance.</strong> Un seul gros rapport peut faire un ROI flatteur ; plusieurs dizaines de courses sans gain sont normales. Le tableau de backtest affiche donc aussi le ROI hors meilleur rapport.</li>
+            <li><strong>Taille d'échantillon.</strong> Sur peu de courses, un numéro ou une paire « qui sort souvent » est le plus souvent du bruit.</li>
+            <li><strong>Le numéro de partant</strong> n'a pas de pouvoir explicatif en soi (il dépend du tirage ou de la place au départ) ; c'est pourquoi le parcours du cheval est pris en compte.</li>
+            <li><strong>Parcours limité</strong> aux courses présentes dans les données collectées (Quinté+, ou toutes les courses si l'option a été utilisée).</li>
+            <li><strong>Pas de garantie</strong> : une stratégie qui a « marché » dans le passé peut ne pas marcher demain. Ne jouez que ce que vous pouvez vous permettre de perdre.</li>
+          </ul></div>
+
+        <p class="disclaimer">Résultats passés, sans garantie pour l'avenir.</p>
+      </section>
+
+      <!-- ===================== PAGE 6 — Mentions légales / Conformité ===================== -->
+      <section data-page="legal" aria-labelledby="t-legal" hidden>
+        <h1 id="t-legal" tabindex="-1">Mentions légales et conformité</h1>
+        <div class="reglementaire reglementaire-bloc" role="note">LES JEUX D'ARGENT ET DE HASARD PEUVENT ÊTRE DANGEREUX : PERTES D'ARGENT, CONFLITS FAMILIAUX, ADDICTION… NOS CONSEILS SUR JOUEURS-INFO-SERVICE.FR (09-74-75-13-13 - APPEL NON SURTAXÉ)</div>
+        <div class="card"><h2>Jouer avec mesure</h2>
+          <ul>
+            <li>Fixez-vous une limite de dépense et de temps avant de jouer, et respectez-la.</li>
+            <li>Ne jouez jamais pour « vous refaire » après une perte, ni avec de l'argent destiné aux dépenses essentielles.</li>
+            <li>Jouer est interdit aux mineurs.</li>
+            <li>Si le jeu devient un problème pour vous ou un proche, parlez-en : <a href="https://www.joueurs-info-service.fr" rel="noopener noreferrer" target="_blank">joueurs-info-service.fr</a> ou le <a href="tel:0974751313">09 74 75 13 13</a> (appel non surtaxé).</li>
+          </ul></div>
+        <div class="card"><h2>Aucune garantie de gain</h2>
+          <p>Ce site est un outil de <strong>statistique descriptive</strong> sur des courses passées. Il ne propose pas de paris, ne vend pas de pronostics et ne garantit aucun gain. Les combinaisons affichées sont des candidates issues d'un calcul, pas des conseils personnalisés ni des prédictions. Résultats passés, sans garantie pour l'avenir.</p></div>
+        <div class="card"><h2>Données et responsabilité</h2>
+          <p>Les données proviennent d'un script de collecte exécuté hors ligne par l'éditeur du site, puis publiées sous forme de fichiers JSON ; elles peuvent comporter des erreurs ou des omissions. Si le bandeau « Données d'exemple » est affiché, toutes les courses, cotes et rapports sont fictifs. Ce site n'est affilié ni au PMU, ni à la LONAB, ni à aucun opérateur de jeux. Les marques citées appartiennent à leurs propriétaires. Le site ne dépose aucun cookie et ne collecte aucune donnée personnelle ; les courses importées restent dans votre navigateur.</p>
+          <p>L'éditeur n'est pas responsable des pertes liées à l'usage des informations de ce site. <em>Complétez cette page avec l'identité de l'éditeur et du responsable de publication, comme l'exige la loi.</em></p></div>
+        <div class="card"><h2>Ressources d'aide</h2>
+          <ul><li><a href="https://www.joueurs-info-service.fr" rel="noopener noreferrer" target="_blank">Joueurs Info Service</a> — écoute, orientation, auto-évaluation (09 74 75 13 13, appel non surtaxé).</li></ul></div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Résultats passés, sans garantie pour l'avenir. Aucune promesse de gain. Jouer comporte des risques : endettement, isolement, dépendance. Pour être aidé, appelez le 09-74-75-13-13 (appel non surtaxé) ou rendez-vous sur <a href="https://www.joueurs-info-service.fr" rel="noopener noreferrer" target="_blank">joueurs-info-service.fr</a>.</p>
+    </div>
+  </footer>
+
+  <noscript><div class="wrap"><p class="disclaimer warning">Ce site nécessite JavaScript pour afficher les analyses.</p></div></noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

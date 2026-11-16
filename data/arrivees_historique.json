@@ -1,0 +1,2023 @@
+{
+ "meta": {
+  "genere_le": "2026-11-16T11:49:41",
+  "debut": "2026-10-17",
+  "fin": "2026-11-15",
+  "nb_courses": 10,
+  "exemple": true,
+  "source": "Données fictives d'exemple",
+  "avertissement": "Résultats passés, sans garantie pour l'avenir."
+ },
+ "courses": [
+  {
+   "id": "2026-10-17_R1C3",
+   "date": "2026-10-17",
+   "hippodrome": "Vincennes",
+   "discipline": "trot_attele",
+   "distance": 2700,
+   "nb_partants": 16,
+   "niveau": "Groupe III",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°1",
+   "arrivee": [
+    1,
+    16,
+    12,
+    2,
+    8
+   ],
+   "suite": [
+    14,
+    11,
+    5
+   ],
+   "rapports": {
+    "bonus3": 8.38,
+    "bonus4": 131.11,
+    "bonus4sur5": 20.25,
+    "couple_gagnant": 25.32,
+    "couple_place": [
+     18.3,
+     34.5,
+     28.1
+    ],
+    "quinte_desordre": 6411.59,
+    "quinte_ordre": 93466.5,
+    "tierce_desordre": 102.98,
+    "tierce_ordre": 2329.16
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "LUMIÈRE DE MONT",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 2.5,
+     "musique": "2a6a3aAp1p",
+     "place": 1
+    },
+    {
+     "numero": 2,
+     "nom": "FAUCON DE CLÉRY",
+     "jockey": "T. Morel",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 30.5,
+     "musique": "Ap6a7m7p3p",
+     "place": 4
+    },
+    {
+     "numero": 3,
+     "nom": "TÉNOR DE LANDES",
+     "jockey": "F. Mercier",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 25.2,
+     "musique": "Aapp2p0aDm",
+     "place": 14
+    },
+    {
+     "numero": 4,
+     "nom": "BRINDILLE DE PLAINE",
+     "jockey": "R. Perrin",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 32.4,
+     "musique": "0a4mAa7a1p",
+     "place": 12
+    },
+    {
+     "numero": 5,
+     "nom": "CYCLONE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 9.3,
+     "musique": "AmpaDm1a3m",
+     "place": 8
+    },
+    {
+     "numero": 6,
+     "nom": "OCÉANE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "B. Faure",
+     "poids": null,
+     "cote": 80.2,
+     "musique": "1a4a6m6p4m",
+     "place": 13
+    },
+    {
+     "numero": 7,
+     "nom": "VAGABOND DE LYS",
+     "jockey": "H. Renard",
+     "entraineur": "A. Garnier",
+     "poids": null,
+     "cote": 29.3,
+     "musique": "Ap2m6ppm5m",
+     "place": 9
+    },
+    {
+     "numero": 8,
+     "nom": "VAGABOND DE SABLÉ",
+     "jockey": "L. Fabre",
+     "entraineur": "T. Morel",
+     "poids": null,
+     "cote": 6.9,
+     "musique": "7p0mDmpmDm",
+     "place": 5
+    },
+    {
+     "numero": 9,
+     "nom": "ÉTOILE DE BRUME",
+     "jockey": "N. Girard",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 14.4,
+     "musique": "0p3m0apm1a",
+     "place": 11
+    },
+    {
+     "numero": 10,
+     "nom": "CAPRICE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 18.8,
+     "musique": "Dm1m3m7p5m",
+     "place": 16
+    },
+    {
+     "numero": 11,
+     "nom": "FAUCON DE CERISY",
+     "jockey": "V. Lemaire",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 4.4,
+     "musique": "7a2aDa3a1m",
+     "place": 7
+    },
+    {
+     "numero": 12,
+     "nom": "OPALE DE CASSIS",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 42.8,
+     "musique": "2a6m5mAaDm",
+     "place": 3
+    },
+    {
+     "numero": 13,
+     "nom": "ORAGE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "N. Girard",
+     "poids": null,
+     "cote": 24.2,
+     "musique": "2p0ppm7m3a",
+     "place": 15
+    },
+    {
+     "numero": 14,
+     "nom": "GALOP DE BEAUMONT",
+     "jockey": "C. Moreau",
+     "entraineur": "F. Mercier",
+     "poids": null,
+     "cote": 6.7,
+     "musique": "Dp5mAm1a5m",
+     "place": 6
+    },
+    {
+     "numero": 15,
+     "nom": "QUARTZ DE CERISY",
+     "jockey": "F. Mercier",
+     "entraineur": "M. Lefèvre",
+     "poids": null,
+     "cote": 16.1,
+     "musique": "3p7a1pAp4m",
+     "place": 10
+    },
+    {
+     "numero": 16,
+     "nom": "BARON DE LANDES",
+     "jockey": "B. Faure",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 57.9,
+     "musique": "7a5a3aAp2p",
+     "place": 2
+    }
+   ]
+  },
+  {
+   "id": "2026-10-20_R1C4",
+   "date": "2026-10-20",
+   "hippodrome": "Deauville",
+   "discipline": "plat",
+   "distance": 1600,
+   "nb_partants": 15,
+   "niveau": "Course à conditions",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°2",
+   "arrivee": [
+    15,
+    8,
+    10,
+    11,
+    3
+   ],
+   "suite": [
+    2,
+    14,
+    9
+   ],
+   "rapports": {
+    "bonus3": 6.06,
+    "bonus4": 65.42,
+    "bonus4sur5": 6.0,
+    "couple_gagnant": 102.51,
+    "couple_place": [
+     8.9,
+     11.1,
+     21.8
+    ],
+    "quinte_desordre": 271.21,
+    "quinte_ordre": 2908.71,
+    "tierce_desordre": 369.56,
+    "tierce_ordre": 3268.52
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "CYCLONE DE CLÉRY",
+     "jockey": "A. Garnier",
+     "entraineur": "D. Colin",
+     "poids": 61.8,
+     "cote": 71.3,
+     "musique": "papp1apa2p",
+     "place": 10
+    },
+    {
+     "numero": 2,
+     "nom": "LUMIÈRE DE LANDES",
+     "jockey": "R. Perrin",
+     "entraineur": "S. Bernard",
+     "poids": 52.5,
+     "cote": 3.3,
+     "musique": "2p4p4m3a7a",
+     "place": 6
+    },
+    {
+     "numero": 3,
+     "nom": "FAUCON DE LYS",
+     "jockey": "H. Renard",
+     "entraineur": "L. Fabre",
+     "poids": 57.8,
+     "cote": 6.5,
+     "musique": "2a0mDmpa4m",
+     "place": 5
+    },
+    {
+     "numero": 4,
+     "nom": "FAUCON DE CASSIS",
+     "jockey": "L. Fabre",
+     "entraineur": "S. Bernard",
+     "poids": 59.9,
+     "cote": 52.3,
+     "musique": "5p3p7p5m4p",
+     "place": 12
+    },
+    {
+     "numero": 5,
+     "nom": "MISTRAL DE LANDES",
+     "jockey": "B. Faure",
+     "entraineur": "H. Renard",
+     "poids": 57.1,
+     "cote": 37.6,
+     "musique": "1a4mDp1mDp",
+     "place": 9
+    },
+    {
+     "numero": 6,
+     "nom": "HARMONIE DE AUBRAC",
+     "jockey": "S. Bernard",
+     "entraineur": "D. Colin",
+     "poids": 56.2,
+     "cote": 39.9,
+     "musique": "2pAp3ppa3a",
+     "place": 13
+    },
+    {
+     "numero": 7,
+     "nom": "IDOLE DE ROCHE",
+     "jockey": "D. Colin",
+     "entraineur": "B. Faure",
+     "poids": 58.8,
+     "cote": 99.0,
+     "musique": "Dm5a3m5a1a",
+     "place": 14
+    },
+    {
+     "numero": 8,
+     "nom": "OPALE DE RIVA",
+     "jockey": "E. Blanc",
+     "entraineur": "V. Lemaire",
+     "poids": 58.1,
+     "cote": 6.9,
+     "musique": "AmpaAm7ppm",
+     "place": 2
+    },
+    {
+     "numero": 9,
+     "nom": "RUBIS DE LYS",
+     "jockey": "S. Bernard",
+     "entraineur": "J. Dupont",
+     "poids": 57.1,
+     "cote": 36.9,
+     "musique": "2m5a2pDmDm",
+     "place": 8
+    },
+    {
+     "numero": 10,
+     "nom": "VAGABOND DE ROCHE",
+     "jockey": "N. Girard",
+     "entraineur": "L. Fabre",
+     "poids": 57.8,
+     "cote": 16.4,
+     "musique": "Dm4a7mpm2m",
+     "place": 3
+    },
+    {
+     "numero": 11,
+     "nom": "REINE DE BRUME",
+     "jockey": "T. Morel",
+     "entraineur": "J. Dupont",
+     "poids": 57.5,
+     "cote": 14.7,
+     "musique": "4pAp7aDa5m",
+     "place": 4
+    },
+    {
+     "numero": 12,
+     "nom": "TEMPÊTE DE MAUVE",
+     "jockey": "L. Fabre",
+     "entraineur": "C. Moreau",
+     "poids": 54.0,
+     "cote": 40.8,
+     "musique": "5a6m7m1m2a",
+     "place": 11
+    },
+    {
+     "numero": 13,
+     "nom": "BARON DE VIGNY",
+     "jockey": "B. Faure",
+     "entraineur": "H. Renard",
+     "poids": 57.5,
+     "cote": 79.1,
+     "musique": "5m1app2p4p",
+     "place": 15
+    },
+    {
+     "numero": 14,
+     "nom": "GAZELLE DE MAUVE",
+     "jockey": "P. Roux",
+     "entraineur": "S. Bernard",
+     "poids": 54.5,
+     "cote": 91.1,
+     "musique": "4aAp7ppa2p",
+     "place": 7
+    },
+    {
+     "numero": 15,
+     "nom": "RUBIS DE CASSIS",
+     "jockey": "E. Blanc",
+     "entraineur": "F. Mercier",
+     "poids": 56.4,
+     "cote": 1.6,
+     "musique": "0p6m3ppa1m",
+     "place": 1
+    }
+   ]
+  },
+  {
+   "id": "2026-10-24_R1C5",
+   "date": "2026-10-24",
+   "hippodrome": "Cabourg",
+   "discipline": "trot_attele",
+   "distance": 2850,
+   "nb_partants": 18,
+   "niveau": "Réclamer",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°3",
+   "arrivee": [
+    7,
+    8,
+    9,
+    16,
+    4
+   ],
+   "suite": [
+    15,
+    1,
+    5
+   ],
+   "rapports": {
+    "bonus3": 6.89,
+    "bonus4": 108.83,
+    "bonus4sur5": 15.54,
+    "couple_gagnant": 58.45,
+    "couple_place": [
+     15.5,
+     16.5,
+     14.6
+    ],
+    "quinte_desordre": 2689.19,
+    "quinte_ordre": 59280.66,
+    "tierce_desordre": 105.22,
+    "tierce_ordre": 3432.2
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "OCÉANE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "B. Faure",
+     "poids": null,
+     "cote": 69.0,
+     "musique": "0m2a4mAa3a",
+     "place": 7
+    },
+    {
+     "numero": 2,
+     "nom": "OCÉANE DE CASSIS",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 32.3,
+     "musique": "pmpm3p7m5p",
+     "place": 12
+    },
+    {
+     "numero": 3,
+     "nom": "FAUCON DE CERISY",
+     "jockey": "V. Lemaire",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 5.6,
+     "musique": "5a3mDp2p4m",
+     "place": 18
+    },
+    {
+     "numero": 4,
+     "nom": "ÉTOILE DE CLÉRY",
+     "jockey": "J. Dupont",
+     "entraineur": "E. Blanc",
+     "poids": null,
+     "cote": 38.0,
+     "musique": "4a5mDmpaDa",
+     "place": 5
+    },
+    {
+     "numero": 5,
+     "nom": "CAPRICE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 32.5,
+     "musique": "3mAapa2mAm",
+     "place": 8
+    },
+    {
+     "numero": 6,
+     "nom": "ÉTOILE DE BRUME",
+     "jockey": "N. Girard",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 24.0,
+     "musique": "pm5a1apa3m",
+     "place": 13
+    },
+    {
+     "numero": 7,
+     "nom": "LUMIÈRE DE MONT",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 2.3,
+     "musique": "6pAm4a6a7m",
+     "place": 1
+    },
+    {
+     "numero": 8,
+     "nom": "TANGO DE BEAUMONT",
+     "jockey": "F. Mercier",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 21.7,
+     "musique": "5a1m3a5a1a",
+     "place": 2
+    },
+    {
+     "numero": 9,
+     "nom": "TANGO DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 3.8,
+     "musique": "DpAppa6mDm",
+     "place": 3
+    },
+    {
+     "numero": 10,
+     "nom": "NUAGE DE PLAINE",
+     "jockey": "N. Girard",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 99.0,
+     "musique": "2p5a0p6p6p",
+     "place": 15
+    },
+    {
+     "numero": 11,
+     "nom": "ORAGE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "N. Girard",
+     "poids": null,
+     "cote": 55.8,
+     "musique": "5a0p7p4a7p",
+     "place": 16
+    },
+    {
+     "numero": 12,
+     "nom": "BRINDILLE DE PLAINE",
+     "jockey": "R. Perrin",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 42.3,
+     "musique": "Dp1a7a0m0a",
+     "place": 9
+    },
+    {
+     "numero": 13,
+     "nom": "BARON DE LANDES",
+     "jockey": "B. Faure",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 21.4,
+     "musique": "4a1p3p4m2p",
+     "place": 17
+    },
+    {
+     "numero": 14,
+     "nom": "VAGABOND DE SABLÉ",
+     "jockey": "L. Fabre",
+     "entraineur": "T. Morel",
+     "poids": null,
+     "cote": 29.0,
+     "musique": "4m6pDa5pDp",
+     "place": 14
+    },
+    {
+     "numero": 15,
+     "nom": "TÉNOR DE LANDES",
+     "jockey": "F. Mercier",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 16.6,
+     "musique": "6a0mAp7a4m",
+     "place": 6
+    },
+    {
+     "numero": 16,
+     "nom": "CYCLONE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 14.9,
+     "musique": "7a6a5a0m4a",
+     "place": 4
+    },
+    {
+     "numero": 17,
+     "nom": "GALOP DE BEAUMONT",
+     "jockey": "C. Moreau",
+     "entraineur": "F. Mercier",
+     "poids": null,
+     "cote": 8.7,
+     "musique": "4a5m7p3a6m",
+     "place": 11
+    },
+    {
+     "numero": 18,
+     "nom": "QUARTZ DE CERISY",
+     "jockey": "F. Mercier",
+     "entraineur": "M. Lefèvre",
+     "poids": null,
+     "cote": 34.2,
+     "musique": "6p5mAmAmAp",
+     "place": 10
+    }
+   ]
+  },
+  {
+   "id": "2026-10-27_R1C6",
+   "date": "2026-10-27",
+   "hippodrome": "Auteuil",
+   "discipline": "haies",
+   "distance": 3500,
+   "nb_partants": 14,
+   "niveau": "Groupe III",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°4",
+   "arrivee": [
+    1,
+    9,
+    10,
+    6,
+    4
+   ],
+   "suite": [
+    8,
+    3,
+    11
+   ],
+   "rapports": {
+    "bonus3": 6.33,
+    "bonus4": 78.84,
+    "bonus4sur5": 6.0,
+    "couple_gagnant": 357.87,
+    "couple_place": [
+     8.7,
+     21.0,
+     34.5
+    ],
+    "quinte_desordre": 670.3,
+    "quinte_ordre": 17499.66,
+    "tierce_desordre": 242.2,
+    "tierce_ordre": 1086.3
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "BRINDILLE DE TILLY",
+     "jockey": "F. Mercier",
+     "entraineur": "J. Dupont",
+     "poids": 58.0,
+     "cote": 2.5,
+     "musique": "7a3a1p7apa",
+     "place": 1
+    },
+    {
+     "numero": 2,
+     "nom": "LUMIÈRE DE BEAUMONT",
+     "jockey": "B. Faure",
+     "entraineur": "E. Blanc",
+     "poids": 55.8,
+     "cote": 1.6,
+     "musique": "4aAaDm0a1a",
+     "place": 11
+    },
+    {
+     "numero": 3,
+     "nom": "JADE DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "N. Girard",
+     "poids": 61.3,
+     "cote": 29.5,
+     "musique": "1p4p4mAm0p",
+     "place": 7
+    },
+    {
+     "numero": 4,
+     "nom": "TÉNOR DE ROCHE",
+     "jockey": "J. Dupont",
+     "entraineur": "J. Dupont",
+     "poids": 52.2,
+     "cote": 6.0,
+     "musique": "3m3app4p4m",
+     "place": 5
+    },
+    {
+     "numero": 5,
+     "nom": "CAPRICE DE LYS",
+     "jockey": "C. Moreau",
+     "entraineur": "T. Morel",
+     "poids": 52.4,
+     "cote": 99.0,
+     "musique": "4a3p5apm4p",
+     "place": 14
+    },
+    {
+     "numero": 6,
+     "nom": "ORAGE DE ORMES",
+     "jockey": "M. Lefèvre",
+     "entraineur": "P. Roux",
+     "poids": 52.9,
+     "cote": 48.3,
+     "musique": "0m3mAa0a1a",
+     "place": 4
+    },
+    {
+     "numero": 7,
+     "nom": "JADE DE TILLY",
+     "jockey": "M. Lefèvre",
+     "entraineur": "F. Mercier",
+     "poids": 60.9,
+     "cote": 99.0,
+     "musique": "2ppaDp7m5a",
+     "place": 10
+    },
+    {
+     "numero": 8,
+     "nom": "SOLEIL DE LYS",
+     "jockey": "J. Dupont",
+     "entraineur": "D. Colin",
+     "poids": 56.7,
+     "cote": 15.6,
+     "musique": "6a7mAm0a7a",
+     "place": 6
+    },
+    {
+     "numero": 9,
+     "nom": "RUBIS DE MONT",
+     "jockey": "P. Roux",
+     "entraineur": "R. Perrin",
+     "poids": 54.1,
+     "cote": 62.8,
+     "musique": "3p1a3pAm6a",
+     "place": 2
+    },
+    {
+     "numero": 10,
+     "nom": "FLEUR DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "E. Blanc",
+     "poids": 57.9,
+     "cote": 24.7,
+     "musique": "Dm2m4aDp1a",
+     "place": 3
+    },
+    {
+     "numero": 11,
+     "nom": "OPALE DE MONT",
+     "jockey": "S. Bernard",
+     "entraineur": "C. Moreau",
+     "poids": 54.8,
+     "cote": 60.7,
+     "musique": "3p6mAaAa2a",
+     "place": 8
+    },
+    {
+     "numero": 12,
+     "nom": "SOLEIL DE BEAUMONT",
+     "jockey": "F. Mercier",
+     "entraineur": "N. Girard",
+     "poids": 53.5,
+     "cote": 99.0,
+     "musique": "3a4a2a4p2p",
+     "place": 9
+    },
+    {
+     "numero": 13,
+     "nom": "HARMONIE DE TILLY",
+     "jockey": "F. Mercier",
+     "entraineur": "C. Moreau",
+     "poids": 52.8,
+     "cote": 52.5,
+     "musique": "6p2p1a0apa",
+     "place": 12
+    },
+    {
+     "numero": 14,
+     "nom": "QUARTZ DE ORMES",
+     "jockey": "B. Faure",
+     "entraineur": "J. Dupont",
+     "poids": 55.1,
+     "cote": 99.0,
+     "musique": "7a5m6p1aDm",
+     "place": 13
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31_R1C7",
+   "date": "2026-10-31",
+   "hippodrome": "Enghien",
+   "discipline": "trot_attele",
+   "distance": 3000,
+   "nb_partants": 16,
+   "niveau": "Réclamer",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°5",
+   "arrivee": [
+    13,
+    9,
+    14,
+    16,
+    15
+   ],
+   "suite": [
+    8,
+    7,
+    1
+   ],
+   "rapports": {
+    "bonus3": 7.77,
+    "bonus4": 238.07,
+    "bonus4sur5": 20.43,
+    "couple_gagnant": 28.89,
+    "couple_place": [
+     30.0,
+     12.4,
+     18.0
+    ],
+    "quinte_desordre": 6521.89,
+    "quinte_ordre": 116580.27,
+    "tierce_desordre": 155.47,
+    "tierce_ordre": 3122.4
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "FAUCON DE CERISY",
+     "jockey": "V. Lemaire",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 13.7,
+     "musique": "Dp7aDpDm2m",
+     "place": 8
+    },
+    {
+     "numero": 2,
+     "nom": "TANGO DE BEAUMONT",
+     "jockey": "F. Mercier",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 17.4,
+     "musique": "5p4a3pDa0p",
+     "place": 12
+    },
+    {
+     "numero": 3,
+     "nom": "GALOP DE BEAUMONT",
+     "jockey": "C. Moreau",
+     "entraineur": "F. Mercier",
+     "poids": null,
+     "cote": 4.2,
+     "musique": "1m7mDm6a2a",
+     "place": 13
+    },
+    {
+     "numero": 4,
+     "nom": "ORAGE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "N. Girard",
+     "poids": null,
+     "cote": 13.2,
+     "musique": "4mDa0p2m4m",
+     "place": 16
+    },
+    {
+     "numero": 5,
+     "nom": "CYCLONE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 5.0,
+     "musique": "2m3pAa4apm",
+     "place": 11
+    },
+    {
+     "numero": 6,
+     "nom": "FAUCON DE CLÉRY",
+     "jockey": "T. Morel",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 42.4,
+     "musique": "Dp2a2p0a5p",
+     "place": 14
+    },
+    {
+     "numero": 7,
+     "nom": "SOLEIL DE ROCHE",
+     "jockey": "N. Girard",
+     "entraineur": "H. Renard",
+     "poids": null,
+     "cote": 12.4,
+     "musique": "0m6a7p5pDa",
+     "place": 7
+    },
+    {
+     "numero": 8,
+     "nom": "CAPRICE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 23.0,
+     "musique": "Dp4p6a4aDm",
+     "place": 6
+    },
+    {
+     "numero": 9,
+     "nom": "TANGO DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 4.3,
+     "musique": "0p7a1a7a2m",
+     "place": 2
+    },
+    {
+     "numero": 10,
+     "nom": "GAZELLE DE ROCHE",
+     "jockey": "P. Roux",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 99.0,
+     "musique": "4m1a2a0m1p",
+     "place": 15
+    },
+    {
+     "numero": 11,
+     "nom": "BRINDILLE DE PLAINE",
+     "jockey": "R. Perrin",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 6.7,
+     "musique": "6m1p5pppDp",
+     "place": 10
+    },
+    {
+     "numero": 12,
+     "nom": "OCÉANE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "B. Faure",
+     "poids": null,
+     "cote": 74.3,
+     "musique": "7mpm4a2mpm",
+     "place": 9
+    },
+    {
+     "numero": 13,
+     "nom": "OCÉANE DE CASSIS",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 13.5,
+     "musique": "4mApDm4ppp",
+     "place": 1
+    },
+    {
+     "numero": 14,
+     "nom": "TÉNOR DE LANDES",
+     "jockey": "F. Mercier",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 24.6,
+     "musique": "Ap6mDm3a6p",
+     "place": 3
+    },
+    {
+     "numero": 15,
+     "nom": "RUBIS DE SABLÉ",
+     "jockey": "E. Blanc",
+     "entraineur": "H. Renard",
+     "poids": null,
+     "cote": 42.5,
+     "musique": "Dm6app4m0a",
+     "place": 5
+    },
+    {
+     "numero": 16,
+     "nom": "VAGABOND DE LYS",
+     "jockey": "H. Renard",
+     "entraineur": "A. Garnier",
+     "poids": null,
+     "cote": 15.0,
+     "musique": "2a2a1p0m2m",
+     "place": 4
+    }
+   ]
+  },
+  {
+   "id": "2026-11-03_R1C8",
+   "date": "2026-11-03",
+   "hippodrome": "Saint-Cloud",
+   "discipline": "plat",
+   "distance": 1600,
+   "nb_partants": 15,
+   "niveau": "Réclamer",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°6",
+   "arrivee": [
+    4,
+    15,
+    3,
+    5,
+    6
+   ],
+   "suite": [
+    14,
+    9,
+    2
+   ],
+   "rapports": {
+    "bonus3": 6.19,
+    "bonus4": 66.78,
+    "bonus4sur5": 6.0,
+    "couple_gagnant": 272.46,
+    "couple_place": [
+     18.0,
+     25.6,
+     31.7
+    ],
+    "quinte_desordre": 572.66,
+    "quinte_ordre": 12528.42,
+    "tierce_desordre": 292.02,
+    "tierce_ordre": 1816.37
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "OPALE DE RIVA",
+     "jockey": "E. Blanc",
+     "entraineur": "V. Lemaire",
+     "poids": 59.2,
+     "cote": 14.6,
+     "musique": "0a0a5p6aAp",
+     "place": 11
+    },
+    {
+     "numero": 2,
+     "nom": "BRINDILLE DE LANDES",
+     "jockey": "S. Bernard",
+     "entraineur": "P. Roux",
+     "poids": 53.7,
+     "cote": 36.8,
+     "musique": "6m4mDapa3a",
+     "place": 8
+    },
+    {
+     "numero": 3,
+     "nom": "LUMIÈRE DE LANDES",
+     "jockey": "R. Perrin",
+     "entraineur": "S. Bernard",
+     "poids": 60.3,
+     "cote": 8.9,
+     "musique": "pm7mAaDm3m",
+     "place": 3
+    },
+    {
+     "numero": 4,
+     "nom": "RUBIS DE CASSIS",
+     "jockey": "E. Blanc",
+     "entraineur": "F. Mercier",
+     "poids": 56.6,
+     "cote": 2.8,
+     "musique": "pp4aAappAp",
+     "place": 1
+    },
+    {
+     "numero": 5,
+     "nom": "BARON DE PLAINE",
+     "jockey": "V. Lemaire",
+     "entraineur": "E. Blanc",
+     "poids": 61.6,
+     "cote": 1.6,
+     "musique": "3m5apm7m6m",
+     "place": 4
+    },
+    {
+     "numero": 6,
+     "nom": "FLEUR DE CERISY",
+     "jockey": "J. Dupont",
+     "entraineur": "P. Roux",
+     "poids": 58.2,
+     "cote": 17.8,
+     "musique": "0mpm3m6p7p",
+     "place": 5
+    },
+    {
+     "numero": 7,
+     "nom": "MISTRAL DE LANDES",
+     "jockey": "B. Faure",
+     "entraineur": "H. Renard",
+     "poids": 59.1,
+     "cote": 61.7,
+     "musique": "1a2m1p0m7a",
+     "place": 13
+    },
+    {
+     "numero": 8,
+     "nom": "BRINDILLE DE MAUVE",
+     "jockey": "L. Fabre",
+     "entraineur": "F. Mercier",
+     "poids": 59.1,
+     "cote": 17.9,
+     "musique": "7mAaDm1mAa",
+     "place": 9
+    },
+    {
+     "numero": 9,
+     "nom": "IDOLE DE ROCHE",
+     "jockey": "D. Colin",
+     "entraineur": "B. Faure",
+     "poids": 56.1,
+     "cote": 55.4,
+     "musique": "5mDppapp7p",
+     "place": 7
+    },
+    {
+     "numero": 10,
+     "nom": "GAZELLE DE MAUVE",
+     "jockey": "P. Roux",
+     "entraineur": "S. Bernard",
+     "poids": 57.9,
+     "cote": 72.3,
+     "musique": "DmDm6m7p5m",
+     "place": 14
+    },
+    {
+     "numero": 11,
+     "nom": "ORAGE DE PLAINE",
+     "jockey": "N. Girard",
+     "entraineur": "C. Moreau",
+     "poids": 59.6,
+     "cote": 99.0,
+     "musique": "7m5aAm6p4p",
+     "place": 15
+    },
+    {
+     "numero": 12,
+     "nom": "HARMONIE DE AUBRAC",
+     "jockey": "S. Bernard",
+     "entraineur": "D. Colin",
+     "poids": 61.5,
+     "cote": 63.9,
+     "musique": "ppAa6ppm1m",
+     "place": 12
+    },
+    {
+     "numero": 13,
+     "nom": "CYCLONE DE CLÉRY",
+     "jockey": "A. Garnier",
+     "entraineur": "D. Colin",
+     "poids": 59.6,
+     "cote": 40.7,
+     "musique": "AmAp4a7m1m",
+     "place": 10
+    },
+    {
+     "numero": 14,
+     "nom": "VAGABOND DE ROCHE",
+     "jockey": "N. Girard",
+     "entraineur": "L. Fabre",
+     "poids": 54.3,
+     "cote": 10.6,
+     "musique": "pm2m4m6p4p",
+     "place": 6
+    },
+    {
+     "numero": 15,
+     "nom": "FAUCON DE CASSIS",
+     "jockey": "L. Fabre",
+     "entraineur": "S. Bernard",
+     "poids": 56.4,
+     "cote": 99.0,
+     "musique": "5p4a5m7mAm",
+     "place": 2
+    }
+   ]
+  },
+  {
+   "id": "2026-11-07_R1C9",
+   "date": "2026-11-07",
+   "hippodrome": "Vincennes",
+   "discipline": "trot_attele",
+   "distance": 2850,
+   "nb_partants": 18,
+   "niveau": "Réclamer",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°7",
+   "arrivee": [
+    13,
+    18,
+    8,
+    1,
+    17
+   ],
+   "suite": [
+    10,
+    11,
+    6
+   ],
+   "rapports": {
+    "bonus3": 10.02,
+    "bonus4": 184.19,
+    "bonus4sur5": 29.4,
+    "couple_gagnant": 214.05,
+    "couple_place": [
+     17.4,
+     16.2,
+     18.3
+    ],
+    "quinte_desordre": 9618.52,
+    "quinte_ordre": 154710.03,
+    "tierce_desordre": 90.45,
+    "tierce_ordre": 937.23
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "ÉTOILE DE CLÉRY",
+     "jockey": "J. Dupont",
+     "entraineur": "E. Blanc",
+     "poids": null,
+     "cote": 42.9,
+     "musique": "7a7mpa1m0m",
+     "place": 4
+    },
+    {
+     "numero": 2,
+     "nom": "GAZELLE DE ROCHE",
+     "jockey": "P. Roux",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 99.0,
+     "musique": "Da4a5aDpDm",
+     "place": 16
+    },
+    {
+     "numero": 3,
+     "nom": "RUBIS DE SABLÉ",
+     "jockey": "E. Blanc",
+     "entraineur": "H. Renard",
+     "poids": null,
+     "cote": 85.3,
+     "musique": "Dm7p6a4p7m",
+     "place": 17
+    },
+    {
+     "numero": 4,
+     "nom": "NUAGE DE PLAINE",
+     "jockey": "N. Girard",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 99.0,
+     "musique": "4mAm3a0m3a",
+     "place": 18
+    },
+    {
+     "numero": 5,
+     "nom": "QUARTZ DE CERISY",
+     "jockey": "F. Mercier",
+     "entraineur": "M. Lefèvre",
+     "poids": null,
+     "cote": 22.5,
+     "musique": "7a3a4a4p6p",
+     "place": 10
+    },
+    {
+     "numero": 6,
+     "nom": "FAUCON DE CERISY",
+     "jockey": "V. Lemaire",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 3.4,
+     "musique": "7p4mpm0pDp",
+     "place": 8
+    },
+    {
+     "numero": 7,
+     "nom": "CAPRICE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 33.7,
+     "musique": "pa1mpapp0m",
+     "place": 12
+    },
+    {
+     "numero": 8,
+     "nom": "VAGABOND DE SABLÉ",
+     "jockey": "L. Fabre",
+     "entraineur": "T. Morel",
+     "poids": null,
+     "cote": 22.4,
+     "musique": "6a5a4pDmAm",
+     "place": 3
+    },
+    {
+     "numero": 9,
+     "nom": "BARON DE LANDES",
+     "jockey": "B. Faure",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 61.7,
+     "musique": "4p5p7a3m2p",
+     "place": 9
+    },
+    {
+     "numero": 10,
+     "nom": "VAGABOND DE LYS",
+     "jockey": "H. Renard",
+     "entraineur": "A. Garnier",
+     "poids": null,
+     "cote": 24.8,
+     "musique": "4a5mDp6m7a",
+     "place": 6
+    },
+    {
+     "numero": 11,
+     "nom": "OPALE DE CASSIS",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 10.2,
+     "musique": "2pDaDp5p0p",
+     "place": 7
+    },
+    {
+     "numero": 12,
+     "nom": "GALOP DE BEAUMONT",
+     "jockey": "C. Moreau",
+     "entraineur": "F. Mercier",
+     "poids": null,
+     "cote": 2.5,
+     "musique": "5a5a7a5m5p",
+     "place": 14
+    },
+    {
+     "numero": 13,
+     "nom": "LUMIÈRE DE MONT",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 8.3,
+     "musique": "pm1a5p4ppp",
+     "place": 1
+    },
+    {
+     "numero": 14,
+     "nom": "ORAGE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "N. Girard",
+     "poids": null,
+     "cote": 17.7,
+     "musique": "6m5a7p0m0p",
+     "place": 13
+    },
+    {
+     "numero": 15,
+     "nom": "TANGO DE BEAUMONT",
+     "jockey": "F. Mercier",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 44.8,
+     "musique": "paAp1a0p0p",
+     "place": 11
+    },
+    {
+     "numero": 16,
+     "nom": "TANGO DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "C. Moreau",
+     "poids": null,
+     "cote": 8.2,
+     "musique": "1p2m4a5aDa",
+     "place": 15
+    },
+    {
+     "numero": 17,
+     "nom": "SOLEIL DE ROCHE",
+     "jockey": "N. Girard",
+     "entraineur": "H. Renard",
+     "poids": null,
+     "cote": 10.0,
+     "musique": "7a1pDapmDm",
+     "place": 5
+    },
+    {
+     "numero": 18,
+     "nom": "OCÉANE DE CASSIS",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 56.6,
+     "musique": "0p0pDm6a5p",
+     "place": 2
+    }
+   ]
+  },
+  {
+   "id": "2026-11-10_R1C10",
+   "date": "2026-11-10",
+   "hippodrome": "Deauville",
+   "discipline": "plat",
+   "distance": 1600,
+   "nb_partants": 18,
+   "niveau": "Course à conditions",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°8",
+   "arrivee": [
+    6,
+    4,
+    9,
+    11,
+    3
+   ],
+   "suite": [
+    12,
+    2,
+    14
+   ],
+   "rapports": {
+    "bonus3": 6.22,
+    "bonus4": 76.9,
+    "bonus4sur5": 7.44,
+    "couple_gagnant": 171.84,
+    "couple_place": [
+     16.6,
+     30.9,
+     21.6
+    ],
+    "quinte_desordre": 615.37,
+    "quinte_ordre": 15510.22,
+    "tierce_desordre": 128.98,
+    "tierce_ordre": 3861.93
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "HARMONIE DE AUBRAC",
+     "jockey": "S. Bernard",
+     "entraineur": "D. Colin",
+     "poids": 54.9,
+     "cote": 88.0,
+     "musique": "1pDmDa1a4m",
+     "place": 9
+    },
+    {
+     "numero": 2,
+     "nom": "VAGABOND DE ROCHE",
+     "jockey": "N. Girard",
+     "entraineur": "L. Fabre",
+     "poids": 52.1,
+     "cote": 58.2,
+     "musique": "6m2apm5mAa",
+     "place": 7
+    },
+    {
+     "numero": 3,
+     "nom": "FLEUR DE CERISY",
+     "jockey": "J. Dupont",
+     "entraineur": "P. Roux",
+     "poids": 53.2,
+     "cote": 23.3,
+     "musique": "6m3p4mpm5a",
+     "place": 5
+    },
+    {
+     "numero": 4,
+     "nom": "BARON DE PLAINE",
+     "jockey": "V. Lemaire",
+     "entraineur": "E. Blanc",
+     "poids": 57.4,
+     "cote": 1.7,
+     "musique": "2m4a0pDmAa",
+     "place": 2
+    },
+    {
+     "numero": 5,
+     "nom": "IDOLE DE ROCHE",
+     "jockey": "D. Colin",
+     "entraineur": "B. Faure",
+     "poids": 55.0,
+     "cote": 65.4,
+     "musique": "0p2p0pDapp",
+     "place": 11
+    },
+    {
+     "numero": 6,
+     "nom": "RUBIS DE CASSIS",
+     "jockey": "E. Blanc",
+     "entraineur": "F. Mercier",
+     "poids": 58.3,
+     "cote": 5.5,
+     "musique": "AmpmDm0a5p",
+     "place": 1
+    },
+    {
+     "numero": 7,
+     "nom": "OPALE DE RIVA",
+     "jockey": "E. Blanc",
+     "entraineur": "V. Lemaire",
+     "poids": 59.9,
+     "cote": 17.2,
+     "musique": "Dm5a3m5p6p",
+     "place": 10
+    },
+    {
+     "numero": 8,
+     "nom": "CYCLONE DE CLÉRY",
+     "jockey": "A. Garnier",
+     "entraineur": "D. Colin",
+     "poids": 60.8,
+     "cote": 38.7,
+     "musique": "Dp6a1apaAm",
+     "place": 17
+    },
+    {
+     "numero": 9,
+     "nom": "FAUCON DE LYS",
+     "jockey": "H. Renard",
+     "entraineur": "L. Fabre",
+     "poids": 58.9,
+     "cote": 2.6,
+     "musique": "4aDm0m5a0a",
+     "place": 3
+    },
+    {
+     "numero": 10,
+     "nom": "ORAGE DE PLAINE",
+     "jockey": "N. Girard",
+     "entraineur": "C. Moreau",
+     "poids": 57.7,
+     "cote": 99.0,
+     "musique": "3p4p0a4mpp",
+     "place": 15
+    },
+    {
+     "numero": 11,
+     "nom": "LUMIÈRE DE LANDES",
+     "jockey": "R. Perrin",
+     "entraineur": "S. Bernard",
+     "poids": 52.8,
+     "cote": 22.1,
+     "musique": "5m1a3a2p0p",
+     "place": 4
+    },
+    {
+     "numero": 12,
+     "nom": "BRINDILLE DE MAUVE",
+     "jockey": "L. Fabre",
+     "entraineur": "F. Mercier",
+     "poids": 57.8,
+     "cote": 15.6,
+     "musique": "pa6a6p2a1p",
+     "place": 6
+    },
+    {
+     "numero": 13,
+     "nom": "FAUCON DE CASSIS",
+     "jockey": "L. Fabre",
+     "entraineur": "S. Bernard",
+     "poids": 61.4,
+     "cote": 35.7,
+     "musique": "7a0p0p0m0p",
+     "place": 16
+    },
+    {
+     "numero": 14,
+     "nom": "GAZELLE DE MAUVE",
+     "jockey": "P. Roux",
+     "entraineur": "S. Bernard",
+     "poids": 52.2,
+     "cote": 46.4,
+     "musique": "3p5m2p5a1m",
+     "place": 8
+    },
+    {
+     "numero": 15,
+     "nom": "RUBIS DE LYS",
+     "jockey": "S. Bernard",
+     "entraineur": "J. Dupont",
+     "poids": 53.5,
+     "cote": 48.0,
+     "musique": "Ap3p2app5m",
+     "place": 12
+    },
+    {
+     "numero": 16,
+     "nom": "TEMPÊTE DE MAUVE",
+     "jockey": "L. Fabre",
+     "entraineur": "C. Moreau",
+     "poids": 55.8,
+     "cote": 64.3,
+     "musique": "6m2p6a6p4p",
+     "place": 13
+    },
+    {
+     "numero": 17,
+     "nom": "REINE DE BRUME",
+     "jockey": "T. Morel",
+     "entraineur": "J. Dupont",
+     "poids": 58.5,
+     "cote": 18.9,
+     "musique": "6p5m7mAa4p",
+     "place": 14
+    },
+    {
+     "numero": 18,
+     "nom": "BARON DE VIGNY",
+     "jockey": "B. Faure",
+     "entraineur": "H. Renard",
+     "poids": 52.2,
+     "cote": 99.0,
+     "musique": "Am7apm3m6a",
+     "place": 18
+    }
+   ]
+  },
+  {
+   "id": "2026-11-13_R1C11",
+   "date": "2026-11-13",
+   "hippodrome": "Compiègne",
+   "discipline": "haies",
+   "distance": 4100,
+   "nb_partants": 15,
+   "niveau": "Groupe III",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°9",
+   "arrivee": [
+    4,
+    12,
+    6,
+    8,
+    11
+   ],
+   "suite": [
+    14,
+    10,
+    5
+   ],
+   "rapports": {
+    "bonus3": 6.37,
+    "bonus4": 74.52,
+    "bonus4sur5": 6.43,
+    "couple_gagnant": 122.63,
+    "couple_place": [
+     14.3,
+     25.3,
+     18.9
+    ],
+    "quinte_desordre": 776.61,
+    "quinte_ordre": 14730.12,
+    "tierce_desordre": 236.5,
+    "tierce_ordre": 1627.38
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "LUMIÈRE DE VAUX",
+     "jockey": "B. Faure",
+     "entraineur": "F. Mercier",
+     "poids": 59.7,
+     "cote": 28.1,
+     "musique": "pa6a5p6m2a",
+     "place": 10
+    },
+    {
+     "numero": 2,
+     "nom": "QUARTZ DE ORMES",
+     "jockey": "B. Faure",
+     "entraineur": "J. Dupont",
+     "poids": 52.5,
+     "cote": 99.0,
+     "musique": "pp1p5a4mAp",
+     "place": 14
+    },
+    {
+     "numero": 3,
+     "nom": "SOLEIL DE LANDES",
+     "jockey": "T. Morel",
+     "entraineur": "P. Roux",
+     "poids": 56.1,
+     "cote": 43.5,
+     "musique": "1m4a0m1p1m",
+     "place": 11
+    },
+    {
+     "numero": 4,
+     "nom": "OCÉANE DE VIGNY",
+     "jockey": "J. Dupont",
+     "entraineur": "E. Blanc",
+     "poids": 58.4,
+     "cote": 1.6,
+     "musique": "1apa5p1p4a",
+     "place": 1
+    },
+    {
+     "numero": 5,
+     "nom": "ORAGE DE ORMES",
+     "jockey": "M. Lefèvre",
+     "entraineur": "P. Roux",
+     "poids": 61.1,
+     "cote": 7.6,
+     "musique": "6m6a3a7aDm",
+     "place": 8
+    },
+    {
+     "numero": 6,
+     "nom": "BRINDILLE DE TILLY",
+     "jockey": "F. Mercier",
+     "entraineur": "J. Dupont",
+     "poids": 53.1,
+     "cote": 9.7,
+     "musique": "6a7a4m7p5p",
+     "place": 3
+    },
+    {
+     "numero": 7,
+     "nom": "SOLEIL DE BEAUMONT",
+     "jockey": "F. Mercier",
+     "entraineur": "N. Girard",
+     "poids": 57.0,
+     "cote": 99.0,
+     "musique": "6m1p3mpm5a",
+     "place": 13
+    },
+    {
+     "numero": 8,
+     "nom": "HARMONIE DE TILLY",
+     "jockey": "F. Mercier",
+     "entraineur": "C. Moreau",
+     "poids": 56.0,
+     "cote": 46.8,
+     "musique": "4a4a5ppm5p",
+     "place": 4
+    },
+    {
+     "numero": 9,
+     "nom": "OPALE DE MONT",
+     "jockey": "S. Bernard",
+     "entraineur": "C. Moreau",
+     "poids": 54.9,
+     "cote": 28.0,
+     "musique": "0a1a4p0a0a",
+     "place": 9
+    },
+    {
+     "numero": 10,
+     "nom": "TÉNOR DE ROCHE",
+     "jockey": "J. Dupont",
+     "entraineur": "J. Dupont",
+     "poids": 57.7,
+     "cote": 13.7,
+     "musique": "2a4a6a4p3m",
+     "place": 7
+    },
+    {
+     "numero": 11,
+     "nom": "HARMONIE DE NAVAL",
+     "jockey": "M. Lefèvre",
+     "entraineur": "D. Colin",
+     "poids": 61.4,
+     "cote": 38.8,
+     "musique": "0pppAmDp6p",
+     "place": 5
+    },
+    {
+     "numero": 12,
+     "nom": "JADE DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "N. Girard",
+     "poids": 59.5,
+     "cote": 10.5,
+     "musique": "6pAm0a1p2a",
+     "place": 2
+    },
+    {
+     "numero": 13,
+     "nom": "CAPRICE DE LYS",
+     "jockey": "C. Moreau",
+     "entraineur": "T. Morel",
+     "poids": 53.5,
+     "cote": 99.0,
+     "musique": "2m2p5a0p1m",
+     "place": 15
+    },
+    {
+     "numero": 14,
+     "nom": "FLEUR DE SABLÉ",
+     "jockey": "R. Perrin",
+     "entraineur": "E. Blanc",
+     "poids": 58.3,
+     "cote": 24.2,
+     "musique": "7mpp4mpm2m",
+     "place": 6
+    },
+    {
+     "numero": 15,
+     "nom": "JADE DE TILLY",
+     "jockey": "M. Lefèvre",
+     "entraineur": "F. Mercier",
+     "poids": 54.0,
+     "cote": 99.0,
+     "musique": "Am1m4m4p0m",
+     "place": 12
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15_R1C12",
+   "date": "2026-11-15",
+   "hippodrome": "Vincennes",
+   "discipline": "trot_attele",
+   "distance": 2850,
+   "nb_partants": 16,
+   "niveau": "Réclamer",
+   "type_pari": "QUINTE_PLUS",
+   "libelle": "PRIX FICTIF N°10",
+   "arrivee": [
+    2,
+    3,
+    9,
+    4,
+    16
+   ],
+   "suite": [
+    5,
+    8,
+    6
+   ],
+   "rapports": {
+    "bonus3": 6.38,
+    "bonus4": 103.53,
+    "bonus4sur5": 10.63,
+    "couple_gagnant": 322.62,
+    "couple_place": [
+     21.8,
+     20.7,
+     19.8
+    ],
+    "quinte_desordre": 1767.67,
+    "quinte_ordre": 39949.51,
+    "tierce_desordre": 374.33,
+    "tierce_ordre": 2913.73
+   },
+   "partants": [
+    {
+     "numero": 1,
+     "nom": "OCÉANE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "B. Faure",
+     "poids": null,
+     "cote": 99.0,
+     "musique": "DpAm4m2a7m",
+     "place": 15
+    },
+    {
+     "numero": 2,
+     "nom": "ÉTOILE DE CLÉRY",
+     "jockey": "J. Dupont",
+     "entraineur": "E. Blanc",
+     "poids": null,
+     "cote": 4.9,
+     "musique": "0p2p0p6a0a",
+     "place": 1
+    },
+    {
+     "numero": 3,
+     "nom": "VAGABOND DE LYS",
+     "jockey": "H. Renard",
+     "entraineur": "A. Garnier",
+     "poids": null,
+     "cote": 43.5,
+     "musique": "0m4a5pDp2m",
+     "place": 2
+    },
+    {
+     "numero": 4,
+     "nom": "LUMIÈRE DE MONT",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 1.8,
+     "musique": "DaAa6a6m5m",
+     "place": 4
+    },
+    {
+     "numero": 5,
+     "nom": "CYCLONE DE AUBRAC",
+     "jockey": "V. Lemaire",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 5.8,
+     "musique": "0mDa6mpp0a",
+     "place": 6
+    },
+    {
+     "numero": 6,
+     "nom": "ORAGE DE MONT",
+     "jockey": "L. Fabre",
+     "entraineur": "N. Girard",
+     "poids": null,
+     "cote": 22.9,
+     "musique": "6p0p6m5pAa",
+     "place": 8
+    },
+    {
+     "numero": 7,
+     "nom": "TANGO DE BEAUMONT",
+     "jockey": "F. Mercier",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 21.1,
+     "musique": "6pAa0p6m3p",
+     "place": 12
+    },
+    {
+     "numero": 8,
+     "nom": "BARON DE LANDES",
+     "jockey": "B. Faure",
+     "entraineur": "J. Dupont",
+     "poids": null,
+     "cote": 60.1,
+     "musique": "6a0aAm5p1p",
+     "place": 7
+    },
+    {
+     "numero": 9,
+     "nom": "VAGABOND DE SABLÉ",
+     "jockey": "L. Fabre",
+     "entraineur": "T. Morel",
+     "poids": null,
+     "cote": 10.9,
+     "musique": "7a0m4m2p4m",
+     "place": 3
+    },
+    {
+     "numero": 10,
+     "nom": "RUBIS DE SABLÉ",
+     "jockey": "E. Blanc",
+     "entraineur": "H. Renard",
+     "poids": null,
+     "cote": 54.1,
+     "musique": "DaDp0a4a0a",
+     "place": 16
+    },
+    {
+     "numero": 11,
+     "nom": "FAUCON DE CLÉRY",
+     "jockey": "T. Morel",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 13.6,
+     "musique": "pa2a5p3p4p",
+     "place": 9
+    },
+    {
+     "numero": 12,
+     "nom": "BRINDILLE DE PLAINE",
+     "jockey": "R. Perrin",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 14.4,
+     "musique": "Dm6a2a7a0p",
+     "place": 14
+    },
+    {
+     "numero": 13,
+     "nom": "NUAGE DE PLAINE",
+     "jockey": "N. Girard",
+     "entraineur": "D. Colin",
+     "poids": null,
+     "cote": 25.6,
+     "musique": "0a2m6pDp0m",
+     "place": 13
+    },
+    {
+     "numero": 14,
+     "nom": "TÉNOR DE LANDES",
+     "jockey": "F. Mercier",
+     "entraineur": "P. Roux",
+     "poids": null,
+     "cote": 31.6,
+     "musique": "5mppDa2m2p",
+     "place": 11
+    },
+    {
+     "numero": 15,
+     "nom": "OPALE DE CASSIS",
+     "jockey": "H. Renard",
+     "entraineur": "V. Lemaire",
+     "poids": null,
+     "cote": 11.6,
+     "musique": "pmpp4a4a4p",
+     "place": 10
+    },
+    {
+     "numero": 16,
+     "nom": "ÉTOILE DE BRUME",
+     "jockey": "N. Girard",
+     "entraineur": "R. Perrin",
+     "poids": null,
+     "cote": 36.6,
+     "musique": "3m7m4mpm0m",
+     "place": 5
+    }
+   ]
+  }
+ ]
+}

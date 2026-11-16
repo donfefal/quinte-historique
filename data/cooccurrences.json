@@ -1,0 +1,2396 @@
+{
+ "meta": {
+  "genere_le": "2026-11-16T11:49:41",
+  "debut": "2026-10-17",
+  "fin": "2026-11-15",
+  "nb_courses": 10,
+  "exemple": true,
+  "source": "Données fictives d'exemple",
+  "avertissement": "Résultats passés, sans garantie pour l'avenir."
+ },
+ "global": {
+  "1-2": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-3": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "1-4": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-5": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "1-6": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-7": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "1-8": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "1-9": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-10": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-11": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "1-12": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-13": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "1-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "1-15": {
+   "n": 0,
+   "opportunites": 9,
+   "taux": 0.0,
+   "attendu": 0.0813,
+   "lift": 0.0
+  },
+  "1-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "2-3": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "2-4": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "2-5": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-6": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-7": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-8": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "2-9": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "2-10": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-11": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-12": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "2-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "2-15": {
+   "n": 0,
+   "opportunites": 9,
+   "taux": 0.0,
+   "attendu": 0.0813,
+   "lift": 0.0
+  },
+  "2-16": {
+   "n": 2,
+   "opportunites": 6,
+   "taux": 0.3333,
+   "attendu": 0.0743,
+   "lift": 4.484
+  },
+  "3-4": {
+   "n": 3,
+   "opportunites": 10,
+   "taux": 0.3,
+   "attendu": 0.0842,
+   "lift": 3.564
+  },
+  "3-5": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "3-6": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "3-7": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "3-8": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "3-9": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "3-10": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "3-11": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "3-12": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "3-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "3-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "3-15": {
+   "n": 2,
+   "opportunites": 9,
+   "taux": 0.2222,
+   "attendu": 0.0813,
+   "lift": 2.733
+  },
+  "3-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "4-5": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "4-6": {
+   "n": 4,
+   "opportunites": 10,
+   "taux": 0.4,
+   "attendu": 0.0842,
+   "lift": 4.752
+  },
+  "4-7": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "4-8": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "4-9": {
+   "n": 4,
+   "opportunites": 10,
+   "taux": 0.4,
+   "attendu": 0.0842,
+   "lift": 4.752
+  },
+  "4-10": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "4-11": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "4-12": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "4-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "4-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "4-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "4-16": {
+   "n": 2,
+   "opportunites": 6,
+   "taux": 0.3333,
+   "attendu": 0.0743,
+   "lift": 4.484
+  },
+  "5-6": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "5-7": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-8": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-9": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-10": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-11": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-12": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "5-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "5-16": {
+   "n": 0,
+   "opportunites": 6,
+   "taux": 0.0,
+   "attendu": 0.0743,
+   "lift": 0.0
+  },
+  "6-7": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "6-8": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "6-9": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "6-10": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "6-11": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "6-12": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "6-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "6-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "6-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "6-16": {
+   "n": 0,
+   "opportunites": 6,
+   "taux": 0.0,
+   "attendu": 0.0743,
+   "lift": 0.0
+  },
+  "7-8": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "7-9": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "7-10": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "7-11": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "7-12": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "7-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "7-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "7-15": {
+   "n": 0,
+   "opportunites": 9,
+   "taux": 0.0,
+   "attendu": 0.0813,
+   "lift": 0.0
+  },
+  "7-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "8-9": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "8-10": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "8-11": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "8-12": {
+   "n": 2,
+   "opportunites": 10,
+   "taux": 0.2,
+   "attendu": 0.0842,
+   "lift": 2.376
+  },
+  "8-13": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "8-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "8-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "8-16": {
+   "n": 2,
+   "opportunites": 6,
+   "taux": 0.3333,
+   "attendu": 0.0743,
+   "lift": 4.484
+  },
+  "9-10": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "9-11": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "9-12": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "9-13": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "9-14": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "9-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "9-16": {
+   "n": 3,
+   "opportunites": 6,
+   "taux": 0.5,
+   "attendu": 0.0743,
+   "lift": 6.725
+  },
+  "10-11": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "10-12": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "10-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "10-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "10-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "10-16": {
+   "n": 0,
+   "opportunites": 6,
+   "taux": 0.0,
+   "attendu": 0.0743,
+   "lift": 0.0
+  },
+  "11-12": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "11-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "11-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "11-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "11-16": {
+   "n": 0,
+   "opportunites": 6,
+   "taux": 0.0,
+   "attendu": 0.0743,
+   "lift": 0.0
+  },
+  "12-13": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "12-14": {
+   "n": 0,
+   "opportunites": 10,
+   "taux": 0.0,
+   "attendu": 0.0842,
+   "lift": 0.0
+  },
+  "12-15": {
+   "n": 0,
+   "opportunites": 9,
+   "taux": 0.0,
+   "attendu": 0.0813,
+   "lift": 0.0
+  },
+  "12-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "13-14": {
+   "n": 1,
+   "opportunites": 10,
+   "taux": 0.1,
+   "attendu": 0.0842,
+   "lift": 1.188
+  },
+  "13-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "13-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "14-15": {
+   "n": 1,
+   "opportunites": 9,
+   "taux": 0.1111,
+   "attendu": 0.0813,
+   "lift": 1.367
+  },
+  "14-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "15-16": {
+   "n": 1,
+   "opportunites": 6,
+   "taux": 0.1667,
+   "attendu": 0.0743,
+   "lift": 2.242
+  },
+  "1-17": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  },
+  "1-18": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  },
+  "2-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "2-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "3-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "3-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "4-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "4-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "5-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "5-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "6-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "6-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "7-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "7-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "8-17": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  },
+  "8-18": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  },
+  "9-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "9-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "10-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "10-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "11-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "11-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "12-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "12-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "13-17": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  },
+  "13-18": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  },
+  "14-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "14-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "15-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "15-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "16-17": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "16-18": {
+   "n": 0,
+   "opportunites": 3,
+   "taux": 0.0,
+   "attendu": 0.0654,
+   "lift": 0.0
+  },
+  "17-18": {
+   "n": 1,
+   "opportunites": 3,
+   "taux": 0.3333,
+   "attendu": 0.0654,
+   "lift": 5.1
+  }
+ },
+ "par_hippodrome": {
+  "Auteuil": {
+   "1-4": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "1-6": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "1-9": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "1-10": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "4-6": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "4-9": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "4-10": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "6-9": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "6-10": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   },
+   "9-10": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.1099,
+    "lift": 9.1
+   }
+  },
+  "Cabourg": {
+   "4-7": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "4-8": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "4-9": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "4-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "7-8": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "7-9": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "7-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "8-9": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "8-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "9-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   }
+  },
+  "Compiègne": {
+   "4-6": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "4-8": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "4-11": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "4-12": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "6-8": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "6-11": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "6-12": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "8-11": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "8-12": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "11-12": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   }
+  },
+  "Deauville": {
+   "3-4": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "3-6": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "3-8": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "3-9": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "3-10": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "3-11": {
+    "n": 2,
+    "opportunites": 2,
+    "taux": 1.0,
+    "attendu": 0.0803,
+    "lift": 12.453
+   },
+   "3-15": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "4-6": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "4-9": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "4-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "6-9": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "6-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "8-10": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "8-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "8-15": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "9-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "10-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "10-15": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   },
+   "11-15": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0803,
+    "lift": 6.227
+   }
+  },
+  "Enghien": {
+   "9-13": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "9-14": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "9-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "9-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "13-14": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "13-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "13-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "14-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "14-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   },
+   "15-16": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0833,
+    "lift": 12.0
+   }
+  },
+  "Saint-Cloud": {
+   "3-4": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "3-5": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "3-6": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "3-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "4-5": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "4-6": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "4-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "5-6": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "5-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   },
+   "6-15": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0952,
+    "lift": 10.5
+   }
+  },
+  "Vincennes": {
+   "1-2": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "1-8": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0773,
+    "lift": 8.62
+   },
+   "1-12": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "1-13": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "1-16": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "2-3": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "2-4": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "2-8": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "2-9": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "2-12": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "2-16": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0773,
+    "lift": 8.62
+   },
+   "3-4": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "3-9": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "3-16": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "4-9": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "4-16": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "8-12": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "8-13": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "8-16": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "9-16": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "12-16": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0773,
+    "lift": 4.31
+   },
+   "1-17": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "1-18": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "8-17": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "8-18": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "13-17": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "13-18": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   },
+   "17-18": {
+    "n": 1,
+    "opportunites": 1,
+    "taux": 1.0,
+    "attendu": 0.0654,
+    "lift": 15.3
+   }
+  }
+ },
+ "par_discipline": {
+  "haies": {
+   "1-4": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "1-6": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "1-9": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "1-10": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "4-6": {
+    "n": 2,
+    "opportunites": 2,
+    "taux": 1.0,
+    "attendu": 0.1026,
+    "lift": 9.75
+   },
+   "4-8": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "4-9": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "4-10": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "4-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "4-12": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "6-8": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "6-9": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "6-10": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "6-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "6-12": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "8-11": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "8-12": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "9-10": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   },
+   "11-12": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.1026,
+    "lift": 4.875
+   }
+  },
+  "plat": {
+   "3-4": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0853,
+    "lift": 7.818
+   },
+   "3-5": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "3-6": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0853,
+    "lift": 7.818
+   },
+   "3-8": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "3-9": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "3-10": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "3-11": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0853,
+    "lift": 7.818
+   },
+   "3-15": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0853,
+    "lift": 7.818
+   },
+   "4-5": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "4-6": {
+    "n": 2,
+    "opportunites": 3,
+    "taux": 0.6667,
+    "attendu": 0.0853,
+    "lift": 7.818
+   },
+   "4-9": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "4-11": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "4-15": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "5-6": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "5-15": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "6-9": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "6-11": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "6-15": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "8-10": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "8-11": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "8-15": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "9-11": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "10-11": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "10-15": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   },
+   "11-15": {
+    "n": 1,
+    "opportunites": 3,
+    "taux": 0.3333,
+    "attendu": 0.0853,
+    "lift": 3.909
+   }
+  },
+  "trot_attele": {
+   "1-2": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "1-8": {
+    "n": 2,
+    "opportunites": 5,
+    "taux": 0.4,
+    "attendu": 0.0761,
+    "lift": 5.253
+   },
+   "1-12": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "1-13": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "1-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "2-3": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "2-4": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "2-8": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "2-9": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "2-12": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "2-16": {
+    "n": 2,
+    "opportunites": 5,
+    "taux": 0.4,
+    "attendu": 0.0761,
+    "lift": 5.253
+   },
+   "3-4": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "3-9": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "3-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "4-7": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "4-8": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "4-9": {
+    "n": 2,
+    "opportunites": 5,
+    "taux": 0.4,
+    "attendu": 0.0761,
+    "lift": 5.253
+   },
+   "4-16": {
+    "n": 2,
+    "opportunites": 5,
+    "taux": 0.4,
+    "attendu": 0.0761,
+    "lift": 5.253
+   },
+   "7-8": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "7-9": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "7-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "8-9": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "8-12": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "8-13": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "8-16": {
+    "n": 2,
+    "opportunites": 5,
+    "taux": 0.4,
+    "attendu": 0.0761,
+    "lift": 5.253
+   },
+   "9-13": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "9-14": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "9-15": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "9-16": {
+    "n": 3,
+    "opportunites": 5,
+    "taux": 0.6,
+    "attendu": 0.0761,
+    "lift": 7.88
+   },
+   "12-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "13-14": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "13-15": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "13-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "14-15": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "14-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "15-16": {
+    "n": 1,
+    "opportunites": 5,
+    "taux": 0.2,
+    "attendu": 0.0761,
+    "lift": 2.627
+   },
+   "1-17": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   },
+   "1-18": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   },
+   "8-17": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   },
+   "8-18": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   },
+   "13-17": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   },
+   "13-18": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   },
+   "17-18": {
+    "n": 1,
+    "opportunites": 2,
+    "taux": 0.5,
+    "attendu": 0.0654,
+    "lift": 7.65
+   }
+  }
+ }
+}

@@ -1,0 +1,2965 @@
+{
+ "meta": {
+  "genere_le": "2026-11-16T11:49:41",
+  "debut": "2026-10-17",
+  "fin": "2026-11-15",
+  "nb_courses": 10,
+  "exemple": true,
+  "source": "Données fictives d'exemple",
+  "avertissement": "Résultats passés, sans garantie pour l'avenir."
+ },
+ "global": {
+  "1": {
+   "sorties": 10,
+   "top5": 3,
+   "taux_top5": 0.3,
+   "hasard": 0.3128,
+   "ecart_moyen": 3.0,
+   "ecart_actuel": 3,
+   "derniere_sortie": "2026-11-07",
+   "positions": [
+    2,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "2": {
+   "sorties": 10,
+   "top5": 2,
+   "taux_top5": 0.2,
+   "hasard": 0.3128,
+   "ecart_moyen": 9.0,
+   "ecart_actuel": 0,
+   "derniere_sortie": "2026-11-15",
+   "positions": [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "3": {
+   "sorties": 10,
+   "top5": 4,
+   "taux_top5": 0.4,
+   "hasard": 0.3128,
+   "ecart_moyen": 2.67,
+   "ecart_actuel": 0,
+   "derniere_sortie": "2026-11-15",
+   "positions": [
+    0,
+    1,
+    1,
+    0,
+    2
+   ]
+  },
+  "4": {
+   "sorties": 10,
+   "top5": 6,
+   "taux_top5": 0.6,
+   "hasard": 0.3128,
+   "ecart_moyen": 1.4,
+   "ecart_actuel": 0,
+   "derniere_sortie": "2026-11-15",
+   "positions": [
+    2,
+    1,
+    0,
+    1,
+    2
+   ]
+  },
+  "5": {
+   "sorties": 10,
+   "top5": 1,
+   "taux_top5": 0.1,
+   "hasard": 0.3128,
+   "ecart_moyen": null,
+   "ecart_actuel": 4,
+   "derniere_sortie": "2026-11-03",
+   "positions": [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "6": {
+   "sorties": 10,
+   "top5": 4,
+   "taux_top5": 0.4,
+   "hasard": 0.3128,
+   "ecart_moyen": 1.67,
+   "ecart_actuel": 1,
+   "derniere_sortie": "2026-11-13",
+   "positions": [
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  "7": {
+   "sorties": 10,
+   "top5": 1,
+   "taux_top5": 0.1,
+   "hasard": 0.3128,
+   "ecart_moyen": null,
+   "ecart_actuel": 7,
+   "derniere_sortie": "2026-10-24",
+   "positions": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "8": {
+   "sorties": 10,
+   "top5": 5,
+   "taux_top5": 0.5,
+   "hasard": 0.3128,
+   "ecart_moyen": 2.0,
+   "ecart_actuel": 1,
+   "derniere_sortie": "2026-11-13",
+   "positions": [
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  "9": {
+   "sorties": 10,
+   "top5": 5,
+   "taux_top5": 0.5,
+   "hasard": 0.3128,
+   "ecart_moyen": 1.75,
+   "ecart_actuel": 0,
+   "derniere_sortie": "2026-11-15",
+   "positions": [
+    0,
+    2,
+    3,
+    0,
+    0
+   ]
+  },
+  "10": {
+   "sorties": 10,
+   "top5": 2,
+   "taux_top5": 0.2,
+   "hasard": 0.3128,
+   "ecart_moyen": 2.0,
+   "ecart_actuel": 6,
+   "derniere_sortie": "2026-10-27",
+   "positions": [
+    0,
+    0,
+    2,
+    0,
+    0
+   ]
+  },
+  "11": {
+   "sorties": 10,
+   "top5": 3,
+   "taux_top5": 0.3,
+   "hasard": 0.3128,
+   "ecart_moyen": 3.5,
+   "ecart_actuel": 1,
+   "derniere_sortie": "2026-11-13",
+   "positions": [
+    0,
+    0,
+    0,
+    2,
+    1
+   ]
+  },
+  "12": {
+   "sorties": 10,
+   "top5": 2,
+   "taux_top5": 0.2,
+   "hasard": 0.3128,
+   "ecart_moyen": 8.0,
+   "ecart_actuel": 1,
+   "derniere_sortie": "2026-11-13",
+   "positions": [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "13": {
+   "sorties": 10,
+   "top5": 2,
+   "taux_top5": 0.2,
+   "hasard": 0.3128,
+   "ecart_moyen": 2.0,
+   "ecart_actuel": 3,
+   "derniere_sortie": "2026-11-07",
+   "positions": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "14": {
+   "sorties": 10,
+   "top5": 1,
+   "taux_top5": 0.1,
+   "hasard": 0.3128,
+   "ecart_moyen": null,
+   "ecart_actuel": 5,
+   "derniere_sortie": "2026-10-31",
+   "positions": [
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "15": {
+   "sorties": 9,
+   "top5": 3,
+   "taux_top5": 0.3333,
+   "hasard": 0.3079,
+   "ecart_moyen": 1.5,
+   "ecart_actuel": 4,
+   "derniere_sortie": "2026-11-03",
+   "positions": [
+    1,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  "16": {
+   "sorties": 6,
+   "top5": 4,
+   "taux_top5": 0.6667,
+   "hasard": 0.2951,
+   "ecart_moyen": 1.67,
+   "ecart_actuel": 0,
+   "derniere_sortie": "2026-11-15",
+   "positions": [
+    0,
+    1,
+    0,
+    2,
+    1
+   ]
+  },
+  "17": {
+   "sorties": 3,
+   "top5": 1,
+   "taux_top5": 0.3333,
+   "hasard": 0.2778,
+   "ecart_moyen": null,
+   "ecart_actuel": 1,
+   "derniere_sortie": "2026-11-07",
+   "positions": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "18": {
+   "sorties": 3,
+   "top5": 1,
+   "taux_top5": 0.3333,
+   "hasard": 0.2778,
+   "ecart_moyen": null,
+   "ecart_actuel": 1,
+   "derniere_sortie": "2026-11-07",
+   "positions": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "par_hippodrome": {
+  "Auteuil": {
+   "1": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "5": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3571,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "Cabourg": {
+   "1": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-24",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "5": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-24",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-24",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-24",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "16": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-24",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "17": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "18": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "Compiègne": {
+   "1": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "5": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "12": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "Deauville": {
+   "1": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 2,
+    "top5": 2,
+    "taux_top5": 1.0,
+    "hasard": 0.3056,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     2
+    ]
+   },
+   "4": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "5": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-10-20",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-10-20",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 2,
+    "top5": 2,
+    "taux_top5": 1.0,
+    "hasard": 0.3056,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     0,
+     0,
+     2,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3056,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-10-20",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "16": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "17": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "18": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "Enghien": {
+   "1": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "5": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "16": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3125,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "Saint-Cloud": {
+   "1": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "5": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "7": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "Vincennes": {
+   "1": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3009,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3009,
+    "ecart_moyen": 2.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "5": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3009,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   "9": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": 2,
+    "derniere_sortie": "2026-10-17",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3009,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "16": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3009,
+    "ecart_moyen": 2.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     1
+    ]
+   },
+   "17": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "18": {
+    "sorties": 1,
+    "top5": 1,
+    "taux_top5": 1.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   }
+  }
+ },
+ "par_discipline": {
+  "haies": {
+   "1": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 2,
+    "top5": 2,
+    "taux_top5": 1.0,
+    "hasard": 0.3452,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "5": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 2,
+    "top5": 2,
+    "taux_top5": 1.0,
+    "hasard": 0.3452,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     0,
+     1,
+     1,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-10-27",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "12": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-13",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 2,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3452,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3333,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "plat": {
+   "1": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 3,
+    "top5": 3,
+    "taux_top5": 1.0,
+    "hasard": 0.3148,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     2
+    ]
+   },
+   "4": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3148,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "5": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3148,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "7": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": 2,
+    "derniere_sortie": "2026-10-20",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "9": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 3,
+    "top5": 1,
+    "taux_top5": 0.3333,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": 2,
+    "derniere_sortie": "2026-10-20",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3148,
+    "ecart_moyen": 2.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-10",
+    "positions": [
+     0,
+     0,
+     0,
+     2,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 3,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.3148,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 3,
+    "top5": 2,
+    "taux_top5": 0.6667,
+    "hasard": 0.3148,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-03",
+    "positions": [
+     1,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "16": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "17": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "18": {
+    "sorties": 1,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "trot_attele": {
+   "1": {
+    "sorties": 5,
+    "top5": 2,
+    "taux_top5": 0.4,
+    "hasard": 0.2986,
+    "ecart_moyen": 3.0,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "2": {
+    "sorties": 5,
+    "top5": 2,
+    "taux_top5": 0.4,
+    "hasard": 0.2986,
+    "ecart_moyen": 4.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     1,
+     0,
+     0,
+     1,
+     0
+    ]
+   },
+   "3": {
+    "sorties": 5,
+    "top5": 1,
+    "taux_top5": 0.2,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   "4": {
+    "sorties": 5,
+    "top5": 2,
+    "taux_top5": 0.4,
+    "hasard": 0.2986,
+    "ecart_moyen": 3.0,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     0,
+     0,
+     1,
+     1
+    ]
+   },
+   "5": {
+    "sorties": 5,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "6": {
+    "sorties": 5,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "7": {
+    "sorties": 5,
+    "top5": 1,
+    "taux_top5": 0.2,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": 3,
+    "derniere_sortie": "2026-10-24",
+    "positions": [
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "8": {
+    "sorties": 5,
+    "top5": 3,
+    "taux_top5": 0.6,
+    "hasard": 0.2986,
+    "ecart_moyen": 1.5,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     0,
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   "9": {
+    "sorties": 5,
+    "top5": 3,
+    "taux_top5": 0.6,
+    "hasard": 0.2986,
+    "ecart_moyen": 1.5,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     1,
+     2,
+     0,
+     0
+    ]
+   },
+   "10": {
+    "sorties": 5,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "11": {
+    "sorties": 5,
+    "top5": 0,
+    "taux_top5": 0.0,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": null,
+    "derniere_sortie": null,
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "12": {
+    "sorties": 5,
+    "top5": 1,
+    "taux_top5": 0.2,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": 4,
+    "derniere_sortie": "2026-10-17",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "13": {
+    "sorties": 5,
+    "top5": 2,
+    "taux_top5": 0.4,
+    "hasard": 0.2986,
+    "ecart_moyen": 1.0,
+    "ecart_actuel": 1,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     2,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "14": {
+    "sorties": 5,
+    "top5": 1,
+    "taux_top5": 0.2,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": 2,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "15": {
+    "sorties": 5,
+    "top5": 1,
+    "taux_top5": 0.2,
+    "hasard": 0.2986,
+    "ecart_moyen": null,
+    "ecart_actuel": 2,
+    "derniere_sortie": "2026-10-31",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "16": {
+    "sorties": 5,
+    "top5": 4,
+    "taux_top5": 0.8,
+    "hasard": 0.2986,
+    "ecart_moyen": 1.33,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-15",
+    "positions": [
+     0,
+     1,
+     0,
+     2,
+     1
+    ]
+   },
+   "17": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   "18": {
+    "sorties": 2,
+    "top5": 1,
+    "taux_top5": 0.5,
+    "hasard": 0.2778,
+    "ecart_moyen": null,
+    "ecart_actuel": 0,
+    "derniere_sortie": "2026-11-07",
+    "positions": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   }
+  }
+ }
+}

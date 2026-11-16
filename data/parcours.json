@@ -1,0 +1,8211 @@
+{
+ "meta": {
+  "genere_le": "2026-11-16T11:49:41",
+  "debut": "2026-10-17",
+  "fin": "2026-11-15",
+  "nb_courses": 10,
+  "exemple": true,
+  "source": "Données fictives d'exemple",
+  "avertissement": "Résultats passés, sans garantie pour l'avenir.",
+  "fenetre": 20,
+  "note": "Sorties en ordre chronologique ; statistiques calculées sur les 20 dernières."
+ },
+ "chevaux": {
+  "BARON DE LANDES": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.3,
+   "regularite_top3": 0.2714,
+   "progression": {
+    "valeur": -0.423,
+    "normalisee": 0.2885,
+    "k": 3,
+    "recentes": 0.3961,
+    "precedentes": 0.819
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Enghien": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 7,
+     "top3": 2,
+     "taux_top3": 0.2857
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 11,
+     "top3": 3,
+     "taux_top3": 0.2727
+    }
+   },
+   "ecart_moyen_jours": 22.3,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-06",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-04-12",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-05-21",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-22",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-10",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-10",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-19",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 2,
+     "cote": 57.9,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 17,
+     "cote": 21.4,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": 61.7,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 7,
+     "cote": 60.1,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "BARON DE PLAINE": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.9,
+   "regularite_top3": 0.7,
+   "progression": {
+    "valeur": -0.091,
+    "normalisee": 0.4545,
+    "k": 3,
+    "recentes": 0.909,
+    "precedentes": 1.0
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Longchamp": {
+     "sorties": 7,
+     "top3": 7,
+     "taux_top3": 1.0
+    },
+    "Saint-Cloud": {
+     "sorties": 3,
+     "top3": 2,
+     "taux_top3": 0.6667
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 12,
+     "top3": 11,
+     "taux_top3": 0.9167
+    }
+   },
+   "ecart_moyen_jours": 16.4545,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-13",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-05-19",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-06-01",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-11",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-19",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-25",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-09",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-12",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-26",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-10",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 4,
+     "cote": 1.6,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": 1.7,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "BARON DE VIGNY": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0615,
+   "progression": {
+    "valeur": -0.442,
+    "normalisee": 0.279,
+    "k": 3,
+    "recentes": 0.0,
+    "precedentes": 0.442
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 5,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 9,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 24.125,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-01",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-05-28",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-10",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-17",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-18",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 15,
+     "cote": 79.1,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 18,
+     "cote": 99.0,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "BRINDILLE DE LANDES": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.3,
+   "regularite_top3": 0.2714,
+   "progression": {
+    "valeur": -0.6111,
+    "normalisee": 0.1944,
+    "k": 3,
+    "recentes": 0.1667,
+    "precedentes": 0.7778
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 6,
+     "top3": 3,
+     "taux_top3": 0.5
+    },
+    "Longchamp": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 11,
+     "top3": 3,
+     "taux_top3": 0.2727
+    }
+   },
+   "ecart_moyen_jours": 20.6,
+   "derniere_sortie": "2026-11-03",
+   "sorties": [
+    {
+     "date": "2026-04-11",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-06",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-02",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": null,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-07-21",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-22",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-08",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-14",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-02",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-14",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 8,
+     "cote": 36.8,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "BRINDILLE DE MAUVE": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.2591,
+    "normalisee": 0.6296,
+    "k": 3,
+    "recentes": 0.6639,
+    "precedentes": 0.4048
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Longchamp": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 9,
+     "top3": 3,
+     "taux_top3": 0.3333
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 12,
+     "top3": 4,
+     "taux_top3": 0.3333
+    }
+   },
+   "ecart_moyen_jours": 18.2727,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-23",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-04-25",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-08",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-06",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-22",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-24",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-06",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": 17.9,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": 15.6,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "BRINDILLE DE PLAINE": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": -0.1569,
+    "normalisee": 0.4216,
+    "k": 3,
+    "recentes": 0.3542,
+    "precedentes": 0.5111
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 6,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 10,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 20.8889,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-05-11",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-06-11",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-27",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-06",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-25",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-09-28",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 12,
+     "cote": 32.4,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": 42.3,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 10,
+     "cote": 6.7,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 14,
+     "cote": 14.4,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "BRINDILLE DE TILLY": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.75,
+   "regularite_top3": 0.5667,
+   "progression": {
+    "valeur": 0.2074,
+    "normalisee": 0.6037,
+    "k": 3,
+    "recentes": 0.9524,
+    "precedentes": 0.745
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Compiègne": {
+     "sorties": 3,
+     "top3": 2,
+     "taux_top3": 0.6667
+    },
+    "Pau": {
+     "sorties": 3,
+     "top3": 2,
+     "taux_top3": 0.6667
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 8,
+     "top3": 6,
+     "taux_top3": 0.75
+    }
+   },
+   "ecart_moyen_jours": 30.4286,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-14",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": null,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-05",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-06",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-09-02",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-09-15",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 1,
+     "cote": 2.5,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 3,
+     "cote": 9.7,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "CAPRICE DE AUBRAC": {
+   "nb_sorties": 13,
+   "sorties_fenetre": 13,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.2026,
+    "normalisee": 0.6013,
+    "k": 3,
+    "recentes": 0.5359,
+    "precedentes": 0.3333
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 7,
+     "top3": 1,
+     "taux_top3": 0.1429
+    },
+    "Enghien": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    },
+    "Vincennes": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 13,
+     "top3": 2,
+     "taux_top3": 0.1538
+    }
+   },
+   "ecart_moyen_jours": 16.1667,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-27",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-01",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-05-05",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-05-21",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-12",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-07-07",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-02",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-20",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-18",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 16,
+     "cote": 18.8,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 8,
+     "cote": 32.5,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 6,
+     "cote": 23.0,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 12,
+     "cote": 33.7,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "CAPRICE DE LYS": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0615,
+   "progression": {
+    "valeur": -0.2303,
+    "normalisee": 0.3848,
+    "k": 3,
+    "recentes": 0.0,
+    "precedentes": 0.2303
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 6,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 26.25,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-17",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-04-20",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-23",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-06-24",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-22",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-23",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-22",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 14,
+     "cote": 99.0,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 15,
+     "cote": 99.0,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "CYCLONE DE AUBRAC": {
+   "nb_sorties": 14,
+   "sorties_fenetre": 14,
+   "taux_top3_brut": 0.5,
+   "regularite_top3": 0.4143,
+   "progression": {
+    "valeur": -0.1533,
+    "normalisee": 0.4234,
+    "k": 3,
+    "recentes": 0.6078,
+    "precedentes": 0.7611
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Enghien": {
+     "sorties": 7,
+     "top3": 3,
+     "taux_top3": 0.4286
+    },
+    "Vincennes": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 14,
+     "top3": 5,
+     "taux_top3": 0.3571
+    }
+   },
+   "ecart_moyen_jours": 16.9231,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-09",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-04-18",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-06-06",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-07-19",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-03",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-11",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-13",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-22",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-06",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-11",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 8,
+     "cote": 9.3,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 4,
+     "cote": 14.9,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 11,
+     "cote": 5.0,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 6,
+     "cote": 5.8,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "CYCLONE DE CLÉRY": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": 0.0617,
+    "normalisee": 0.5309,
+    "k": 3,
+    "recentes": 0.3053,
+    "precedentes": 0.2436
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 10,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 22.7778,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-19",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-07-02",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-01",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-13",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-14",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-12",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 10,
+     "cote": 71.3,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 10,
+     "cote": 40.7,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 17,
+     "cote": 38.7,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "FAUCON DE CASSIS": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.1,
+   "regularite_top3": 0.1286,
+   "progression": {
+    "valeur": -0.1572,
+    "normalisee": 0.4214,
+    "k": 3,
+    "recentes": 0.4202,
+    "precedentes": 0.5774
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 5,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 10,
+     "top3": 1,
+     "taux_top3": 0.1
+    }
+   },
+   "ecart_moyen_jours": 24.5556,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-03",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-04-12",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-04-23",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-06",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-14",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-03",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 12,
+     "cote": 52.3,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": 99.0,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 16,
+     "cote": 35.7,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "FAUCON DE CERISY": {
+   "nb_sorties": 13,
+   "sorties_fenetre": 13,
+   "taux_top3_brut": 0.4,
+   "regularite_top3": 0.3429,
+   "progression": {
+    "valeur": -0.3481,
+    "normalisee": 0.3259,
+    "k": 3,
+    "recentes": 0.3739,
+    "precedentes": 0.722
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Enghien": {
+     "sorties": 5,
+     "top3": 3,
+     "taux_top3": 0.6
+    },
+    "Vincennes": {
+     "sorties": 5,
+     "top3": 1,
+     "taux_top3": 0.2
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 13,
+     "top3": 5,
+     "taux_top3": 0.3846
+    }
+   },
+   "ecart_moyen_jours": 18.3333,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-01",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-03",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-01",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-01",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-07-20",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-10",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-10",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-09-05",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-20",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": 4.4,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 18,
+     "cote": 5.6,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 8,
+     "cote": 13.7,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 8,
+     "cote": 3.4,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "FAUCON DE CLÉRY": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.1111,
+   "regularite_top3": 0.1385,
+   "progression": {
+    "valeur": -0.1262,
+    "normalisee": 0.4369,
+    "k": 3,
+    "recentes": 0.3905,
+    "precedentes": 0.5167
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 5,
+     "top3": 1,
+     "taux_top3": 0.2
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 9,
+     "top3": 1,
+     "taux_top3": 0.1111
+    }
+   },
+   "ecart_moyen_jours": 25.125,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-28",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-05-20",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-20",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 4,
+     "cote": 30.5,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": null,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-23",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 14,
+     "cote": 42.4,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": 13.6,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "FAUCON DE LYS": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.5,
+   "regularite_top3": 0.4,
+   "progression": {
+    "valeur": -0.0472,
+    "normalisee": 0.4764,
+    "k": 3,
+    "recentes": 0.6751,
+    "precedentes": 0.7222
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 2,
+     "taux_top3": 0.6667
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 2,
+     "taux_top3": 0.6667
+    },
+    "Saint-Cloud": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 8,
+     "top3": 4,
+     "taux_top3": 0.5
+    }
+   },
+   "ecart_moyen_jours": 25.0,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-19",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-05-27",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-01",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-09-15",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-08",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": 6.5,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-23",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": 2.6,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "FLEUR DE CERISY": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.25,
+   "regularite_top3": 0.2333,
+   "progression": {
+    "valeur": -0.1619,
+    "normalisee": 0.4191,
+    "k": 3,
+    "recentes": 0.6597,
+    "precedentes": 0.8215
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 5,
+     "top3": 2,
+     "taux_top3": 0.4
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 8,
+     "top3": 2,
+     "taux_top3": 0.25
+    }
+   },
+   "ecart_moyen_jours": 25.4286,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-16",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-05-20",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-06-09",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-03",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-09-07",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-04",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": 17.8,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": 23.3,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "FLEUR DE SABLÉ": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.5,
+   "regularite_top3": 0.4143,
+   "progression": {
+    "valeur": 0.208,
+    "normalisee": 0.604,
+    "k": 3,
+    "recentes": 0.7691,
+    "precedentes": 0.5611
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 4,
+     "top3": 3,
+     "taux_top3": 0.75
+    },
+    "Compiègne": {
+     "sorties": 4,
+     "top3": 2,
+     "taux_top3": 0.5
+    },
+    "Pau": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 10,
+     "top3": 5,
+     "taux_top3": 0.5
+    }
+   },
+   "ecart_moyen_jours": 24.7778,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-04",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-04-19",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-04-25",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-06",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-12",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-20",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-15",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": null,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 3,
+     "cote": 24.7,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 6,
+     "cote": 24.2,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "GALOP DE BEAUMONT": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.5,
+   "regularite_top3": 0.4143,
+   "progression": {
+    "valeur": -0.402,
+    "normalisee": 0.299,
+    "k": 3,
+    "recentes": 0.2824,
+    "precedentes": 0.6843
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 7,
+     "top3": 6,
+     "taux_top3": 0.8571
+    },
+    "Enghien": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 11,
+     "top3": 6,
+     "taux_top3": 0.5455
+    }
+   },
+   "ecart_moyen_jours": 20.9,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-12",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-10",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-18",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-08-05",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-22",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-05",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-27",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 6,
+     "cote": 6.7,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 11,
+     "cote": 8.7,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 13,
+     "cote": 4.2,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 14,
+     "cote": 2.5,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "GAZELLE DE MAUVE": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0615,
+   "progression": {
+    "valeur": 0.1414,
+    "normalisee": 0.5707,
+    "k": 3,
+    "recentes": 0.4104,
+    "precedentes": 0.2689
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 7,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 9,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 26.625,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-11",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-14",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-01",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-05",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-17",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-21",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": 91.1,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 14,
+     "cote": 72.3,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 8,
+     "cote": 46.4,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "GAZELLE DE ROCHE": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": -0.0872,
+    "normalisee": 0.4564,
+    "k": 3,
+    "recentes": 0.0871,
+    "precedentes": 0.1742
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 5,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 10,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 22.4444,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-19",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 15,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-05-09",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-04",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 16,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-14",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-14",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-20",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-21",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-22",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 15,
+     "cote": 99.0,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 16,
+     "cote": 99.0,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "HARMONIE DE AUBRAC": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.1,
+   "regularite_top3": 0.1286,
+   "progression": {
+    "valeur": -0.1461,
+    "normalisee": 0.4269,
+    "k": 3,
+    "recentes": 0.2955,
+    "precedentes": 0.4417
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 4,
+     "top3": 2,
+     "taux_top3": 0.5
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 12,
+     "top3": 2,
+     "taux_top3": 0.1667
+    }
+   },
+   "ecart_moyen_jours": 19.0909,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-14",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-05-04",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-06-08",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-06-18",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": null,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-07-11",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-11",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-19",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-01",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-06",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 13,
+     "cote": 39.9,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 12,
+     "cote": 63.9,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": 88.0,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "HARMONIE DE NAVAL": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.4444,
+   "regularite_top3": 0.3692,
+   "progression": {
+    "valeur": 0.2959,
+    "normalisee": 0.648,
+    "k": 3,
+    "recentes": 0.6663,
+    "precedentes": 0.3704
+   },
+   "par_hippodrome": {
+    "Compiègne": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Pau": {
+     "sorties": 7,
+     "top3": 3,
+     "taux_top3": 0.4286
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 4,
+     "taux_top3": 0.4444
+    }
+   },
+   "ecart_moyen_jours": 27.625,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-06",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-07",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-05-21",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-20",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": null,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-23",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-06",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-11",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-22",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 5,
+     "cote": 38.8,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "HARMONIE DE TILLY": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": 0.2747,
+    "normalisee": 0.6374,
+    "k": 3,
+    "recentes": 0.4799,
+    "precedentes": 0.2051
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 11,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 22.1,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-06",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-04-28",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-05-01",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": null,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-16",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-21",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-23",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-23",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-21",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": null,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 12,
+     "cote": 52.5,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 4,
+     "cote": 46.8,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "IDOLE DE ROCHE": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": -0.247,
+    "normalisee": 0.3765,
+    "k": 3,
+    "recentes": 0.3515,
+    "precedentes": 0.5985
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 5,
+     "top3": 2,
+     "taux_top3": 0.4
+    },
+    "Saint-Cloud": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 11,
+     "top3": 3,
+     "taux_top3": 0.2727
+    }
+   },
+   "ecart_moyen_jours": 22.2,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-02",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-05-13",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 15,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-06-28",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-07-08",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-19",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-02",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-03",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-04",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 14,
+     "cote": 99.0,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": 55.4,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 11,
+     "cote": 65.4,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "JADE DE SABLÉ": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.3333,
+   "regularite_top3": 0.2923,
+   "progression": {
+    "valeur": 0.1509,
+    "normalisee": 0.5755,
+    "k": 3,
+    "recentes": 0.7779,
+    "precedentes": 0.627
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 6,
+     "top3": 1,
+     "taux_top3": 0.1667
+    },
+    "Compiègne": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Pau": {
+     "sorties": 1,
+     "top3": 1,
+     "taux_top3": 1.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 3,
+     "taux_top3": 0.3333
+    }
+   },
+   "ecart_moyen_jours": 26.375,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-16",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-14",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-02",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-05",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-26",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-22",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-25",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 7,
+     "cote": 29.5,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 2,
+     "cote": 10.5,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "JADE DE TILLY": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": 0.1492,
+    "normalisee": 0.5746,
+    "k": 3,
+    "recentes": 0.2073,
+    "precedentes": 0.0581
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 6,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 10,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 23.1111,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-19",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-23",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-06-03",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-02",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-12",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-19",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-26",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 10,
+     "cote": 99.0,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 12,
+     "cote": 99.0,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "LUMIÈRE DE BEAUMONT": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.7778,
+   "regularite_top3": 0.6,
+   "progression": {
+    "valeur": -0.3675,
+    "normalisee": 0.3162,
+    "k": 3,
+    "recentes": 0.6325,
+    "precedentes": 1.0
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 6,
+     "top3": 5,
+     "taux_top3": 0.8333
+    },
+    "Compiègne": {
+     "sorties": 1,
+     "top3": 1,
+     "taux_top3": 1.0
+    },
+    "Pau": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 7,
+     "taux_top3": 0.7778
+    }
+   },
+   "ecart_moyen_jours": 19.0,
+   "derniere_sortie": "2026-10-27",
+   "sorties": [
+    {
+     "date": "2026-05-28",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-11",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-07-01",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-07-12",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-25",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-25",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-09-23",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 11,
+     "cote": 1.6,
+     "nb_partants": 14
+    }
+   ]
+  },
+  "LUMIÈRE DE LANDES": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.625,
+   "regularite_top3": 0.4833,
+   "progression": {
+    "valeur": 0.0401,
+    "normalisee": 0.52,
+    "k": 3,
+    "recentes": 0.8697,
+    "precedentes": 0.8297
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 3,
+     "taux_top3": 1.0
+    },
+    "Saint-Cloud": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 8,
+     "top3": 5,
+     "taux_top3": 0.625
+    }
+   },
+   "ecart_moyen_jours": 16.8571,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-07-15",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-18",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-11",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": 3.3,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-21",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": 8.9,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 4,
+     "cote": 22.1,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "LUMIÈRE DE MONT": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.9,
+   "regularite_top3": 0.7,
+   "progression": {
+    "valeur": -0.0364,
+    "normalisee": 0.4818,
+    "k": 3,
+    "recentes": 0.9333,
+    "precedentes": 0.9697
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Vincennes": {
+     "sorties": 8,
+     "top3": 7,
+     "taux_top3": 0.875
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 12,
+     "top3": 11,
+     "taux_top3": 0.9167
+    }
+   },
+   "ecart_moyen_jours": 19.6364,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-13",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-05-01",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-19",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-03",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-19",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-09-14",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-03",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-04",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 1,
+     "cote": 2.5,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": 2.3,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": 8.3,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 4,
+     "cote": 1.8,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "LUMIÈRE DE VAUX": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.1111,
+   "regularite_top3": 0.1385,
+   "progression": {
+    "valeur": -0.4772,
+    "normalisee": 0.2614,
+    "k": 3,
+    "recentes": 0.1561,
+    "precedentes": 0.6333
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 1,
+     "taux_top3": 0.1111
+    }
+   },
+   "ecart_moyen_jours": 27.75,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-05",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-05-19",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-26",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-06-09",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-06-25",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-07-02",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-10",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-07",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 10,
+     "cote": 28.1,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "MISTRAL DE LANDES": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": -0.3159,
+    "normalisee": 0.342,
+    "k": 3,
+    "recentes": 0.1905,
+    "precedentes": 0.5064
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 7,
+     "top3": 3,
+     "taux_top3": 0.4286
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 12,
+     "top3": 3,
+     "taux_top3": 0.25
+    }
+   },
+   "ecart_moyen_jours": 16.0909,
+   "derniere_sortie": "2026-11-03",
+   "sorties": [
+    {
+     "date": "2026-05-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-05-14",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-16",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-17",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-05-17",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-17",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-26",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-27",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-15",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 9,
+     "cote": 37.6,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-22",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 13,
+     "cote": 61.7,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "NUAGE DE PLAINE": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": -0.0477,
+    "normalisee": 0.4762,
+    "k": 3,
+    "recentes": 0.1255,
+    "precedentes": 0.1732
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 10,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 24.6667,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-05",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 16,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-05-09",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 15,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-05-23",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-14",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-16",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 15,
+     "cote": 99.0,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 18,
+     "cote": 99.0,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": 25.6,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "OCÉANE DE CASSIS": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.25,
+   "regularite_top3": 0.2333,
+   "progression": {
+    "valeur": 0.5184,
+    "normalisee": 0.7592,
+    "k": 3,
+    "recentes": 0.8265,
+    "precedentes": 0.3081
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Vincennes": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 8,
+     "top3": 2,
+     "taux_top3": 0.25
+    }
+   },
+   "ecart_moyen_jours": 27.0,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-05-02",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-05-27",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-12",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-16",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": null,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 12,
+     "cote": 32.3,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-28",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 1,
+     "cote": 13.5,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 2,
+     "cote": 56.6,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "OCÉANE DE MONT": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.1,
+   "regularite_top3": 0.1286,
+   "progression": {
+    "valeur": -0.1749,
+    "normalisee": 0.4126,
+    "k": 3,
+    "recentes": 0.3935,
+    "precedentes": 0.5684
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    },
+    "Enghien": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 12,
+     "top3": 1,
+     "taux_top3": 0.0833
+    }
+   },
+   "ecart_moyen_jours": 20.3636,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-05",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-04-10",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-04-18",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-04",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 15,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": null,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-09",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-26",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 13,
+     "cote": 80.2,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 7,
+     "cote": 69.0,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 9,
+     "cote": 74.3,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 15,
+     "cote": 99.0,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "OCÉANE DE VIGNY": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.875,
+   "regularite_top3": 0.65,
+   "progression": {
+    "valeur": 0.0,
+    "normalisee": 0.5,
+    "k": 3,
+    "recentes": 1.0,
+    "precedentes": 1.0
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 1,
+     "top3": 1,
+     "taux_top3": 1.0
+    },
+    "Compiègne": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Pau": {
+     "sorties": 5,
+     "top3": 4,
+     "taux_top3": 0.8
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 8,
+     "top3": 7,
+     "taux_top3": 0.875
+    }
+   },
+   "ecart_moyen_jours": 29.5714,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-20",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-12",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-05-22",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-07",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-27",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-15",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-28",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": 1.6,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "OPALE DE CASSIS": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.4085,
+    "normalisee": 0.7042,
+    "k": 3,
+    "recentes": 0.6379,
+    "precedentes": 0.2294
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Enghien": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 7,
+     "top3": 2,
+     "taux_top3": 0.2857
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 12,
+     "top3": 3,
+     "taux_top3": 0.25
+    }
+   },
+   "ecart_moyen_jours": 19.3636,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-16",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-04-18",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-05-04",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-05-18",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-10",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-27",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-12",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-20",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-10",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": null,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 3,
+     "cote": 42.8,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 7,
+     "cote": 10.2,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 10,
+     "cote": 11.6,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "OPALE DE MONT": {
+   "nb_sorties": 7,
+   "sorties_fenetre": 7,
+   "taux_top3_brut": 0.2857,
+   "regularite_top3": 0.2545,
+   "progression": {
+    "valeur": -0.3774,
+    "normalisee": 0.3113,
+    "k": 3,
+    "recentes": 0.4078,
+    "precedentes": 0.7852
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Compiègne": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 7,
+     "top3": 2,
+     "taux_top3": 0.2857
+    }
+   },
+   "ecart_moyen_jours": 23.5,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-06-25",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-16",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-09-17",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-09-19",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-04",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 8,
+     "cote": 60.7,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 9,
+     "cote": 28.0,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "OPALE DE RIVA": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.4,
+   "regularite_top3": 0.3429,
+   "progression": {
+    "valeur": -0.1475,
+    "normalisee": 0.4263,
+    "k": 3,
+    "recentes": 0.5616,
+    "precedentes": 0.7091
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Longchamp": {
+     "sorties": 6,
+     "top3": 3,
+     "taux_top3": 0.5
+    },
+    "Saint-Cloud": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 12,
+     "top3": 5,
+     "taux_top3": 0.4167
+    }
+   },
+   "ecart_moyen_jours": 17.0,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-07",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-14",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-07-09",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-10",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-01",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-25",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-07",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-27",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-01",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": 6.9,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 11,
+     "cote": 14.6,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 10,
+     "cote": 17.2,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "ORAGE DE MONT": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": 0.1588,
+    "normalisee": 0.5794,
+    "k": 3,
+    "recentes": 0.2758,
+    "precedentes": 0.117
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 5,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 11,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 20.5,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-05-01",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-09",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-15",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-08-25",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": null,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-11",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 15,
+     "cote": 24.2,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 16,
+     "cote": 55.8,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 16,
+     "cote": 13.2,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": 17.7,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 8,
+     "cote": 22.9,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "ORAGE DE ORMES": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0667,
+   "progression": {
+    "valeur": 0.1953,
+    "normalisee": 0.5976,
+    "k": 3,
+    "recentes": 0.6231,
+    "precedentes": 0.4278
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 8,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 20.7143,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-06-21",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-23",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-15",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-28",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-09",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 4,
+     "cote": 48.3,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 8,
+     "cote": 7.6,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "ORAGE DE PLAINE": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.125,
+   "regularite_top3": 0.15,
+   "progression": {
+    "valeur": -0.4512,
+    "normalisee": 0.2744,
+    "k": 3,
+    "recentes": 0.1101,
+    "precedentes": 0.5614
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Longchamp": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 8,
+     "top3": 1,
+     "taux_top3": 0.125
+    }
+   },
+   "ecart_moyen_jours": 26.7143,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-07",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-05-12",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-25",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-13",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-09-27",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-04",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 15,
+     "cote": 99.0,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 15,
+     "cote": 99.0,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "QUARTZ DE CERISY": {
+   "nb_sorties": 13,
+   "sorties_fenetre": 13,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.1372,
+    "normalisee": 0.5686,
+    "k": 3,
+    "recentes": 0.4471,
+    "precedentes": 0.3098
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 7,
+     "top3": 2,
+     "taux_top3": 0.2857
+    },
+    "Vincennes": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 13,
+     "top3": 3,
+     "taux_top3": 0.2308
+    }
+   },
+   "ecart_moyen_jours": 18.25,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-02",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-14",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-11",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-27",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-07-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-03",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-06",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-26",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-10",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-11",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 10,
+     "cote": 16.1,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 10,
+     "cote": 34.2,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 10,
+     "cote": 22.5,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "QUARTZ DE ORMES": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": -0.0934,
+    "normalisee": 0.4533,
+    "k": 3,
+    "recentes": 0.0865,
+    "precedentes": 0.1799
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 6,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 10,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 24.7778,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-04",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": null,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-04-22",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-09",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-07-02",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 15,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-11",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-12",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-12",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-26",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 13,
+     "cote": 99.0,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 14,
+     "cote": 99.0,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "REINE DE BRUME": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.1848,
+    "normalisee": 0.5924,
+    "k": 3,
+    "recentes": 0.6737,
+    "precedentes": 0.4889
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 5,
+     "top3": 2,
+     "taux_top3": 0.4
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 10,
+     "top3": 2,
+     "taux_top3": 0.2
+    }
+   },
+   "ecart_moyen_jours": 10.6667,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-08-06",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-07",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-26",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-12",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-18",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-18",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-08",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 4,
+     "cote": 14.7,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-26",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 14,
+     "cote": 18.9,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "RUBIS DE CASSIS": {
+   "nb_sorties": 13,
+   "sorties_fenetre": 13,
+   "taux_top3_brut": 1.0,
+   "regularite_top3": 0.7714,
+   "progression": {
+    "valeur": 0.0,
+    "normalisee": 0.5,
+    "k": 3,
+    "recentes": 1.0,
+    "precedentes": 1.0
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 5,
+     "top3": 5,
+     "taux_top3": 1.0
+    },
+    "Longchamp": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Saint-Cloud": {
+     "sorties": 6,
+     "top3": 5,
+     "taux_top3": 0.8333
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 13,
+     "top3": 12,
+     "taux_top3": 0.9231
+    }
+   },
+   "ecart_moyen_jours": 15.6667,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-06",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-05-17",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": null,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-06-02",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-06-18",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-06-19",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-15",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-24",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-09-25",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-26",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": 1.6,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": 2.8,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": 5.5,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "RUBIS DE LYS": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.1,
+   "regularite_top3": 0.1286,
+   "progression": {
+    "valeur": 0.0474,
+    "normalisee": 0.5237,
+    "k": 3,
+    "recentes": 0.3796,
+    "precedentes": 0.3321
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 10,
+     "top3": 1,
+     "taux_top3": 0.1
+    }
+   },
+   "ecart_moyen_jours": 19.8889,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-05-15",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-27",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-02",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-08-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-14",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-28",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 8,
+     "cote": 36.9,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-25",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 12,
+     "cote": 48.0,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "RUBIS DE MONT": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.5556,
+   "regularite_top3": 0.4462,
+   "progression": {
+    "valeur": 0.1113,
+    "normalisee": 0.5556,
+    "k": 3,
+    "recentes": 0.8077,
+    "precedentes": 0.6964
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Compiègne": {
+     "sorties": 4,
+     "top3": 2,
+     "taux_top3": 0.5
+    },
+    "Pau": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 5,
+     "taux_top3": 0.5556
+    }
+   },
+   "ecart_moyen_jours": 24.5,
+   "derniere_sortie": "2026-10-27",
+   "sorties": [
+    {
+     "date": "2026-04-14",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-05-19",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-18",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-08",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-08-20",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-26",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-10",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 2,
+     "cote": 62.8,
+     "nb_partants": 14
+    }
+   ]
+  },
+  "RUBIS DE SABLÉ": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": 0.1688,
+    "normalisee": 0.5844,
+    "k": 3,
+    "recentes": 0.2641,
+    "precedentes": 0.0952
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 7,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 12,
+     "top3": 1,
+     "taux_top3": 0.0833
+    }
+   },
+   "ecart_moyen_jours": 19.1818,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-18",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-07",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-06-25",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-06",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-13",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-08",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-08-24",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-18",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-16",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 5,
+     "cote": 42.5,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 17,
+     "cote": 85.3,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 16,
+     "cote": 54.1,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "SOLEIL DE BEAUMONT": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0571,
+   "progression": {
+    "valeur": 0.1425,
+    "normalisee": 0.5712,
+    "k": 3,
+    "recentes": 0.1758,
+    "precedentes": 0.0333
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 5,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 5,
+     "top3": 1,
+     "taux_top3": 0.2
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 12,
+     "top3": 1,
+     "taux_top3": 0.0833
+    }
+   },
+   "ecart_moyen_jours": 19.7273,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-10",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-11",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-23",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-12",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-11",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-12",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-13",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-14",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-23",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-23",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 9,
+     "cote": 99.0,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 13,
+     "cote": 99.0,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "SOLEIL DE LANDES": {
+   "nb_sorties": 7,
+   "sorties_fenetre": 7,
+   "taux_top3_brut": 0.0,
+   "regularite_top3": 0.0727,
+   "progression": {
+    "valeur": -0.2692,
+    "normalisee": 0.3654,
+    "k": 3,
+    "recentes": 0.119,
+    "precedentes": 0.3883
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 7,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "ecart_moyen_jours": 37.1667,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-04",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-04-21",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-04-23",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-05-03",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-16",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 14,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-18",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 15,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 11,
+     "cote": 43.5,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "SOLEIL DE LYS": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.2222,
+   "regularite_top3": 0.2154,
+   "progression": {
+    "valeur": 0.0727,
+    "normalisee": 0.5364,
+    "k": 3,
+    "recentes": 0.5432,
+    "precedentes": 0.4705
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Compiègne": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Pau": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 2,
+     "taux_top3": 0.2222
+    }
+   },
+   "ecart_moyen_jours": 24.375,
+   "derniere_sortie": "2026-10-27",
+   "sorties": [
+    {
+     "date": "2026-04-15",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-05-21",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-06-12",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-05",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-02",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-11",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-21",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-28",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 6,
+     "cote": 15.6,
+     "nb_partants": 14
+    }
+   ]
+  },
+  "SOLEIL DE ROCHE": {
+   "nb_sorties": 7,
+   "sorties_fenetre": 7,
+   "taux_top3_brut": 0.2857,
+   "regularite_top3": 0.2545,
+   "progression": {
+    "valeur": 0.351,
+    "normalisee": 0.6755,
+    "k": 3,
+    "recentes": 0.7882,
+    "precedentes": 0.4372
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Vincennes": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 7,
+     "top3": 2,
+     "taux_top3": 0.2857
+    }
+   },
+   "ecart_moyen_jours": 34.0,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-17",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-07",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-06",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-26",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-09",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 7,
+     "cote": 12.4,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": 10.0,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "TANGO DE BEAUMONT": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": -0.1415,
+    "normalisee": 0.4292,
+    "k": 3,
+    "recentes": 0.315,
+    "precedentes": 0.4566
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 1,
+     "taux_top3": 0.5
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 6,
+     "top3": 1,
+     "taux_top3": 0.1667
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 10,
+     "top3": 2,
+     "taux_top3": 0.2
+    }
+   },
+   "ecart_moyen_jours": 24.7778,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-06",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-06-19",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-05",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-08",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": null,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-23",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 2,
+     "cote": 21.7,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 12,
+     "cote": 17.4,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 11,
+     "cote": 44.8,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 12,
+     "cote": 21.1,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "TANGO DE SABLÉ": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.8,
+   "regularite_top3": 0.6286,
+   "progression": {
+    "valeur": -0.3082,
+    "normalisee": 0.3459,
+    "k": 3,
+    "recentes": 0.6641,
+    "precedentes": 0.9722
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 2,
+     "taux_top3": 1.0
+    },
+    "Enghien": {
+     "sorties": 6,
+     "top3": 5,
+     "taux_top3": 0.8333
+    },
+    "Vincennes": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 11,
+     "top3": 8,
+     "taux_top3": 0.7273
+    }
+   },
+   "ecart_moyen_jours": 20.9,
+   "derniere_sortie": "2026-11-07",
+   "sorties": [
+    {
+     "date": "2026-04-12",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-04-13",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-04-28",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-04",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-10",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-11",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-08-28",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-10",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": 3.8,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 2,
+     "cote": 4.3,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 15,
+     "cote": 8.2,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "TEMPÊTE DE MAUVE": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.1,
+   "regularite_top3": 0.1286,
+   "progression": {
+    "valeur": 0.0353,
+    "normalisee": 0.5177,
+    "k": 3,
+    "recentes": 0.475,
+    "precedentes": 0.4397
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 5,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Longchamp": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 11,
+     "top3": 1,
+     "taux_top3": 0.0909
+    }
+   },
+   "ecart_moyen_jours": 22.0,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-04",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-04-08",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-23",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-08",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-03",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 10,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-10-04",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 11,
+     "cote": 40.8,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-22",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 13,
+     "cote": 64.3,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "TÉNOR DE LANDES": {
+   "nb_sorties": 10,
+   "sorties_fenetre": 10,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.3408,
+    "normalisee": 0.6704,
+    "k": 3,
+    "recentes": 0.6353,
+    "precedentes": 0.2944
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 3,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 1,
+     "top3": 1,
+     "taux_top3": 1.0
+    },
+    "Vincennes": {
+     "sorties": 6,
+     "top3": 1,
+     "taux_top3": 0.1667
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 10,
+     "top3": 2,
+     "taux_top3": 0.2
+    }
+   },
+   "ecart_moyen_jours": 24.6667,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-04-16",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-04-25",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-05-10",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-19",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": null,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 14,
+     "cote": 25.2,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 6,
+     "cote": 16.6,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 3,
+     "cote": 24.6,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 11,
+     "cote": 31.6,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "TÉNOR DE ROCHE": {
+   "nb_sorties": 9,
+   "sorties_fenetre": 9,
+   "taux_top3_brut": 0.5556,
+   "regularite_top3": 0.4462,
+   "progression": {
+    "valeur": -0.1676,
+    "normalisee": 0.4162,
+    "k": 3,
+    "recentes": 0.7212,
+    "precedentes": 0.8889
+   },
+   "par_hippodrome": {
+    "Auteuil": {
+     "sorties": 4,
+     "top3": 2,
+     "taux_top3": 0.5
+    },
+    "Compiègne": {
+     "sorties": 1,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Pau": {
+     "sorties": 4,
+     "top3": 3,
+     "taux_top3": 0.75
+    }
+   },
+   "par_discipline": {
+    "haies": {
+     "sorties": 9,
+     "top3": 5,
+     "taux_top3": 0.5556
+    }
+   },
+   "ecart_moyen_jours": 27.25,
+   "derniere_sortie": "2026-11-13",
+   "sorties": [
+    {
+     "date": "2026-04-09",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-13",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-27",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": null,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4400,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-28",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-08-02",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-07",
+     "hippodrome": "Pau",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 2,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-27",
+     "hippodrome": "Auteuil",
+     "discipline": "haies",
+     "distance": 3500,
+     "place": 5,
+     "cote": 6.0,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-11-13",
+     "hippodrome": "Compiègne",
+     "discipline": "haies",
+     "distance": 4100,
+     "place": 7,
+     "cote": 13.7,
+     "nb_partants": 15
+    }
+   ]
+  },
+  "VAGABOND DE LYS": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.1,
+   "regularite_top3": 0.1286,
+   "progression": {
+    "valeur": 0.3473,
+    "normalisee": 0.6737,
+    "k": 3,
+    "recentes": 0.8131,
+    "precedentes": 0.4657
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 7,
+     "top3": 2,
+     "taux_top3": 0.2857
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 11,
+     "top3": 2,
+     "taux_top3": 0.1818
+    }
+   },
+   "ecart_moyen_jours": 20.5,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-24",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-05-26",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 12,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-06-28",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-17",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 8,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-13",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-20",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-23",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 9,
+     "cote": 29.3,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-31",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 4,
+     "cote": 15.0,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 6,
+     "cote": 24.8,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 2,
+     "cote": 43.5,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "VAGABOND DE ROCHE": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.4,
+   "regularite_top3": 0.3429,
+   "progression": {
+    "valeur": -0.0755,
+    "normalisee": 0.4623,
+    "k": 3,
+    "recentes": 0.7157,
+    "precedentes": 0.7911
+   },
+   "par_hippodrome": {
+    "Deauville": {
+     "sorties": 4,
+     "top3": 2,
+     "taux_top3": 0.5
+    },
+    "Longchamp": {
+     "sorties": 3,
+     "top3": 2,
+     "taux_top3": 0.6667
+    },
+    "Saint-Cloud": {
+     "sorties": 4,
+     "top3": 1,
+     "taux_top3": 0.25
+    }
+   },
+   "par_discipline": {
+    "plat": {
+     "sorties": 11,
+     "top3": 5,
+     "taux_top3": 0.4545
+    }
+   },
+   "ecart_moyen_jours": 21.9,
+   "derniere_sortie": "2026-11-10",
+   "sorties": [
+    {
+     "date": "2026-04-05",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-04-08",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-05-26",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-27",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-08-25",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2400,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-09-07",
+     "hippodrome": "Longchamp",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-09-23",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 2000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-10-02",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-10-20",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 3,
+     "cote": 16.4,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-03",
+     "hippodrome": "Saint-Cloud",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 6,
+     "cote": 10.6,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-11-10",
+     "hippodrome": "Deauville",
+     "discipline": "plat",
+     "distance": 1600,
+     "place": 7,
+     "cote": 58.2,
+     "nb_partants": 18
+    }
+   ]
+  },
+  "VAGABOND DE SABLÉ": {
+   "nb_sorties": 11,
+   "sorties_fenetre": 11,
+   "taux_top3_brut": 0.4,
+   "regularite_top3": 0.3429,
+   "progression": {
+    "valeur": 0.0067,
+    "normalisee": 0.5034,
+    "k": 3,
+    "recentes": 0.6614,
+    "precedentes": 0.6547
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 4,
+     "top3": 2,
+     "taux_top3": 0.5
+    },
+    "Enghien": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 5,
+     "top3": 2,
+     "taux_top3": 0.4
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 11,
+     "top3": 4,
+     "taux_top3": 0.3636
+    }
+   },
+   "ecart_moyen_jours": 20.8,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-21",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-07-03",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-07-11",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-07-27",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-13",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-05",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 11,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 5,
+     "cote": 6.9,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 14,
+     "cote": 29.0,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": 22.4,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 3,
+     "cote": 10.9,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "ÉTOILE DE BRUME": {
+   "nb_sorties": 8,
+   "sorties_fenetre": 8,
+   "taux_top3_brut": 0.125,
+   "regularite_top3": 0.15,
+   "progression": {
+    "valeur": 0.0647,
+    "normalisee": 0.5324,
+    "k": 3,
+    "recentes": 0.4536,
+    "precedentes": 0.3889
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 2,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 6,
+     "top3": 1,
+     "taux_top3": 0.1667
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 8,
+     "top3": 1,
+     "taux_top3": 0.125
+    }
+   },
+   "ecart_moyen_jours": 13.8571,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-08-10",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2100,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-08-24",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 11
+    },
+    {
+     "date": "2026-09-01",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-09-06",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 9,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-10-09",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-10-17",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 11,
+     "cote": 14.4,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": 24.0,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": 36.6,
+     "nb_partants": 16
+    }
+   ]
+  },
+  "ÉTOILE DE CLÉRY": {
+   "nb_sorties": 12,
+   "sorties_fenetre": 12,
+   "taux_top3_brut": 0.2,
+   "regularite_top3": 0.2,
+   "progression": {
+    "valeur": 0.2635,
+    "normalisee": 0.6318,
+    "k": 3,
+    "recentes": 0.8627,
+    "precedentes": 0.5992
+   },
+   "par_hippodrome": {
+    "Cabourg": {
+     "sorties": 3,
+     "top3": 1,
+     "taux_top3": 0.3333
+    },
+    "Enghien": {
+     "sorties": 4,
+     "top3": 0,
+     "taux_top3": 0.0
+    },
+    "Vincennes": {
+     "sorties": 5,
+     "top3": 2,
+     "taux_top3": 0.4
+    }
+   },
+   "par_discipline": {
+    "trot_attele": {
+     "sorties": 12,
+     "top3": 3,
+     "taux_top3": 0.25
+    }
+   },
+   "ecart_moyen_jours": 20.4545,
+   "derniere_sortie": "2026-11-15",
+   "sorties": [
+    {
+     "date": "2026-04-04",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 9
+    },
+    {
+     "date": "2026-05-18",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": null,
+     "nb_partants": 14
+    },
+    {
+     "date": "2026-06-26",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 3000,
+     "place": 5,
+     "cote": null,
+     "nb_partants": 10
+    },
+    {
+     "date": "2026-07-08",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 13,
+     "cote": null,
+     "nb_partants": 15
+    },
+    {
+     "date": "2026-07-09",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 16,
+     "cote": null,
+     "nb_partants": 16
+    },
+    {
+     "date": "2026-08-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 4,
+     "cote": null,
+     "nb_partants": 12
+    },
+    {
+     "date": "2026-09-06",
+     "hippodrome": "Enghien",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 7,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-16",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 6,
+     "cote": null,
+     "nb_partants": 13
+    },
+    {
+     "date": "2026-09-23",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2700,
+     "place": 3,
+     "cote": null,
+     "nb_partants": 8
+    },
+    {
+     "date": "2026-10-24",
+     "hippodrome": "Cabourg",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 5,
+     "cote": 38.0,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-07",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 4,
+     "cote": 42.9,
+     "nb_partants": 18
+    },
+    {
+     "date": "2026-11-15",
+     "hippodrome": "Vincennes",
+     "discipline": "trot_attele",
+     "distance": 2850,
+     "place": 1,
+     "cote": 4.9,
+     "nb_partants": 16
+    }
+   ]
+  }
+ }
+}

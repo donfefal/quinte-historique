@@ -1,0 +1,2940 @@
+{
+ "meta": {
+  "genere_le": "2026-11-16T11:49:41",
+  "debut": "2026-10-17",
+  "fin": "2026-11-15",
+  "nb_courses": 10,
+  "exemple": true,
+  "source": "Données fictives d'exemple",
+  "avertissement": "Résultats passés, sans garantie pour l'avenir.",
+  "formules": {
+   "frequence": {
+    "global": 0.3,
+    "hippodrome": 0.4,
+    "discipline": 0.3
+   },
+   "parcours": {
+    "regularite": 0.5,
+    "progression": 0.3,
+    "hippodrome": 0.2
+   },
+   "composite": {
+    "frequence": 0.4,
+    "cooccurrence": 0.3,
+    "parcours": 0.3
+   }
+  }
+ },
+ "courses": [
+  {
+   "id": "2026-11-17_R1C4",
+   "date": "2026-11-17",
+   "hippodrome": "Enghien",
+   "discipline": "trot_attele",
+   "distance": 2700,
+   "nb_partants": 17,
+   "mode": "a_venir",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      1,
+      4,
+      6,
+      8,
+      16
+     ],
+     "score": 43.75,
+     "detail": {
+      "frequence": 0.3324,
+      "cooccurrence": 0.667,
+      "parcours": 0.3482
+     },
+     "justification": "Base solide : 5 numéros, score moyen 43.8/100. Au hasard, un lot de 5 numéros place en moyenne 1.5 numéros dans le top 5. Meilleur appui : n°16 CYCLONE DE AUBRAC — régularité top 3 41 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "OCÉANE DE CASSIS",
+       "composite": 39.34,
+       "cote": 31.8
+      },
+      {
+       "numero": 4,
+       "nom": "BARON DE LANDES",
+       "composite": 44.77,
+       "cote": 28.2
+      },
+      {
+       "numero": 6,
+       "nom": "FAUCON DE CERISY",
+       "composite": 39.53,
+       "cote": 2.7
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 44.26,
+       "cote": 24.7
+      },
+      {
+       "numero": 16,
+       "nom": "CYCLONE DE AUBRAC",
+       "composite": 50.85,
+       "cote": 21.5
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      1,
+      3,
+      4,
+      8,
+      16
+     ],
+     "score": 43.08,
+     "detail": {
+      "frequence": 0.3364,
+      "cooccurrence": 0.6683,
+      "parcours": 0.3191
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 43.1/100. Au hasard, un lot de 5 numéros place en moyenne 1.5 numéros dans le top 5. Meilleur appui : n°16 CYCLONE DE AUBRAC — régularité top 3 41 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "OCÉANE DE CASSIS",
+       "composite": 39.34,
+       "cote": 31.8
+      },
+      {
+       "numero": 3,
+       "nom": "OCÉANE DE MONT",
+       "composite": 36.16,
+       "cote": 25.6
+      },
+      {
+       "numero": 4,
+       "nom": "BARON DE LANDES",
+       "composite": 44.77,
+       "cote": 28.2
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 44.26,
+       "cote": 24.7
+      },
+      {
+       "numero": 16,
+       "nom": "CYCLONE DE AUBRAC",
+       "composite": 50.85,
+       "cote": 21.5
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      4,
+      6,
+      14,
+      15,
+      16
+     ],
+     "score": 42.01,
+     "detail": {
+      "frequence": 0.3239,
+      "cooccurrence": 0.6064,
+      "parcours": 0.362
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 42.0/100. Au hasard, un lot de 5 numéros place en moyenne 1.5 numéros dans le top 5. Meilleur appui : n°16 CYCLONE DE AUBRAC — régularité top 3 41 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 4,
+       "nom": "BARON DE LANDES",
+       "composite": 44.77,
+       "cote": 28.2
+      },
+      {
+       "numero": 6,
+       "nom": "FAUCON DE CERISY",
+       "composite": 39.53,
+       "cote": 2.7
+      },
+      {
+       "numero": 14,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 37.91,
+       "cote": 4.7
+      },
+      {
+       "numero": 15,
+       "nom": "ÉTOILE DE BRUME",
+       "composite": 36.97,
+       "cote": 6.4
+      },
+      {
+       "numero": 16,
+       "nom": "CYCLONE DE AUBRAC",
+       "composite": 50.85,
+       "cote": 21.5
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      1,
+      4,
+      6,
+      8,
+      14,
+      15,
+      16
+     ],
+     "score": 41.95,
+     "detail": {
+      "frequence": 0.3227,
+      "cooccurrence": 0.6051,
+      "parcours": 0.3628
+     },
+     "justification": "Élargie : 7 numéros, score moyen 42.0/100. Au hasard, un lot de 7 numéros place en moyenne 2.1 numéros dans le top 5. Meilleur appui : n°16 CYCLONE DE AUBRAC — régularité top 3 41 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "OCÉANE DE CASSIS",
+       "composite": 39.34,
+       "cote": 31.8
+      },
+      {
+       "numero": 4,
+       "nom": "BARON DE LANDES",
+       "composite": 44.77,
+       "cote": 28.2
+      },
+      {
+       "numero": 6,
+       "nom": "FAUCON DE CERISY",
+       "composite": 39.53,
+       "cote": 2.7
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 44.26,
+       "cote": 24.7
+      },
+      {
+       "numero": 14,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 37.91,
+       "cote": 4.7
+      },
+      {
+       "numero": 15,
+       "nom": "ÉTOILE DE BRUME",
+       "composite": 36.97,
+       "cote": 6.4
+      },
+      {
+       "numero": 16,
+       "nom": "CYCLONE DE AUBRAC",
+       "composite": 50.85,
+       "cote": 21.5
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 16,
+     "nom": "CYCLONE DE AUBRAC",
+     "cote": 21.5,
+     "frequence": 0.4123,
+     "cooccurrence": 0.742,
+     "parcours": 0.4032,
+     "composite": 50.849,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 4,
+     "nom": "BARON DE LANDES",
+     "cote": 28.2,
+     "frequence": 0.3399,
+     "cooccurrence": 0.7849,
+     "parcours": 0.2543,
+     "composite": 44.7704,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 8,
+     "nom": "CAPRICE DE AUBRAC",
+     "cote": 24.7,
+     "frequence": 0.3449,
+     "cooccurrence": 0.6901,
+     "parcours": 0.3254,
+     "composite": 44.2598,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 9,
+     "nom": "NUAGE DE PLAINE",
+     "cote": 92.4,
+     "frequence": 0.3813,
+     "cooccurrence": 0.7052,
+     "parcours": 0.1914,
+     "composite": 42.1488,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 6,
+     "nom": "FAUCON DE CERISY",
+     "cote": 2.7,
+     "frequence": 0.2699,
+     "cooccurrence": 0.6043,
+     "parcours": 0.3537,
+     "composite": 39.5332,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "OCÉANE DE CASSIS",
+     "cote": 31.8,
+     "frequence": 0.2949,
+     "cooccurrence": 0.5136,
+     "parcours": 0.4044,
+     "composite": 39.338,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 14,
+     "nom": "TANGO DE SABLÉ",
+     "cote": 4.7,
+     "frequence": 0.2813,
+     "cooccurrence": 0.3546,
+     "parcours": 0.5341,
+     "composite": 37.9093,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 15,
+     "nom": "ÉTOILE DE BRUME",
+     "cote": 6.4,
+     "frequence": 0.3159,
+     "cooccurrence": 0.5464,
+     "parcours": 0.2647,
+     "composite": 36.9725,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "OCÉANE DE MONT",
+     "cote": 25.6,
+     "frequence": 0.2899,
+     "cooccurrence": 0.6107,
+     "parcours": 0.2081,
+     "composite": 36.158,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "VAGABOND DE SABLÉ",
+     "cote": 12.7,
+     "frequence": 0.3163,
+     "cooccurrence": 0.4298,
+     "parcours": 0.3491,
+     "composite": 36.0164,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 2,
+     "nom": "TÉNOR DE LANDES",
+     "cote": 46.7,
+     "frequence": 0.2799,
+     "cooccurrence": 0.4438,
+     "parcours": 0.3731,
+     "composite": 35.7026,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 11,
+     "nom": "TANGO DE BEAUMONT",
+     "cote": 8.2,
+     "frequence": 0.2549,
+     "cooccurrence": 0.5193,
+     "parcours": 0.2554,
+     "composite": 33.4366,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 17,
+     "nom": "BRINDILLE DE PLAINE",
+     "cote": 9.4,
+     "frequence": 0.3071,
+     "cooccurrence": 0.4827,
+     "parcours": 0.187,
+     "composite": 32.3771,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 10,
+     "nom": "QUARTZ DE CERISY",
+     "cote": 18.9,
+     "frequence": 0.2399,
+     "cooccurrence": 0.4343,
+     "parcours": 0.3215,
+     "composite": 32.2683,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "OPALE DE CASSIS",
+     "cote": 16.6,
+     "frequence": 0.2449,
+     "cooccurrence": 0.3535,
+     "parcours": 0.3341,
+     "composite": 30.4232,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 12,
+     "nom": "GAZELLE DE ROCHE",
+     "cote": 99.0,
+     "frequence": 0.2599,
+     "cooccurrence": 0.4385,
+     "parcours": 0.1833,
+     "composite": 29.0476,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 5,
+     "nom": "FAUCON DE CLÉRY",
+     "cote": 28.1,
+     "frequence": 0.2249,
+     "cooccurrence": 0.3493,
+     "parcours": 0.227,
+     "composite": 26.2826,
+     "suffisant": true,
+     "exclu": null
+    }
+   ]
+  },
+  {
+   "id": "2026-10-31_R1C7",
+   "date": "2026-10-31",
+   "hippodrome": "Enghien",
+   "discipline": "trot_attele",
+   "distance": 3000,
+   "nb_partants": 16,
+   "mode": "retro",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      1,
+      3,
+      7,
+      8,
+      9
+     ],
+     "score": 43.72,
+     "detail": {
+      "frequence": 0.3337,
+      "cooccurrence": 0.5743,
+      "parcours": 0.438
+     },
+     "justification": "Base solide : 5 numéros, score moyen 43.7/100. Au hasard, un lot de 5 numéros place en moyenne 1.6 numéros dans le top 5. Meilleur appui : n°9 TANGO DE SABLÉ — régularité top 3 60 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "FAUCON DE CERISY",
+       "composite": 42.99,
+       "cote": 13.7
+      },
+      {
+       "numero": 3,
+       "nom": "GALOP DE BEAUMONT",
+       "composite": 38.23,
+       "cote": 4.2
+      },
+      {
+       "numero": 7,
+       "nom": "SOLEIL DE ROCHE",
+       "composite": 40.96,
+       "cote": 12.4
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 47.66,
+       "cote": 23.0
+      },
+      {
+       "numero": 9,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 48.74,
+       "cote": 4.3
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      1,
+      3,
+      5,
+      8,
+      9
+     ],
+     "score": 42.39,
+     "detail": {
+      "frequence": 0.3244,
+      "cooccurrence": 0.5505,
+      "parcours": 0.4301
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 42.4/100. Au hasard, un lot de 5 numéros place en moyenne 1.6 numéros dans le top 5. Meilleur appui : n°9 TANGO DE SABLÉ — régularité top 3 60 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "FAUCON DE CERISY",
+       "composite": 42.99,
+       "cote": 13.7
+      },
+      {
+       "numero": 3,
+       "nom": "GALOP DE BEAUMONT",
+       "composite": 38.23,
+       "cote": 4.2
+      },
+      {
+       "numero": 5,
+       "nom": "CYCLONE DE AUBRAC",
+       "composite": 34.35,
+       "cote": 5.0
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 47.66,
+       "cote": 23.0
+      },
+      {
+       "numero": 9,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 48.74,
+       "cote": 4.3
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+     ],
+     "score": 41.65,
+     "detail": {
+      "frequence": 0.3318,
+      "cooccurrence": 0.5643,
+      "parcours": 0.3816
+     },
+     "justification": "Élargie : 7 numéros, score moyen 41.6/100. Au hasard, un lot de 7 numéros place en moyenne 2.2 numéros dans le top 5. Meilleur appui : n°9 TANGO DE SABLÉ — régularité top 3 60 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "FAUCON DE CERISY",
+       "composite": 42.99,
+       "cote": 13.7
+      },
+      {
+       "numero": 2,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 36.54,
+       "cote": 17.4
+      },
+      {
+       "numero": 3,
+       "nom": "GALOP DE BEAUMONT",
+       "composite": 38.23,
+       "cote": 4.2
+      },
+      {
+       "numero": 4,
+       "nom": "ORAGE DE MONT",
+       "composite": 36.41,
+       "cote": 13.2
+      },
+      {
+       "numero": 7,
+       "nom": "SOLEIL DE ROCHE",
+       "composite": 40.96,
+       "cote": 12.4
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 47.66,
+       "cote": 23.0
+      },
+      {
+       "numero": 9,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 48.74,
+       "cote": 4.3
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      2,
+      6,
+      8,
+      14,
+      15
+     ],
+     "score": 36.28,
+     "detail": {
+      "frequence": 0.3122,
+      "cooccurrence": 0.5099,
+      "parcours": 0.2833
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 36.3/100. Au hasard, un lot de 5 numéros place en moyenne 1.6 numéros dans le top 5. Meilleur appui : n°8 CAPRICE DE AUBRAC — co-occurrence ×1.44 vs hasard avec les autres partants.",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 2,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 36.54,
+       "cote": 17.4
+      },
+      {
+       "numero": 6,
+       "nom": "FAUCON DE CLÉRY",
+       "composite": 33.26,
+       "cote": 42.4
+      },
+      {
+       "numero": 8,
+       "nom": "CAPRICE DE AUBRAC",
+       "composite": 47.66,
+       "cote": 23.0
+      },
+      {
+       "numero": 14,
+       "nom": "TÉNOR DE LANDES",
+       "composite": 30.21,
+       "cote": 24.6
+      },
+      {
+       "numero": 15,
+       "nom": "RUBIS DE SABLÉ",
+       "composite": 33.75,
+       "cote": 42.5
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 9,
+     "nom": "TANGO DE SABLÉ",
+     "cote": 4.3,
+     "frequence": 0.3379,
+     "cooccurrence": 0.5963,
+     "parcours": 0.5779,
+     "composite": 48.7422,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 8,
+     "nom": "CAPRICE DE AUBRAC",
+     "cote": 23.0,
+     "frequence": 0.3844,
+     "cooccurrence": 0.7175,
+     "parcours": 0.3587,
+     "composite": 47.6616,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "FAUCON DE CERISY",
+     "cote": 13.7,
+     "frequence": 0.3379,
+     "cooccurrence": 0.5963,
+     "parcours": 0.386,
+     "composite": 42.9865,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "SOLEIL DE ROCHE",
+     "cote": 12.4,
+     "frequence": 0.3165,
+     "cooccurrence": 0.482,
+     "parcours": 0.4613,
+     "composite": 40.9601,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "GALOP DE BEAUMONT",
+     "cote": 4.2,
+     "frequence": 0.2915,
+     "cooccurrence": 0.4794,
+     "parcours": 0.4061,
+     "composite": 38.2278,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 2,
+     "nom": "TANGO DE BEAUMONT",
+     "cote": 17.4,
+     "frequence": 0.3165,
+     "cooccurrence": 0.482,
+     "parcours": 0.314,
+     "composite": 36.5407,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 10,
+     "nom": "GAZELLE DE ROCHE",
+     "cote": 99.0,
+     "frequence": 0.3129,
+     "cooccurrence": 0.5937,
+     "parcours": 0.2047,
+     "composite": 36.4715,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 4,
+     "nom": "ORAGE DE MONT",
+     "cote": 13.2,
+     "frequence": 0.3379,
+     "cooccurrence": 0.5963,
+     "parcours": 0.1669,
+     "composite": 36.4144,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 12,
+     "nom": "OCÉANE DE MONT",
+     "cote": 74.3,
+     "frequence": 0.3165,
+     "cooccurrence": 0.482,
+     "parcours": 0.282,
+     "composite": 35.5811,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 5,
+     "nom": "CYCLONE DE AUBRAC",
+     "cote": 5.0,
+     "frequence": 0.2701,
+     "cooccurrence": 0.3629,
+     "parcours": 0.4218,
+     "composite": 34.3464,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 16,
+     "nom": "VAGABOND DE LYS",
+     "cote": 15.0,
+     "frequence": 0.15,
+     "cooccurrence": 0.6833,
+     "parcours": 0.2591,
+     "composite": 34.2737,
+     "suffisant": false,
+     "exclu": "historique insuffisant"
+    },
+    {
+     "numero": 15,
+     "nom": "RUBIS DE SABLÉ",
+     "cote": 42.5,
+     "frequence": 0.2983,
+     "cooccurrence": 0.5098,
+     "parcours": 0.2174,
+     "composite": 33.7488,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 6,
+     "nom": "FAUCON DE CLÉRY",
+     "cote": 42.4,
+     "frequence": 0.2915,
+     "cooccurrence": 0.4772,
+     "parcours": 0.2426,
+     "composite": 33.2561,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 11,
+     "nom": "BRINDILLE DE PLAINE",
+     "cote": 6.7,
+     "frequence": 0.2915,
+     "cooccurrence": 0.4794,
+     "parcours": 0.2377,
+     "composite": 33.1751,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 14,
+     "nom": "TÉNOR DE LANDES",
+     "cote": 24.6,
+     "frequence": 0.2701,
+     "cooccurrence": 0.3629,
+     "parcours": 0.284,
+     "composite": 30.2105,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "OCÉANE DE CASSIS",
+     "cote": 13.5,
+     "frequence": 0.2701,
+     "cooccurrence": 0.3629,
+     "parcours": 0.1803,
+     "composite": 27.101,
+     "suffisant": true,
+     "exclu": null
+    }
+   ]
+  },
+  {
+   "id": "2026-11-03_R1C8",
+   "date": "2026-11-03",
+   "hippodrome": "Saint-Cloud",
+   "discipline": "plat",
+   "distance": 1600,
+   "nb_partants": 15,
+   "mode": "retro",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      1,
+      4,
+      5,
+      8,
+      9
+     ],
+     "score": 43.39,
+     "detail": {
+      "frequence": 0.3364,
+      "cooccurrence": 0.5057,
+      "parcours": 0.4922
+     },
+     "justification": "Base solide : 5 numéros, score moyen 43.4/100. Au hasard, un lot de 5 numéros place en moyenne 1.7 numéros dans le top 5. Meilleur appui : n°4 RUBIS DE CASSIS — régularité top 3 70 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "OPALE DE RIVA",
+       "composite": 40.45,
+       "cote": 14.6
+      },
+      {
+       "numero": 4,
+       "nom": "RUBIS DE CASSIS",
+       "composite": 46.74,
+       "cote": 2.8
+      },
+      {
+       "numero": 5,
+       "nom": "BARON DE PLAINE",
+       "composite": 40.67,
+       "cote": 1.6
+      },
+      {
+       "numero": 8,
+       "nom": "BRINDILLE DE MAUVE",
+       "composite": 45.8,
+       "cote": 17.9
+      },
+      {
+       "numero": 9,
+       "nom": "IDOLE DE ROCHE",
+       "composite": 43.3,
+       "cote": 55.4
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      3,
+      4,
+      5,
+      8,
+      9
+     ],
+     "score": 43.15,
+     "detail": {
+      "frequence": 0.3378,
+      "cooccurrence": 0.4911,
+      "parcours": 0.4967
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 43.1/100. Au hasard, un lot de 5 numéros place en moyenne 1.7 numéros dans le top 5. Meilleur appui : n°4 RUBIS DE CASSIS — régularité top 3 70 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 3,
+       "nom": "LUMIÈRE DE LANDES",
+       "composite": 39.23,
+       "cote": 8.9
+      },
+      {
+       "numero": 4,
+       "nom": "RUBIS DE CASSIS",
+       "composite": 46.74,
+       "cote": 2.8
+      },
+      {
+       "numero": 5,
+       "nom": "BARON DE PLAINE",
+       "composite": 40.67,
+       "cote": 1.6
+      },
+      {
+       "numero": 8,
+       "nom": "BRINDILLE DE MAUVE",
+       "composite": 45.8,
+       "cote": 17.9
+      },
+      {
+       "numero": 9,
+       "nom": "IDOLE DE ROCHE",
+       "composite": 43.3,
+       "cote": 55.4
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      1,
+      3,
+      4,
+      5,
+      8,
+      9,
+      14
+     ],
+     "score": 42.04,
+     "detail": {
+      "frequence": 0.333,
+      "cooccurrence": 0.4825,
+      "parcours": 0.475
+     },
+     "justification": "Élargie : 7 numéros, score moyen 42.0/100. Au hasard, un lot de 7 numéros place en moyenne 2.3 numéros dans le top 5. Meilleur appui : n°4 RUBIS DE CASSIS — régularité top 3 70 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "OPALE DE RIVA",
+       "composite": 40.45,
+       "cote": 14.6
+      },
+      {
+       "numero": 3,
+       "nom": "LUMIÈRE DE LANDES",
+       "composite": 39.23,
+       "cote": 8.9
+      },
+      {
+       "numero": 4,
+       "nom": "RUBIS DE CASSIS",
+       "composite": 46.74,
+       "cote": 2.8
+      },
+      {
+       "numero": 5,
+       "nom": "BARON DE PLAINE",
+       "composite": 40.67,
+       "cote": 1.6
+      },
+      {
+       "numero": 8,
+       "nom": "BRINDILLE DE MAUVE",
+       "composite": 45.8,
+       "cote": 17.9
+      },
+      {
+       "numero": 9,
+       "nom": "IDOLE DE ROCHE",
+       "composite": 43.3,
+       "cote": 55.4
+      },
+      {
+       "numero": 14,
+       "nom": "VAGABOND DE ROCHE",
+       "composite": 38.12,
+       "cote": 10.6
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      6,
+      7,
+      8,
+      9,
+      12
+     ],
+     "score": 38.7,
+     "detail": {
+      "frequence": 0.3324,
+      "cooccurrence": 0.4857,
+      "parcours": 0.361
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 38.7/100. Au hasard, un lot de 5 numéros place en moyenne 1.7 numéros dans le top 5. Meilleur appui : n°8 BRINDILLE DE MAUVE — régularité top 3 34 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 6,
+       "nom": "FLEUR DE CERISY",
+       "composite": 38.01,
+       "cote": 17.8
+      },
+      {
+       "numero": 7,
+       "nom": "MISTRAL DE LANDES",
+       "composite": 33.17,
+       "cote": 61.7
+      },
+      {
+       "numero": 8,
+       "nom": "BRINDILLE DE MAUVE",
+       "composite": 45.8,
+       "cote": 17.9
+      },
+      {
+       "numero": 9,
+       "nom": "IDOLE DE ROCHE",
+       "composite": 43.3,
+       "cote": 55.4
+      },
+      {
+       "numero": 12,
+       "nom": "HARMONIE DE AUBRAC",
+       "composite": 33.21,
+       "cote": 63.9
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 4,
+     "nom": "RUBIS DE CASSIS",
+     "cote": 2.8,
+     "frequence": 0.3309,
+     "cooccurrence": 0.51,
+     "parcours": 0.6067,
+     "composite": 46.7374,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 8,
+     "nom": "BRINDILLE DE MAUVE",
+     "cote": 17.9,
+     "frequence": 0.3782,
+     "cooccurrence": 0.5868,
+     "parcours": 0.4357,
+     "composite": 45.8015,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 9,
+     "nom": "IDOLE DE ROCHE",
+     "cote": 55.4,
+     "frequence": 0.3509,
+     "cooccurrence": 0.5868,
+     "parcours": 0.3887,
+     "composite": 43.3011,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 5,
+     "nom": "BARON DE PLAINE",
+     "cote": 1.6,
+     "frequence": 0.2909,
+     "cooccurrence": 0.335,
+     "parcours": 0.6326,
+     "composite": 40.666,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "OPALE DE RIVA",
+     "cote": 14.6,
+     "frequence": 0.3309,
+     "cooccurrence": 0.51,
+     "parcours": 0.3972,
+     "composite": 40.4536,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "LUMIÈRE DE LANDES",
+     "cote": 8.9,
+     "frequence": 0.3382,
+     "cooccurrence": 0.4368,
+     "parcours": 0.42,
+     "composite": 39.2325,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 14,
+     "nom": "VAGABOND DE ROCHE",
+     "cote": 10.6,
+     "frequence": 0.3109,
+     "cooccurrence": 0.4118,
+     "parcours": 0.4443,
+     "composite": 38.1192,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 6,
+     "nom": "FLEUR DE CERISY",
+     "cote": 17.8,
+     "frequence": 0.3109,
+     "cooccurrence": 0.435,
+     "parcours": 0.4173,
+     "composite": 38.0071,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 15,
+     "nom": "FAUCON DE CASSIS",
+     "cote": 99.0,
+     "frequence": 0.3658,
+     "cooccurrence": 0.5446,
+     "parcours": 0.2287,
+     "composite": 37.8331,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 10,
+     "nom": "GAZELLE DE MAUVE",
+     "cote": 72.3,
+     "frequence": 0.3582,
+     "cooccurrence": 0.5368,
+     "parcours": 0.221,
+     "composite": 37.0604,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 11,
+     "nom": "ORAGE DE PLAINE",
+     "cote": 99.0,
+     "frequence": 0.3382,
+     "cooccurrence": 0.4368,
+     "parcours": 0.3279,
+     "composite": 36.4687,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 12,
+     "nom": "HARMONIE DE AUBRAC",
+     "cote": 63.9,
+     "frequence": 0.3109,
+     "cooccurrence": 0.41,
+     "parcours": 0.2823,
+     "composite": 33.2062,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "MISTRAL DE LANDES",
+     "cote": 61.7,
+     "frequence": 0.3109,
+     "cooccurrence": 0.41,
+     "parcours": 0.2811,
+     "composite": 33.1691,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 2,
+     "nom": "BRINDILLE DE LANDES",
+     "cote": 36.8,
+     "frequence": 0.3109,
+     "cooccurrence": 0.41,
+     "parcours": 0.2312,
+     "composite": 31.6731,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "CYCLONE DE CLÉRY",
+     "cote": 40.7,
+     "frequence": 0.3109,
+     "cooccurrence": 0.4118,
+     "parcours": 0.2116,
+     "composite": 31.1394,
+     "suffisant": true,
+     "exclu": null
+    }
+   ]
+  },
+  {
+   "id": "2026-11-07_R1C9",
+   "date": "2026-11-07",
+   "hippodrome": "Vincennes",
+   "discipline": "trot_attele",
+   "distance": 2850,
+   "nb_partants": 18,
+   "mode": "retro",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      8,
+      9,
+      13,
+      15,
+      16
+     ],
+     "score": 46.45,
+     "detail": {
+      "frequence": 0.3285,
+      "cooccurrence": 0.6706,
+      "parcours": 0.4399
+     },
+     "justification": "Base solide : 5 numéros, score moyen 46.5/100. Au hasard, un lot de 5 numéros place en moyenne 1.4 numéros dans le top 5. Meilleur appui : n°16 TANGO DE SABLÉ — régularité top 3 63 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 8,
+       "nom": "VAGABOND DE SABLÉ",
+       "composite": 42.34,
+       "cote": 22.4
+      },
+      {
+       "numero": 9,
+       "nom": "BARON DE LANDES",
+       "composite": 44.26,
+       "cote": 61.7
+      },
+      {
+       "numero": 13,
+       "nom": "LUMIÈRE DE MONT",
+       "composite": 44.65,
+       "cote": 8.3
+      },
+      {
+       "numero": 15,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 44.1,
+       "cote": 44.8
+      },
+      {
+       "numero": 16,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 56.92,
+       "cote": 8.2
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      6,
+      9,
+      13,
+      15,
+      16
+     ],
+     "score": 45.46,
+     "detail": {
+      "frequence": 0.3082,
+      "cooccurrence": 0.6455,
+      "parcours": 0.4587
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 45.5/100. Au hasard, un lot de 5 numéros place en moyenne 1.4 numéros dans le top 5. Meilleur appui : n°16 TANGO DE SABLÉ — régularité top 3 63 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 6,
+       "nom": "FAUCON DE CERISY",
+       "composite": 37.35,
+       "cote": 3.4
+      },
+      {
+       "numero": 9,
+       "nom": "BARON DE LANDES",
+       "composite": 44.26,
+       "cote": 61.7
+      },
+      {
+       "numero": 13,
+       "nom": "LUMIÈRE DE MONT",
+       "composite": 44.65,
+       "cote": 8.3
+      },
+      {
+       "numero": 15,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 44.1,
+       "cote": 44.8
+      },
+      {
+       "numero": 16,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 56.92,
+       "cote": 8.2
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      1,
+      6,
+      8,
+      9,
+      13,
+      15,
+      16
+     ],
+     "score": 44.21,
+     "detail": {
+      "frequence": 0.3159,
+      "cooccurrence": 0.6401,
+      "parcours": 0.4123
+     },
+     "justification": "Élargie : 7 numéros, score moyen 44.2/100. Au hasard, un lot de 7 numéros place en moyenne 1.9 numéros dans le top 5. Meilleur appui : n°16 TANGO DE SABLÉ — régularité top 3 63 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "ÉTOILE DE CLÉRY",
+       "composite": 39.85,
+       "cote": 42.9
+      },
+      {
+       "numero": 6,
+       "nom": "FAUCON DE CERISY",
+       "composite": 37.35,
+       "cote": 3.4
+      },
+      {
+       "numero": 8,
+       "nom": "VAGABOND DE SABLÉ",
+       "composite": 42.34,
+       "cote": 22.4
+      },
+      {
+       "numero": 9,
+       "nom": "BARON DE LANDES",
+       "composite": 44.26,
+       "cote": 61.7
+      },
+      {
+       "numero": 13,
+       "nom": "LUMIÈRE DE MONT",
+       "composite": 44.65,
+       "cote": 8.3
+      },
+      {
+       "numero": 15,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 44.1,
+       "cote": 44.8
+      },
+      {
+       "numero": 16,
+       "nom": "TANGO DE SABLÉ",
+       "composite": 56.92,
+       "cote": 8.2
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      1,
+      8,
+      9,
+      10,
+      15
+     ],
+     "score": 41.27,
+     "detail": {
+      "frequence": 0.3096,
+      "cooccurrence": 0.6434,
+      "parcours": 0.3194
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 41.3/100. Au hasard, un lot de 5 numéros place en moyenne 1.4 numéros dans le top 5. Meilleur appui : n°9 BARON DE LANDES — régularité top 3 29 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "ÉTOILE DE CLÉRY",
+       "composite": 39.85,
+       "cote": 42.9
+      },
+      {
+       "numero": 8,
+       "nom": "VAGABOND DE SABLÉ",
+       "composite": 42.34,
+       "cote": 22.4
+      },
+      {
+       "numero": 9,
+       "nom": "BARON DE LANDES",
+       "composite": 44.26,
+       "cote": 61.7
+      },
+      {
+       "numero": 10,
+       "nom": "VAGABOND DE LYS",
+       "composite": 35.81,
+       "cote": 24.8
+      },
+      {
+       "numero": 15,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 44.1,
+       "cote": 44.8
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 16,
+     "nom": "TANGO DE SABLÉ",
+     "cote": 8.2,
+     "frequence": 0.404,
+     "cooccurrence": 0.8082,
+     "parcours": 0.5505,
+     "composite": 56.923,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "LUMIÈRE DE MONT",
+     "cote": 8.3,
+     "frequence": 0.259,
+     "cooccurrence": 0.4555,
+     "parcours": 0.6874,
+     "composite": 44.6484,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 9,
+     "nom": "BARON DE LANDES",
+     "cote": 61.7,
+     "frequence": 0.3196,
+     "cooccurrence": 0.687,
+     "parcours": 0.3621,
+     "composite": 44.2587,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 15,
+     "nom": "TANGO DE BEAUMONT",
+     "cote": 44.8,
+     "frequence": 0.3037,
+     "cooccurrence": 0.7152,
+     "parcours": 0.3497,
+     "composite": 44.0987,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 8,
+     "nom": "VAGABOND DE SABLÉ",
+     "cote": 22.4,
+     "frequence": 0.356,
+     "cooccurrence": 0.687,
+     "parcours": 0.2496,
+     "composite": 42.3379,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "ÉTOILE DE CLÉRY",
+     "cote": 42.9,
+     "frequence": 0.3141,
+     "cooccurrence": 0.5662,
+     "parcours": 0.3432,
+     "composite": 39.846,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 4,
+     "nom": "NUAGE DE PLAINE",
+     "cote": 99.0,
+     "frequence": 0.2965,
+     "cooccurrence": 0.6805,
+     "parcours": 0.2248,
+     "composite": 39.0212,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 6,
+     "nom": "FAUCON DE CERISY",
+     "cote": 3.4,
+     "frequence": 0.2547,
+     "cooccurrence": 0.5616,
+     "parcours": 0.3438,
+     "composite": 37.3498,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 12,
+     "nom": "GALOP DE BEAUMONT",
+     "cote": 2.5,
+     "frequence": 0.2954,
+     "cooccurrence": 0.4537,
+     "parcours": 0.3691,
+     "composite": 36.4994,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 10,
+     "nom": "VAGABOND DE LYS",
+     "cote": 24.8,
+     "frequence": 0.2547,
+     "cooccurrence": 0.5616,
+     "parcours": 0.2924,
+     "composite": 35.8072,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "RUBIS DE SABLÉ",
+     "cote": 85.3,
+     "frequence": 0.2547,
+     "cooccurrence": 0.5634,
+     "parcours": 0.2788,
+     "composite": 35.455,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 11,
+     "nom": "OPALE DE CASSIS",
+     "cote": 10.2,
+     "frequence": 0.2359,
+     "cooccurrence": 0.4491,
+     "parcours": 0.3614,
+     "composite": 33.7514,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "CAPRICE DE AUBRAC",
+     "cote": 33.7,
+     "frequence": 0.259,
+     "cooccurrence": 0.4537,
+     "parcours": 0.2876,
+     "composite": 32.5991,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 5,
+     "nom": "QUARTZ DE CERISY",
+     "cote": 22.5,
+     "frequence": 0.2359,
+     "cooccurrence": 0.4491,
+     "parcours": 0.3123,
+     "composite": 32.2793,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 2,
+     "nom": "GAZELLE DE ROCHE",
+     "cote": 99.0,
+     "frequence": 0.2954,
+     "cooccurrence": 0.4537,
+     "parcours": 0.1811,
+     "composite": 30.8585,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 17,
+     "nom": "SOLEIL DE ROCHE",
+     "cote": 10.0,
+     "frequence": 0.15,
+     "cooccurrence": 0.4545,
+     "parcours": 0.3525,
+     "composite": 30.2117,
+     "suffisant": false,
+     "exclu": "historique insuffisant"
+    },
+    {
+     "numero": 14,
+     "nom": "ORAGE DE MONT",
+     "cote": 17.7,
+     "frequence": 0.259,
+     "cooccurrence": 0.4555,
+     "parcours": 0.1712,
+     "composite": 29.1625,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 18,
+     "nom": "OCÉANE DE CASSIS",
+     "cote": 56.6,
+     "frequence": 0.15,
+     "cooccurrence": 0.4545,
+     "parcours": 0.2952,
+     "composite": 28.4924,
+     "suffisant": false,
+     "exclu": "historique insuffisant"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-10_R1C10",
+   "date": "2026-11-10",
+   "hippodrome": "Deauville",
+   "discipline": "plat",
+   "distance": 1600,
+   "nb_partants": 18,
+   "mode": "retro",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      4,
+      6,
+      8,
+      15,
+      16
+     ],
+     "score": 45.05,
+     "detail": {
+      "frequence": 0.3224,
+      "cooccurrence": 0.6711,
+      "parcours": 0.4008
+     },
+     "justification": "Base solide : 5 numéros, score moyen 45.0/100. Au hasard, un lot de 5 numéros place en moyenne 1.4 numéros dans le top 5. Meilleur appui : n°4 BARON DE PLAINE — régularité top 3 70 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 4,
+       "nom": "BARON DE PLAINE",
+       "composite": 47.99,
+       "cote": 1.7
+      },
+      {
+       "numero": 6,
+       "nom": "RUBIS DE CASSIS",
+       "composite": 46.66,
+       "cote": 5.5
+      },
+      {
+       "numero": 8,
+       "nom": "CYCLONE DE CLÉRY",
+       "composite": 44.14,
+       "cote": 38.7
+      },
+      {
+       "numero": 15,
+       "nom": "RUBIS DE LYS",
+       "composite": 44.03,
+       "cote": 48.0
+      },
+      {
+       "numero": 16,
+       "nom": "TEMPÊTE DE MAUVE",
+       "composite": 42.45,
+       "cote": 64.3
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      4,
+      6,
+      8,
+      9,
+      15
+     ],
+     "score": 44.94,
+     "detail": {
+      "frequence": 0.3132,
+      "cooccurrence": 0.65,
+      "parcours": 0.4304
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 44.9/100. Au hasard, un lot de 5 numéros place en moyenne 1.4 numéros dans le top 5. Meilleur appui : n°4 BARON DE PLAINE — régularité top 3 70 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 4,
+       "nom": "BARON DE PLAINE",
+       "composite": 47.99,
+       "cote": 1.7
+      },
+      {
+       "numero": 6,
+       "nom": "RUBIS DE CASSIS",
+       "composite": 46.66,
+       "cote": 5.5
+      },
+      {
+       "numero": 8,
+       "nom": "CYCLONE DE CLÉRY",
+       "composite": 44.14,
+       "cote": 38.7
+      },
+      {
+       "numero": 9,
+       "nom": "FAUCON DE LYS",
+       "composite": 41.88,
+       "cote": 2.6
+      },
+      {
+       "numero": 15,
+       "nom": "RUBIS DE LYS",
+       "composite": 44.03,
+       "cote": 48.0
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      3,
+      4,
+      6,
+      8,
+      9,
+      15,
+      16
+     ],
+     "score": 43.86,
+     "detail": {
+      "frequence": 0.3179,
+      "cooccurrence": 0.6469,
+      "parcours": 0.3911
+     },
+     "justification": "Élargie : 7 numéros, score moyen 43.9/100. Au hasard, un lot de 7 numéros place en moyenne 1.9 numéros dans le top 5. Meilleur appui : n°4 BARON DE PLAINE — régularité top 3 70 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 3,
+       "nom": "FLEUR DE CERISY",
+       "composite": 39.84,
+       "cote": 23.3
+      },
+      {
+       "numero": 4,
+       "nom": "BARON DE PLAINE",
+       "composite": 47.99,
+       "cote": 1.7
+      },
+      {
+       "numero": 6,
+       "nom": "RUBIS DE CASSIS",
+       "composite": 46.66,
+       "cote": 5.5
+      },
+      {
+       "numero": 8,
+       "nom": "CYCLONE DE CLÉRY",
+       "composite": 44.14,
+       "cote": 38.7
+      },
+      {
+       "numero": 9,
+       "nom": "FAUCON DE LYS",
+       "composite": 41.88,
+       "cote": 2.6
+      },
+      {
+       "numero": 15,
+       "nom": "RUBIS DE LYS",
+       "composite": 44.03,
+       "cote": 48.0
+      },
+      {
+       "numero": 16,
+       "nom": "TEMPÊTE DE MAUVE",
+       "composite": 42.45,
+       "cote": 64.3
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      3,
+      8,
+      11,
+      15,
+      16
+     ],
+     "score": 41.76,
+     "detail": {
+      "frequence": 0.3349,
+      "cooccurrence": 0.628,
+      "parcours": 0.3176
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 41.8/100. Au hasard, un lot de 5 numéros place en moyenne 1.4 numéros dans le top 5. Meilleur appui : n°8 CYCLONE DE CLÉRY — co-occurrence ×1.54 vs hasard avec les autres partants.",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 3,
+       "nom": "FLEUR DE CERISY",
+       "composite": 39.84,
+       "cote": 23.3
+      },
+      {
+       "numero": 8,
+       "nom": "CYCLONE DE CLÉRY",
+       "composite": 44.14,
+       "cote": 38.7
+      },
+      {
+       "numero": 11,
+       "nom": "LUMIÈRE DE LANDES",
+       "composite": 38.36,
+       "cote": 22.1
+      },
+      {
+       "numero": 15,
+       "nom": "RUBIS DE LYS",
+       "composite": 44.03,
+       "cote": 48.0
+      },
+      {
+       "numero": 16,
+       "nom": "TEMPÊTE DE MAUVE",
+       "composite": 42.45,
+       "cote": 64.3
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 4,
+     "nom": "BARON DE PLAINE",
+     "cote": 1.7,
+     "frequence": 0.2974,
+     "cooccurrence": 0.6383,
+     "parcours": 0.5649,
+     "composite": 47.9913,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 6,
+     "nom": "RUBIS DE CASSIS",
+     "cote": 5.5,
+     "frequence": 0.2798,
+     "cooccurrence": 0.5267,
+     "parcours": 0.6557,
+     "composite": 46.6644,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 8,
+     "nom": "CYCLONE DE CLÉRY",
+     "cote": 38.7,
+     "frequence": 0.3514,
+     "cooccurrence": 0.7719,
+     "parcours": 0.2307,
+     "composite": 44.1359,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 15,
+     "nom": "RUBIS DE LYS",
+     "cote": 48.0,
+     "frequence": 0.3652,
+     "cooccurrence": 0.6689,
+     "parcours": 0.3118,
+     "composite": 44.0267,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 16,
+     "nom": "TEMPÊTE DE MAUVE",
+     "cote": 64.3,
+     "frequence": 0.3183,
+     "cooccurrence": 0.7499,
+     "parcours": 0.241,
+     "composite": 42.4545,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 9,
+     "nom": "FAUCON DE LYS",
+     "cote": 2.6,
+     "frequence": 0.2724,
+     "cooccurrence": 0.644,
+     "parcours": 0.3887,
+     "composite": 41.8761,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "FLEUR DE CERISY",
+     "cote": 23.3,
+     "frequence": 0.3411,
+     "cooccurrence": 0.5284,
+     "parcours": 0.3448,
+     "composite": 39.8398,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "HARMONIE DE AUBRAC",
+     "cote": 88.0,
+     "frequence": 0.2724,
+     "cooccurrence": 0.6587,
+     "parcours": 0.2584,
+     "composite": 38.4095,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 11,
+     "nom": "LUMIÈRE DE LANDES",
+     "cote": 22.1,
+     "frequence": 0.2985,
+     "cooccurrence": 0.4209,
+     "parcours": 0.4599,
+     "composite": 38.3622,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 10,
+     "nom": "ORAGE DE PLAINE",
+     "cote": 99.0,
+     "frequence": 0.3161,
+     "cooccurrence": 0.5267,
+     "parcours": 0.2956,
+     "composite": 37.3168,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 2,
+     "nom": "VAGABOND DE ROCHE",
+     "cote": 58.2,
+     "frequence": 0.2371,
+     "cooccurrence": 0.4249,
+     "parcours": 0.4449,
+     "composite": 35.5782,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "FAUCON DE CASSIS",
+     "cote": 35.7,
+     "frequence": 0.2548,
+     "cooccurrence": 0.5545,
+     "parcours": 0.2539,
+     "composite": 34.4429,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 12,
+     "nom": "BRINDILLE DE MAUVE",
+     "cote": 15.6,
+     "frequence": 0.2371,
+     "cooccurrence": 0.4249,
+     "parcours": 0.3842,
+     "composite": 33.7573,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 17,
+     "nom": "REINE DE BRUME",
+     "cote": 18.9,
+     "frequence": 0.15,
+     "cooccurrence": 0.5667,
+     "parcours": 0.3456,
+     "composite": 33.3693,
+     "suffisant": false,
+     "exclu": "historique insuffisant"
+    },
+    {
+     "numero": 5,
+     "nom": "IDOLE DE ROCHE",
+     "cote": 65.4,
+     "frequence": 0.2621,
+     "cooccurrence": 0.4209,
+     "parcours": 0.3405,
+     "composite": 33.3244,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "OPALE DE RIVA",
+     "cote": 17.2,
+     "frequence": 0.2371,
+     "cooccurrence": 0.4249,
+     "parcours": 0.3258,
+     "composite": 32.0046,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 14,
+     "nom": "GAZELLE DE MAUVE",
+     "cote": 46.4,
+     "frequence": 0.2371,
+     "cooccurrence": 0.4265,
+     "parcours": 0.2571,
+     "composite": 29.9949,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 18,
+     "nom": "BARON DE VIGNY",
+     "cote": 99.0,
+     "frequence": 0.15,
+     "cooccurrence": 0.5667,
+     "parcours": 0.2021,
+     "composite": 29.0619,
+     "suffisant": false,
+     "exclu": "tocard"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-13_R1C11",
+   "date": "2026-11-13",
+   "hippodrome": "Compiègne",
+   "discipline": "haies",
+   "distance": 4100,
+   "nb_partants": 15,
+   "mode": "retro",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      4,
+      6,
+      9,
+      10,
+      11
+     ],
+     "score": 43.54,
+     "detail": {
+      "frequence": 0.3516,
+      "cooccurrence": 0.5177,
+      "parcours": 0.4647
+     },
+     "justification": "Base solide : 5 numéros, score moyen 43.5/100. Au hasard, un lot de 5 numéros place en moyenne 1.7 numéros dans le top 5. Meilleur appui : n°4 OCÉANE DE VIGNY — régularité top 3 62 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 4,
+       "nom": "OCÉANE DE VIGNY",
+       "composite": 49.26,
+       "cote": 1.6
+      },
+      {
+       "numero": 6,
+       "nom": "BRINDILLE DE TILLY",
+       "composite": 45.35,
+       "cote": 9.7
+      },
+      {
+       "numero": 9,
+       "nom": "OPALE DE MONT",
+       "composite": 41.44,
+       "cote": 28.0
+      },
+      {
+       "numero": 10,
+       "nom": "TÉNOR DE ROCHE",
+       "composite": 41.06,
+       "cote": 13.7
+      },
+      {
+       "numero": 11,
+       "nom": "HARMONIE DE NAVAL",
+       "composite": 40.56,
+       "cote": 38.8
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      4,
+      5,
+      6,
+      9,
+      10
+     ],
+     "score": 41.35,
+     "detail": {
+      "frequence": 0.3483,
+      "cooccurrence": 0.501,
+      "parcours": 0.413
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 41.4/100. Au hasard, un lot de 5 numéros place en moyenne 1.7 numéros dans le top 5. Meilleur appui : n°4 OCÉANE DE VIGNY — régularité top 3 62 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 4,
+       "nom": "OCÉANE DE VIGNY",
+       "composite": 49.26,
+       "cote": 1.6
+      },
+      {
+       "numero": 5,
+       "nom": "ORAGE DE ORMES",
+       "composite": 29.65,
+       "cote": 7.6
+      },
+      {
+       "numero": 6,
+       "nom": "BRINDILLE DE TILLY",
+       "composite": 45.35,
+       "cote": 9.7
+      },
+      {
+       "numero": 9,
+       "nom": "OPALE DE MONT",
+       "composite": 41.44,
+       "cote": 28.0
+      },
+      {
+       "numero": 10,
+       "nom": "TÉNOR DE ROCHE",
+       "composite": 41.06,
+       "cote": 13.7
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      1,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11
+     ],
+     "score": 41.11,
+     "detail": {
+      "frequence": 0.3517,
+      "cooccurrence": 0.5121,
+      "parcours": 0.3893
+     },
+     "justification": "Élargie : 7 numéros, score moyen 41.1/100. Au hasard, un lot de 7 numéros place en moyenne 2.3 numéros dans le top 5. Meilleur appui : n°4 OCÉANE DE VIGNY — régularité top 3 62 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "LUMIÈRE DE VAUX",
+       "composite": 35.03,
+       "cote": 28.1
+      },
+      {
+       "numero": 4,
+       "nom": "OCÉANE DE VIGNY",
+       "composite": 49.26,
+       "cote": 1.6
+      },
+      {
+       "numero": 6,
+       "nom": "BRINDILLE DE TILLY",
+       "composite": 45.35,
+       "cote": 9.7
+      },
+      {
+       "numero": 8,
+       "nom": "HARMONIE DE TILLY",
+       "composite": 35.06,
+       "cote": 46.8
+      },
+      {
+       "numero": 9,
+       "nom": "OPALE DE MONT",
+       "composite": 41.44,
+       "cote": 28.0
+      },
+      {
+       "numero": 10,
+       "nom": "TÉNOR DE ROCHE",
+       "composite": 41.06,
+       "cote": 13.7
+      },
+      {
+       "numero": 11,
+       "nom": "HARMONIE DE NAVAL",
+       "composite": 40.56,
+       "cote": 38.8
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      1,
+      8,
+      9,
+      11,
+      14
+     ],
+     "score": 37.33,
+     "detail": {
+      "frequence": 0.3374,
+      "cooccurrence": 0.4716,
+      "parcours": 0.3228
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 37.3/100. Au hasard, un lot de 5 numéros place en moyenne 1.7 numéros dans le top 5. Meilleur appui : n°9 OPALE DE MONT — régularité top 3 28 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 1,
+       "nom": "LUMIÈRE DE VAUX",
+       "composite": 35.03,
+       "cote": 28.1
+      },
+      {
+       "numero": 8,
+       "nom": "HARMONIE DE TILLY",
+       "composite": 35.06,
+       "cote": 46.8
+      },
+      {
+       "numero": 9,
+       "nom": "OPALE DE MONT",
+       "composite": 41.44,
+       "cote": 28.0
+      },
+      {
+       "numero": 11,
+       "nom": "HARMONIE DE NAVAL",
+       "composite": 40.56,
+       "cote": 38.8
+      },
+      {
+       "numero": 14,
+       "nom": "FLEUR DE SABLÉ",
+       "composite": 34.55,
+       "cote": 24.2
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 4,
+     "nom": "OCÉANE DE VIGNY",
+     "cote": 1.6,
+     "frequence": 0.3737,
+     "cooccurrence": 0.5927,
+     "parcours": 0.5511,
+     "composite": 49.2623,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 6,
+     "nom": "BRINDILLE DE TILLY",
+     "cote": 9.7,
+     "frequence": 0.3571,
+     "cooccurrence": 0.5302,
+     "parcours": 0.5053,
+     "composite": 45.3468,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 9,
+     "nom": "OPALE DE MONT",
+     "cote": 28.0,
+     "frequence": 0.3737,
+     "cooccurrence": 0.5718,
+     "parcours": 0.3113,
+     "composite": 41.4422,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 10,
+     "nom": "TÉNOR DE ROCHE",
+     "cote": 13.7,
+     "frequence": 0.3404,
+     "cooccurrence": 0.4468,
+     "parcours": 0.4679,
+     "composite": 41.0597,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 11,
+     "nom": "HARMONIE DE NAVAL",
+     "cote": 38.8,
+     "frequence": 0.3131,
+     "cooccurrence": 0.4468,
+     "parcours": 0.4878,
+     "composite": 40.5649,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 15,
+     "nom": "JADE DE TILLY",
+     "cote": 99.0,
+     "frequence": 0.3451,
+     "cooccurrence": 0.5368,
+     "parcours": 0.2251,
+     "composite": 36.6593,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 8,
+     "nom": "HARMONIE DE TILLY",
+     "cote": 46.8,
+     "frequence": 0.3465,
+     "cooccurrence": 0.5302,
+     "parcours": 0.1764,
+     "composite": 35.0555,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "LUMIÈRE DE VAUX",
+     "cote": 28.1,
+     "frequence": 0.3571,
+     "cooccurrence": 0.4664,
+     "parcours": 0.2251,
+     "composite": 35.0286,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 14,
+     "nom": "FLEUR DE SABLÉ",
+     "cote": 24.2,
+     "frequence": 0.2965,
+     "cooccurrence": 0.3427,
+     "parcours": 0.4137,
+     "composite": 34.5487,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "SOLEIL DE LANDES",
+     "cote": 43.5,
+     "frequence": 0.3298,
+     "cooccurrence": 0.5314,
+     "parcours": 0.1532,
+     "composite": 33.731,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "CAPRICE DE LYS",
+     "cote": 99.0,
+     "frequence": 0.3131,
+     "cooccurrence": 0.3843,
+     "parcours": 0.2108,
+     "composite": 30.379,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 12,
+     "nom": "JADE DE SABLÉ",
+     "cote": 10.5,
+     "frequence": 0.2965,
+     "cooccurrence": 0.3414,
+     "parcours": 0.2708,
+     "composite": 30.2251,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 5,
+     "nom": "ORAGE DE ORMES",
+     "cote": 7.6,
+     "frequence": 0.2965,
+     "cooccurrence": 0.3635,
+     "parcours": 0.2294,
+     "composite": 29.6464,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "SOLEIL DE BEAUMONT",
+     "cote": 99.0,
+     "frequence": 0.2965,
+     "cooccurrence": 0.3414,
+     "parcours": 0.243,
+     "composite": 29.3908,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 2,
+     "nom": "QUARTZ DE ORMES",
+     "cote": 99.0,
+     "frequence": 0.2965,
+     "cooccurrence": 0.3414,
+     "parcours": 0.181,
+     "composite": 27.5309,
+     "suffisant": true,
+     "exclu": "tocard"
+    }
+   ]
+  },
+  {
+   "id": "2026-11-15_R1C12",
+   "date": "2026-11-15",
+   "hippodrome": "Vincennes",
+   "discipline": "trot_attele",
+   "distance": 2850,
+   "nb_partants": 16,
+   "mode": "retro",
+   "combinaisons": [
+    {
+     "type": "base",
+     "label": "Base solide",
+     "numeros": [
+      4,
+      8,
+      9,
+      15,
+      16
+     ],
+     "score": 44.79,
+     "detail": {
+      "frequence": 0.3527,
+      "cooccurrence": 0.6362,
+      "parcours": 0.3866
+     },
+     "justification": "Base solide : 5 numéros, score moyen 44.8/100. Au hasard, un lot de 5 numéros place en moyenne 1.6 numéros dans le top 5. Meilleur appui : n°4 LUMIÈRE DE MONT — régularité top 3 77 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 4,
+       "nom": "LUMIÈRE DE MONT",
+       "composite": 54.53,
+       "cote": 1.8
+      },
+      {
+       "numero": 8,
+       "nom": "BARON DE LANDES",
+       "composite": 46.07,
+       "cote": 60.1
+      },
+      {
+       "numero": 9,
+       "nom": "VAGABOND DE SABLÉ",
+       "composite": 41.23,
+       "cote": 10.9
+      },
+      {
+       "numero": 15,
+       "nom": "OPALE DE CASSIS",
+       "composite": 39.03,
+       "cote": 11.6
+      },
+      {
+       "numero": 16,
+       "nom": "ÉTOILE DE BRUME",
+       "composite": 43.1,
+       "cote": 36.6
+      }
+     ],
+     "rang": 1
+    },
+    {
+     "type": "elargie",
+     "label": "Élargie",
+     "numeros": [
+      3,
+      4,
+      6,
+      8,
+      9,
+      15,
+      16
+     ],
+     "score": 42.12,
+     "detail": {
+      "frequence": 0.3307,
+      "cooccurrence": 0.6159,
+      "parcours": 0.3472
+     },
+     "justification": "Élargie : 7 numéros, score moyen 42.1/100. Au hasard, un lot de 7 numéros place en moyenne 2.2 numéros dans le top 5. Meilleur appui : n°4 LUMIÈRE DE MONT — régularité top 3 77 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 3,
+       "nom": "VAGABOND DE LYS",
+       "composite": 35.12,
+       "cote": 43.5
+      },
+      {
+       "numero": 4,
+       "nom": "LUMIÈRE DE MONT",
+       "composite": 54.53,
+       "cote": 1.8
+      },
+      {
+       "numero": 6,
+       "nom": "ORAGE DE MONT",
+       "composite": 35.77,
+       "cote": 22.9
+      },
+      {
+       "numero": 8,
+       "nom": "BARON DE LANDES",
+       "composite": 46.07,
+       "cote": 60.1
+      },
+      {
+       "numero": 9,
+       "nom": "VAGABOND DE SABLÉ",
+       "composite": 41.23,
+       "cote": 10.9
+      },
+      {
+       "numero": 15,
+       "nom": "OPALE DE CASSIS",
+       "composite": 39.03,
+       "cote": 11.6
+      },
+      {
+       "numero": 16,
+       "nom": "ÉTOILE DE BRUME",
+       "composite": 43.1,
+       "cote": 36.6
+      }
+     ],
+     "rang": 2
+    },
+    {
+     "type": "valeur",
+     "label": "Valeur (3 favoris + 2 outsiders)",
+     "numeros": [
+      2,
+      4,
+      5,
+      8,
+      16
+     ],
+     "score": 41.33,
+     "detail": {
+      "frequence": 0.334,
+      "cooccurrence": 0.5446,
+      "parcours": 0.388
+     },
+     "justification": "Valeur (3 favoris + 2 outsiders) : 5 numéros, score moyen 41.3/100. Au hasard, un lot de 5 numéros place en moyenne 1.6 numéros dans le top 5. Meilleur appui : n°4 LUMIÈRE DE MONT — régularité top 3 77 % (au hasard : ~20 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 2,
+       "nom": "ÉTOILE DE CLÉRY",
+       "composite": 31.99,
+       "cote": 4.9
+      },
+      {
+       "numero": 4,
+       "nom": "LUMIÈRE DE MONT",
+       "composite": 54.53,
+       "cote": 1.8
+      },
+      {
+       "numero": 5,
+       "nom": "CYCLONE DE AUBRAC",
+       "composite": 30.99,
+       "cote": 5.8
+      },
+      {
+       "numero": 8,
+       "nom": "BARON DE LANDES",
+       "composite": 46.07,
+       "cote": 60.1
+      },
+      {
+       "numero": 16,
+       "nom": "ÉTOILE DE BRUME",
+       "composite": 43.1,
+       "cote": 36.6
+      }
+     ],
+     "rang": 3
+    },
+    {
+     "type": "poker",
+     "label": "Coup de poker (cotes élevées)",
+     "numeros": [
+      3,
+      6,
+      7,
+      8,
+      16
+     ],
+     "score": 38.37,
+     "detail": {
+      "frequence": 0.3262,
+      "cooccurrence": 0.5605,
+      "parcours": 0.2835
+     },
+     "justification": "Coup de poker (cotes élevées) : 5 numéros, score moyen 38.4/100. Au hasard, un lot de 5 numéros place en moyenne 1.6 numéros dans le top 5. Meilleur appui : n°8 BARON DE LANDES — taux de top 5 sur l'hippodrome 43 % (au hasard : 31 %).",
+     "complete": false,
+     "partants": [
+      {
+       "numero": 3,
+       "nom": "VAGABOND DE LYS",
+       "composite": 35.12,
+       "cote": 43.5
+      },
+      {
+       "numero": 6,
+       "nom": "ORAGE DE MONT",
+       "composite": 35.77,
+       "cote": 22.9
+      },
+      {
+       "numero": 7,
+       "nom": "TANGO DE BEAUMONT",
+       "composite": 31.78,
+       "cote": 21.1
+      },
+      {
+       "numero": 8,
+       "nom": "BARON DE LANDES",
+       "composite": 46.07,
+       "cote": 60.1
+      },
+      {
+       "numero": 16,
+       "nom": "ÉTOILE DE BRUME",
+       "composite": 43.1,
+       "cote": 36.6
+      }
+     ],
+     "rang": 4
+    }
+   ],
+   "scores_partants": [
+    {
+     "numero": 4,
+     "nom": "LUMIÈRE DE MONT",
+     "cote": 1.8,
+     "frequence": 0.3208,
+     "cooccurrence": 0.6966,
+     "parcours": 0.6932,
+     "composite": 54.529,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 8,
+     "nom": "BARON DE LANDES",
+     "cote": 60.1,
+     "frequence": 0.4304,
+     "cooccurrence": 0.6602,
+     "parcours": 0.3016,
+     "composite": 46.0677,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 16,
+     "nom": "ÉTOILE DE BRUME",
+     "cote": 36.6,
+     "frequence": 0.3912,
+     "cooccurrence": 0.6533,
+     "parcours": 0.2615,
+     "composite": 43.0957,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 9,
+     "nom": "VAGABOND DE SABLÉ",
+     "cote": 10.9,
+     "frequence": 0.3265,
+     "cooccurrence": 0.6181,
+     "parcours": 0.3208,
+     "composite": 41.2255,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 15,
+     "nom": "OPALE DE CASSIS",
+     "cote": 11.6,
+     "frequence": 0.2946,
+     "cooccurrence": 0.5526,
+     "parcours": 0.3557,
+     "composite": 39.0349,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 1,
+     "nom": "OCÉANE DE MONT",
+     "cote": 99.0,
+     "frequence": 0.3774,
+     "cooccurrence": 0.485,
+     "parcours": 0.2854,
+     "composite": 38.2038,
+     "suffisant": true,
+     "exclu": "tocard"
+    },
+    {
+     "numero": 6,
+     "nom": "ORAGE DE MONT",
+     "cote": 22.9,
+     "frequence": 0.2836,
+     "cooccurrence": 0.6068,
+     "parcours": 0.2075,
+     "composite": 35.7747,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 3,
+     "nom": "VAGABOND DE LYS",
+     "cote": 43.5,
+     "frequence": 0.2678,
+     "cooccurrence": 0.5238,
+     "parcours": 0.2899,
+     "composite": 35.1237,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 11,
+     "nom": "FAUCON DE CLÉRY",
+     "cote": 13.6,
+     "frequence": 0.2678,
+     "cooccurrence": 0.5226,
+     "parcours": 0.1875,
+     "composite": 32.016,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 2,
+     "nom": "ÉTOILE DE CLÉRY",
+     "cote": 4.9,
+     "frequence": 0.291,
+     "cooccurrence": 0.3586,
+     "parcours": 0.3196,
+     "composite": 31.9879,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 7,
+     "nom": "TANGO DE BEAUMONT",
+     "cote": 21.1,
+     "frequence": 0.2577,
+     "cooccurrence": 0.3586,
+     "parcours": 0.3572,
+     "composite": 31.784,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 12,
+     "nom": "BRINDILLE DE PLAINE",
+     "cote": 14.4,
+     "frequence": 0.3068,
+     "cooccurrence": 0.4428,
+     "parcours": 0.1977,
+     "composite": 31.4876,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 5,
+     "nom": "CYCLONE DE AUBRAC",
+     "cote": 5.8,
+     "frequence": 0.2363,
+     "cooccurrence": 0.3542,
+     "parcours": 0.3639,
+     "composite": 30.9937,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 10,
+     "nom": "RUBIS DE SABLÉ",
+     "cote": 54.1,
+     "frequence": 0.2521,
+     "cooccurrence": 0.4384,
+     "parcours": 0.2553,
+     "composite": 30.8938,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 14,
+     "nom": "TÉNOR DE LANDES",
+     "cote": 31.6,
+     "frequence": 0.2577,
+     "cooccurrence": 0.3598,
+     "parcours": 0.3228,
+     "composite": 30.7846,
+     "suffisant": true,
+     "exclu": null
+    },
+    {
+     "numero": 13,
+     "nom": "NUAGE DE PLAINE",
+     "cote": 25.6,
+     "frequence": 0.3282,
+     "cooccurrence": 0.4019,
+     "parcours": 0.1756,
+     "composite": 30.454,
+     "suffisant": true,
+     "exclu": null
+    }
+   ]
+  }
+ ]
+}
