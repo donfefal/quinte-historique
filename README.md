@@ -33,10 +33,10 @@ pip install -r scripts/requirements.txt
 python scripts/collecte_quinte.py --debut 2024-11-01 --fin 2026-11-15 --output data/ --a-venir
 ```
 
-Options utiles : `--toutes-courses` (collecte toutes les courses pour enrichir les parcours, ~10× plus long), `--paris QUINTE,QUARTE`, `--inclure-tocards`, `--pause 1.0`, `--sans-collecte` (régénère les JSON depuis `quinte.sqlite`), `--dump-brut` (enregistre une réponse brute dans `data/raw/`).
+Options utiles : `--toutes-courses` (collecte toutes les courses pour enrichir les parcours, ~10× plus long), `--types QUINTE,QUARTE`, `--inclure-tocards`, `--pause 1.0`, `--sans-collecte` (régénère les JSON depuis `collecte/quinte.sqlite`).
 La collecte est reprenable (les jours déjà traités sont ignorés). Un résumé final affiche courses, chevaux, paires et combinaisons.
 
-**À vérifier au premier lancement** : le script n'a pas pu être testé contre l'API réelle (accès réseau indisponible au moment du développement). Les noms de champs PMU sont lus de façon défensive ; lancez d'abord une petite période avec `--dump-brut` et contrôlez courses, partants, cotes et rapports (`rapports-definitifs`, dividende pour 1 €). Le jeu « 4+1 » dépend de l'opérateur : ajustez `--paris` si besoin.
+**À vérifier au premier lancement** : le script n'a pas pu être testé contre l'API réelle (accès réseau indisponible au moment du développement). Les noms de champs PMU sont lus de façon défensive ; lancez d'abord une petite période avec `-v` (détails) et contrôlez courses, partants, cotes et rapports (`rapports-definitifs`, dividende pour 1 €). Le jeu « 4+1 » dépend de l'opérateur : ajustez `--types` si besoin.
 
 ## 2. Lancer le site en local
 
