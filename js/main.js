@@ -25,3 +25,10 @@ async function demarrer() {
 }
 
 demarrer();
+
+// Installation / mode hors ligne : enregistre le service worker (ignoré si indisponible, ex. ouverture en file://).
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch((e) => console.info('Service worker non enregistré :', e.message));
+  });
+}
